@@ -1,0 +1,1238 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - generic [ref=f3e5]: Tilbud
+        - generic [ref=f3e6]: Ukens tilbud
+      - searchbox "Søk" [ref=f3e8]
+      - button "Handleliste 0" [ref=f3e9] [cursor=pointer]:
+        - generic [ref=f3e12]: Handleliste
+        - generic [ref=f3e13]: "0"
+      - button "Bytt tema" [ref=f3e14] [cursor=pointer]
+  - generic [ref=f3e17]:
+    - generic [ref=f3e18]: 8 117 tilbud gyldige nå
+    - generic [ref=f3e19]: 4 296 produkter
+    - generic [ref=f3e20]: 47 kjeder
+    - generic [ref=f3e21]: 308 i flere butikker
+    - generic [ref=f3e22]: Oppdatert 17. aug.
+  - generic [ref=f3e23]:
+    - complementary [ref=f3e24]:
+      - generic [ref=f3e25]:
+        - heading "Vis" [level=3] [ref=f3e26]
+        - generic [ref=f3e27] [cursor=pointer]:
+          - checkbox "Kun nedsatt pris" [ref=f3e28]
+          - text: Kun nedsatt pris
+        - generic [ref=f3e29] [cursor=pointer]:
+          - checkbox "Finnes i flere butikker" [ref=f3e30]
+          - text: Finnes i flere butikker
+        - generic [ref=f3e31] [cursor=pointer]:
+          - checkbox "Skjul utgåtte" [checked] [ref=f3e32]
+          - text: Skjul utgåtte
+      - generic [ref=f3e33]:
+        - heading "Bransje" [level=3] [ref=f3e34]
+        - generic [ref=f3e35]:
+          - button "Dagligvarer 1 397" [ref=f3e36] [cursor=pointer]:
+            - text: Dagligvarer
+            - generic [ref=f3e37]: 1 397
+          - button "Møbler & interiør 982" [ref=f3e38] [cursor=pointer]:
+            - text: Møbler & interiør
+            - generic [ref=f3e39]: "982"
+          - button "Bygg & jernvare 940" [ref=f3e40] [cursor=pointer]:
+            - text: Bygg & jernvare
+            - generic [ref=f3e41]: "940"
+          - button "Annet 360" [ref=f3e42] [cursor=pointer]:
+            - text: Annet
+            - generic [ref=f3e43]: "360"
+          - button "Lavpris & variert 299" [ref=f3e44] [cursor=pointer]:
+            - text: Lavpris & variert
+            - generic [ref=f3e45]: "299"
+          - button "Helse & skjønnhet 137" [ref=f3e46] [cursor=pointer]:
+            - text: Helse & skjønnhet
+            - generic [ref=f3e47]: "137"
+          - button "Elektronikk 126" [ref=f3e48] [cursor=pointer]:
+            - text: Elektronikk
+            - generic [ref=f3e49]: "126"
+          - button "Sport & fritid 83" [ref=f3e50] [cursor=pointer]:
+            - text: Sport & fritid
+            - generic [ref=f3e51]: "83"
+      - generic [ref=f3e52]:
+        - heading "Kategori" [level=3] [ref=f3e53]
+        - generic [ref=f3e54]:
+          - button "Annet 2 474" [ref=f3e55] [cursor=pointer]:
+            - text: Annet
+            - generic [ref=f3e56]: 2 474
+          - button "Møbler & interiør 500" [ref=f3e57] [cursor=pointer]:
+            - text: Møbler & interiør
+            - generic [ref=f3e58]: "500"
+          - button "Husholdning 115" [ref=f3e59] [cursor=pointer]:
+            - text: Husholdning
+            - generic [ref=f3e60]: "115"
+          - button "Frukt & grønt 112" [ref=f3e61] [cursor=pointer]:
+            - text: Frukt & grønt
+            - generic [ref=f3e62]: "112"
+          - button "Kjøtt & fjørfe 103" [ref=f3e63] [cursor=pointer]:
+            - text: Kjøtt & fjørfe
+            - generic [ref=f3e64]: "103"
+          - button "Elektronikk 95" [ref=f3e65] [cursor=pointer]:
+            - text: Elektronikk
+            - generic [ref=f3e66]: "95"
+          - button "Snacks & godteri 93" [ref=f3e67] [cursor=pointer]:
+            - text: Snacks & godteri
+            - generic [ref=f3e68]: "93"
+          - button "Drikke 92" [ref=f3e69] [cursor=pointer]:
+            - text: Drikke
+            - generic [ref=f3e70]: "92"
+          - button "Bygg & jernvare 81" [ref=f3e71] [cursor=pointer]:
+            - text: Bygg & jernvare
+            - generic [ref=f3e72]: "81"
+          - button "Meieri & egg 62" [ref=f3e73] [cursor=pointer]:
+            - text: Meieri & egg
+            - generic [ref=f3e74]: "62"
+          - button "Middag & ferdigmat 60" [ref=f3e75] [cursor=pointer]:
+            - text: Middag & ferdigmat
+            - generic [ref=f3e76]: "60"
+          - button "Ost 53" [ref=f3e77] [cursor=pointer]:
+            - text: Ost
+            - generic [ref=f3e78]: "53"
+          - button "Brød & bakeri 51" [ref=f3e79] [cursor=pointer]:
+            - text: Brød & bakeri
+            - generic [ref=f3e80]: "51"
+          - button "Fisk & sjømat 49" [ref=f3e81] [cursor=pointer]:
+            - text: Fisk & sjømat
+            - generic [ref=f3e82]: "49"
+          - button "Personlig pleie 48" [ref=f3e83] [cursor=pointer]:
+            - text: Personlig pleie
+            - generic [ref=f3e84]: "48"
+          - button "Tørrvarer & baking 47" [ref=f3e85] [cursor=pointer]:
+            - text: Tørrvarer & baking
+            - generic [ref=f3e86]: "47"
+          - button "Klær & sko 46" [ref=f3e87] [cursor=pointer]:
+            - text: Klær & sko
+            - generic [ref=f3e88]: "46"
+          - button "Saus & krydder 28" [ref=f3e89] [cursor=pointer]:
+            - text: Saus & krydder
+            - generic [ref=f3e90]: "28"
+          - button "Hage & uterom 27" [ref=f3e91] [cursor=pointer]:
+            - text: Hage & uterom
+            - generic [ref=f3e92]: "27"
+          - button "Frysevarer 26" [ref=f3e93] [cursor=pointer]:
+            - text: Frysevarer
+            - generic [ref=f3e94]: "26"
+          - button "Kaffe & te 25" [ref=f3e95] [cursor=pointer]:
+            - text: Kaffe & te
+            - generic [ref=f3e96]: "25"
+          - button "Pålegg 25" [ref=f3e97] [cursor=pointer]:
+            - text: Pålegg
+            - generic [ref=f3e98]: "25"
+          - button "Is & dessert 18" [ref=f3e99] [cursor=pointer]:
+            - text: Is & dessert
+            - generic [ref=f3e100]: "18"
+          - button "Dyr 18" [ref=f3e101] [cursor=pointer]:
+            - text: Dyr
+            - generic [ref=f3e102]: "18"
+          - button "Apotek & helse 17" [ref=f3e103] [cursor=pointer]:
+            - text: Apotek & helse
+            - generic [ref=f3e104]: "17"
+          - button "Barn & baby 16" [ref=f3e105] [cursor=pointer]:
+            - text: Barn & baby
+            - generic [ref=f3e106]: "16"
+          - button "Sport & fritid 15" [ref=f3e107] [cursor=pointer]:
+            - text: Sport & fritid
+            - generic [ref=f3e108]: "15"
+      - generic [ref=f3e109]:
+        - heading "Butikk" [level=3] [ref=f3e110]
+        - generic [ref=f3e111]:
+          - button "Skeidar 336" [ref=f3e112] [cursor=pointer]:
+            - text: Skeidar
+            - generic [ref=f3e114]: "336"
+          - button "Obs 279" [ref=f3e115] [cursor=pointer]:
+            - text: Obs
+            - generic [ref=f3e117]: "279"
+          - button "Fagmøbler 220" [ref=f3e118] [cursor=pointer]:
+            - text: Fagmøbler
+            - generic [ref=f3e120]: "220"
+          - button "Bohus 216" [ref=f3e121] [cursor=pointer]:
+            - text: Bohus
+            - generic [ref=f3e123]: "216"
+          - button "MENY 205" [ref=f3e124] [cursor=pointer]:
+            - text: MENY
+            - generic [ref=f3e126]: "205"
+          - button "Megaflis 204" [ref=f3e127] [cursor=pointer]:
+            - text: Megaflis
+            - generic [ref=f3e129]: "204"
+          - button "Selfmade 189" [ref=f3e130] [cursor=pointer]:
+            - text: Selfmade
+            - generic [ref=f3e132]: "189"
+          - button "REMA 1000 188" [ref=f3e133] [cursor=pointer]:
+            - text: REMA 1000
+            - generic [ref=f3e135]: "188"
+          - button "Jacobs 187" [ref=f3e136] [cursor=pointer]:
+            - text: Jacobs
+            - generic [ref=f3e138]: "187"
+          - button "thansen 171" [ref=f3e139] [cursor=pointer]:
+            - text: thansen
+            - generic [ref=f3e141]: "171"
+          - button "Extra 149" [ref=f3e142] [cursor=pointer]:
+            - text: Extra
+            - generic [ref=f3e144]: "149"
+          - button "Europris 137" [ref=f3e145] [cursor=pointer]:
+            - text: Europris
+            - generic [ref=f3e147]: "137"
+          - button "jem & fix 134" [ref=f3e148] [cursor=pointer]:
+            - text: jem & fix
+            - generic [ref=f3e150]: "134"
+          - button "POWER 126" [ref=f3e151] [cursor=pointer]:
+            - text: POWER
+            - generic [ref=f3e153]: "126"
+          - button "JYSK 123" [ref=f3e154] [cursor=pointer]:
+            - text: JYSK
+            - generic [ref=f3e156]: "123"
+          - button "Jernia 122" [ref=f3e157] [cursor=pointer]:
+            - text: Jernia
+            - generic [ref=f3e159]: "122"
+          - button "NorBo1 113" [ref=f3e160] [cursor=pointer]:
+            - text: NorBo1
+            - generic [ref=f3e162]: "113"
+          - button "Gigaboks 111" [ref=f3e163] [cursor=pointer]:
+            - text: Gigaboks
+            - generic [ref=f3e165]: "111"
+          - button "Byggfag 105" [ref=f3e166] [cursor=pointer]:
+            - text: Byggfag
+            - generic [ref=f3e168]: "105"
+          - button "Coop Mega 102" [ref=f3e169] [cursor=pointer]:
+            - text: Coop Mega
+            - generic [ref=f3e171]: "102"
+          - button "Biltema 98" [ref=f3e172] [cursor=pointer]:
+            - text: Biltema
+            - generic [ref=f3e174]: "98"
+          - button "SPAR 97" [ref=f3e175] [cursor=pointer]:
+            - text: SPAR
+            - generic [ref=f3e177]: "97"
+          - button "KIWI 96" [ref=f3e178] [cursor=pointer]:
+            - text: KIWI
+            - generic [ref=f3e180]: "96"
+          - button "Obs! Bygg 91" [ref=f3e181] [cursor=pointer]:
+            - text: Obs! Bygg
+            - generic [ref=f3e183]: "91"
+          - button "Møbelringen 87" [ref=f3e184] [cursor=pointer]:
+            - text: Møbelringen
+            - generic [ref=f3e186]: "87"
+          - button "Vita 84" [ref=f3e187] [cursor=pointer]:
+            - text: Vita
+            - generic [ref=f3e189]: "84"
+          - button "Sport Outlet 83" [ref=f3e190] [cursor=pointer]:
+            - text: Sport Outlet
+            - generic [ref=f3e192]: "83"
+          - button "CC Mat 78" [ref=f3e193] [cursor=pointer]:
+            - text: CC Mat
+            - generic [ref=f3e195]: "78"
+          - button "Jula 67" [ref=f3e196] [cursor=pointer]:
+            - text: Jula
+            - generic [ref=f3e198]: "67"
+          - button "Rusta 64" [ref=f3e199] [cursor=pointer]:
+            - text: Rusta
+            - generic [ref=f3e201]: "64"
+          - button "Bunnpris 61" [ref=f3e202] [cursor=pointer]:
+            - text: Bunnpris
+            - generic [ref=f3e204]: "61"
+          - button "Coop Byggmix 54" [ref=f3e205] [cursor=pointer]:
+            - text: Coop Byggmix
+            - generic [ref=f3e207]: "54"
+          - button "Apotek 1 53" [ref=f3e208] [cursor=pointer]:
+            - text: Apotek 1
+            - generic [ref=f3e210]: "53"
+          - button "Coop Prix 39" [ref=f3e211] [cursor=pointer]:
+            - text: Coop Prix
+            - generic [ref=f3e213]: "39"
+          - button "Joker 39" [ref=f3e214] [cursor=pointer]:
+            - text: Joker
+            - generic [ref=f3e216]: "39"
+          - button "Spar Kjøp 32" [ref=f3e217] [cursor=pointer]:
+            - text: Spar Kjøp
+            - generic [ref=f3e219]: "32"
+          - button "MAXBO 32" [ref=f3e220] [cursor=pointer]:
+            - text: MAXBO
+            - generic [ref=f3e222]: "32"
+          - button "Holdbart 31" [ref=f3e223] [cursor=pointer]:
+            - text: Holdbart
+            - generic [ref=f3e225]: "31"
+          - button "Matkroken 23" [ref=f3e226] [cursor=pointer]:
+            - text: Matkroken
+            - generic [ref=f3e228]: "23"
+          - button "Coop Marked 22" [ref=f3e229] [cursor=pointer]:
+            - text: Coop Marked
+            - generic [ref=f3e231]: "22"
+          - button "Byggmakker 20" [ref=f3e232] [cursor=pointer]:
+            - text: Byggmakker
+            - generic [ref=f3e234]: "20"
+          - button "Afood Market 19" [ref=f3e235] [cursor=pointer]:
+            - text: Afood Market
+            - generic [ref=f3e237]: "19"
+          - button "Nærbutikken 18" [ref=f3e238] [cursor=pointer]:
+            - text: Nærbutikken
+            - generic [ref=f3e240]: "18"
+          - button "Right Price Tiles 4" [ref=f3e241] [cursor=pointer]:
+            - text: Right Price Tiles
+            - generic [ref=f3e243]: "4"
+          - button "Byggmax 3" [ref=f3e244] [cursor=pointer]:
+            - text: Byggmax
+            - generic [ref=f3e246]: "3"
+    - main [ref=f3e247]:
+      - generic [ref=f3e248]:
+        - generic [ref=f3e249]: 4 296 produkter · 8 117 tilbud
+        - combobox "Sortering" [ref=f3e250]:
+          - option "Mest relevant" [selected]
+          - option "Størst rabatt"
+          - option "Lavest pris"
+          - option "Høyest pris"
+          - option "Lavest kilopris"
+          - option "Flest butikker"
+          - option "Navn A–Å"
+      - generic [ref=f3e251]:
+        - article [ref=f3e252]:
+          - generic [ref=f3e253]:
+            - img "Leverpostei" [ref=f3e254]
+            - generic [ref=f3e255]: −44%
+            - generic [ref=f3e256]: 8 butikker
+          - generic [ref=f3e257]:
+            - generic [ref=f3e258]: Kjøtt & fjørfe
+            - generic [ref=f3e259]: Leverpostei
+            - generic [ref=f3e260]:
+              - generic [ref=f3e261]: 10,–kr
+              - generic [ref=f3e262]: 11,90
+            - generic [ref=f3e263]: 99,50 kr/kg
+            - generic [ref=f3e264]:
+              - generic [ref=f3e265]: REMA 1000
+              - generic [ref=f3e267]: Bunnpris
+              - generic [ref=f3e269]: "+6"
+              - button "Legg i handleliste" [ref=f3e270] [cursor=pointer]: +
+        - article [ref=f3e271]:
+          - generic [ref=f3e272]:
+            - img "MAKRELL I TOMAT" [ref=f3e273]
+            - generic [ref=f3e274]: 6 butikker
+          - generic [ref=f3e275]:
+            - generic [ref=f3e276]: Apotek & helse
+            - generic [ref=f3e277]: MAKRELL I TOMAT
+            - generic [ref=f3e278]: 7,90kr
+            - generic [ref=f3e280]: 87,78 kr/kg
+            - generic [ref=f3e281]:
+              - generic [ref=f3e282]: Holdbart
+              - generic [ref=f3e284]: KIWI
+              - generic [ref=f3e286]: "+4"
+              - button "Legg i handleliste" [ref=f3e287] [cursor=pointer]: +
+        - article [ref=f3e288]:
+          - generic [ref=f3e289]:
+            - img "KNEKKEBRØD" [ref=f3e290]
+            - generic [ref=f3e291]: −40%
+            - generic [ref=f3e292]: 5 butikker
+          - generic [ref=f3e293]:
+            - generic [ref=f3e294]: Brød & bakeri
+            - generic [ref=f3e295]: KNEKKEBRØD
+            - generic [ref=f3e296]: 16,90kr
+            - generic [ref=f3e298]: 34,83 kr/kg
+            - generic [ref=f3e299]:
+              - generic [ref=f3e300]: Holdbart
+              - generic [ref=f3e302]: KIWI
+              - generic [ref=f3e304]: "+3"
+              - button "Legg i handleliste" [ref=f3e305] [cursor=pointer]: +
+        - article [ref=f3e306]:
+          - generic [ref=f3e307]:
+            - img "Kyllingfilet" [ref=f3e308]
+            - generic [ref=f3e309]: −34%
+            - generic [ref=f3e310]: 5 butikker
+          - generic [ref=f3e311]:
+            - generic [ref=f3e312]: Kjøtt & fjørfe
+            - generic [ref=f3e313]: Kyllingfilet
+            - generic [ref=f3e314]: 30,–kr
+            - generic [ref=f3e316]: 199,50 kr/kg
+            - generic [ref=f3e317]:
+              - generic [ref=f3e318]: KIWI
+              - generic [ref=f3e320]: Jacobs
+              - generic [ref=f3e322]: "+3"
+              - button "Legg i handleliste" [ref=f3e323] [cursor=pointer]: +
+        - article [ref=f3e324]:
+          - generic [ref=f3e325]:
+            - img "Aluminiumsfolie" [ref=f3e326]
+            - generic [ref=f3e327]: −31%
+            - generic [ref=f3e328]: 5 butikker
+          - generic [ref=f3e329]:
+            - generic [ref=f3e330]: Husholdning
+            - generic [ref=f3e331]: Aluminiumsfolie
+            - generic [ref=f3e332]: 17,90kr
+            - generic [ref=f3e334]: 1 pcs
+            - generic [ref=f3e335]:
+              - generic [ref=f3e336]: Europris
+              - generic [ref=f3e338]: Jacobs
+              - generic [ref=f3e340]: "+3"
+              - button "Legg i handleliste" [ref=f3e341] [cursor=pointer]: +
+        - article [ref=f3e342]:
+          - generic [ref=f3e343]:
+            - img "Bananer" [ref=f3e344]
+            - generic [ref=f3e345]: 5 butikker
+          - generic [ref=f3e346]:
+            - generic [ref=f3e347]: Frukt & grønt
+            - generic [ref=f3e348]: Bananer
+            - generic [ref=f3e349]: 15,–kr
+            - generic [ref=f3e351]: 15,– kr/kg
+            - generic [ref=f3e352]:
+              - generic [ref=f3e353]: Joker
+              - generic [ref=f3e355]: Bunnpris
+              - generic [ref=f3e357]: "+3"
+              - button "Legg i handleliste" [ref=f3e358] [cursor=pointer]: +
+        - article [ref=f3e359]:
+          - generic [ref=f3e360]:
+            - img "KLEMENTINER" [ref=f3e361]
+            - generic [ref=f3e362]: 5 butikker
+          - generic [ref=f3e363]:
+            - generic [ref=f3e364]: Kaffe & te
+            - generic [ref=f3e365]: KLEMENTINER
+            - generic [ref=f3e366]: 29,–kr
+            - generic [ref=f3e368]: 29,– kr/kg
+            - generic [ref=f3e369]:
+              - generic [ref=f3e370]: Joker
+              - generic [ref=f3e372]: Bunnpris
+              - generic [ref=f3e374]: "+3"
+              - button "Legg i handleliste" [ref=f3e375] [cursor=pointer]: +
+        - article [ref=f3e376]:
+          - generic [ref=f3e377]:
+            - img "Toalettpapir" [ref=f3e378]
+            - generic [ref=f3e379]: −43%
+            - generic [ref=f3e380]: 4 butikker
+          - generic [ref=f3e381]:
+            - generic [ref=f3e382]: Husholdning
+            - generic [ref=f3e383]: Toalettpapir
+            - generic [ref=f3e384]:
+              - generic [ref=f3e385]: 25,–kr
+              - generic [ref=f3e386]: 43,90
+            - generic [ref=f3e387]: 1 pcs
+            - generic [ref=f3e388]:
+              - generic [ref=f3e389]: KIWI
+              - generic [ref=f3e391]: Rusta
+              - generic [ref=f3e393]: "+2"
+              - button "Legg i handleliste" [ref=f3e394] [cursor=pointer]: +
+        - article [ref=f3e395]:
+          - generic [ref=f3e396]:
+            - img "Kaviar" [ref=f3e397]
+            - generic [ref=f3e398]: −41%
+            - generic [ref=f3e399]: 4 butikker
+          - generic [ref=f3e400]:
+            - generic [ref=f3e401]: Fisk & sjømat
+            - generic [ref=f3e402]: Kaviar
+            - generic [ref=f3e403]:
+              - generic [ref=f3e404]: 10,–kr
+              - generic [ref=f3e405]: 16,90
+            - generic [ref=f3e406]: 73,16 kr/kg
+            - generic [ref=f3e407]:
+              - generic [ref=f3e408]: KIWI
+              - generic [ref=f3e410]: Jacobs
+              - generic [ref=f3e412]: "+2"
+              - button "Legg i handleliste" [ref=f3e413] [cursor=pointer]: +
+        - article [ref=f3e414]:
+          - generic [ref=f3e415]:
+            - img "Rundstykker" [ref=f3e416]
+            - generic [ref=f3e417]: −41%
+            - generic [ref=f3e418]: 4 butikker
+          - generic [ref=f3e419]:
+            - generic [ref=f3e420]: Brød & bakeri
+            - generic [ref=f3e421]: Rundstykker
+            - generic [ref=f3e422]:
+              - generic [ref=f3e423]: 10,–kr
+              - generic [ref=f3e424]: 16,90
+            - generic [ref=f3e425]: 55,56 kr/kg
+            - generic [ref=f3e426]:
+              - generic [ref=f3e427]: Jacobs
+              - generic [ref=f3e429]: MENY
+              - generic [ref=f3e431]: "+2"
+              - button "Legg i handleliste" [ref=f3e432] [cursor=pointer]: +
+        - article [ref=f3e433]:
+          - generic [ref=f3e434]:
+            - img "SOPPS SPAGHETTI" [ref=f3e435]
+            - generic [ref=f3e436]: −40%
+            - generic [ref=f3e437]: 4 butikker
+          - generic [ref=f3e438]:
+            - generic [ref=f3e439]: Tørrvarer & baking
+            - generic [ref=f3e440]: SOPPS SPAGHETTI
+            - generic [ref=f3e441]:
+              - generic [ref=f3e442]: 14,–kr
+              - generic [ref=f3e443]: 18,90
+            - generic [ref=f3e444]: 28,– kr/kg
+            - generic [ref=f3e445]:
+              - generic [ref=f3e446]: Extra
+              - generic [ref=f3e448]: Coop Prix
+              - generic [ref=f3e450]: "+2"
+              - button "Legg i handleliste" [ref=f3e451] [cursor=pointer]: +
+        - article [ref=f3e452]:
+          - generic [ref=f3e453]:
+            - img "Kalkunkorv" [ref=f3e454]
+            - generic [ref=f3e455]: −37%
+            - generic [ref=f3e456]: 4 butikker
+          - generic [ref=f3e457]:
+            - generic [ref=f3e458]: Kjøtt & fjørfe
+            - generic [ref=f3e459]: Kalkunkorv
+            - generic [ref=f3e460]:
+              - generic [ref=f3e461]: 20,–kr
+              - generic [ref=f3e462]: 31,50
+            - generic [ref=f3e463]: 88,89 kr/kg
+            - generic [ref=f3e464]:
+              - generic [ref=f3e465]: REMA 1000
+              - generic [ref=f3e467]: Jacobs
+              - generic [ref=f3e469]: "+2"
+              - button "Legg i handleliste" [ref=f3e470] [cursor=pointer]: +
+        - article [ref=f3e471]:
+          - generic [ref=f3e472]:
+            - img "Våtservietter" [ref=f3e473]
+            - generic [ref=f3e474]: −34%
+            - generic [ref=f3e475]: 4 butikker
+          - generic [ref=f3e476]:
+            - generic [ref=f3e477]: Barn & baby
+            - generic [ref=f3e478]: Våtservietter
+            - generic [ref=f3e479]:
+              - generic [ref=f3e480]: 15,–kr
+              - generic [ref=f3e481]: 22,90
+            - generic [ref=f3e482]: 1 pcs
+            - generic [ref=f3e483]:
+              - generic [ref=f3e484]: Spar Kjøp
+              - generic [ref=f3e486]: Jacobs
+              - generic [ref=f3e488]: "+2"
+              - button "Legg i handleliste" [ref=f3e489] [cursor=pointer]: +
+        - article [ref=f3e490]:
+          - generic [ref=f3e491]:
+            - img "YOPLAIT KVARG" [ref=f3e492]
+            - generic [ref=f3e493]: −33%
+            - generic [ref=f3e494]: 4 butikker
+          - generic [ref=f3e495]:
+            - generic [ref=f3e496]: Meieri & egg
+            - generic [ref=f3e497]: YOPLAIT KVARG
+            - generic [ref=f3e498]:
+              - generic [ref=f3e499]: 19,90kr
+              - generic [ref=f3e500]: 29,90
+            - generic [ref=f3e501]: 47,38 kr/kg
+            - generic [ref=f3e502]:
+              - generic [ref=f3e503]: Extra
+              - generic [ref=f3e505]: Jacobs
+              - generic [ref=f3e507]: "+2"
+              - button "Legg i handleliste" [ref=f3e508] [cursor=pointer]: +
+        - article [ref=f3e509]:
+          - generic [ref=f3e510]:
+            - img "4-Korn" [ref=f3e511]
+            - generic [ref=f3e512]: −31%
+            - generic [ref=f3e513]: 4 butikker
+          - generic [ref=f3e514]:
+            - generic [ref=f3e515]: Annet
+            - generic [ref=f3e516]: 4-Korn
+            - generic [ref=f3e517]:
+              - generic [ref=f3e518]: 20,–kr
+              - generic [ref=f3e519]: 28,90
+            - generic [ref=f3e520]: 29,63 kr/kg
+            - generic [ref=f3e521]:
+              - generic [ref=f3e522]: Jacobs
+              - generic [ref=f3e524]: MENY
+              - generic [ref=f3e526]: "+2"
+              - button "Legg i handleliste" [ref=f3e527] [cursor=pointer]: +
+        - article [ref=f3e528]:
+          - generic [ref=f3e529]:
+            - img "Ritz kjeks" [ref=f3e530]
+            - generic [ref=f3e531]: −26%
+            - generic [ref=f3e532]: 4 butikker
+          - generic [ref=f3e533]:
+            - generic [ref=f3e534]: Snacks & godteri
+            - generic [ref=f3e535]: Ritz kjeks
+            - generic [ref=f3e536]:
+              - generic [ref=f3e537]: 19,90kr
+              - generic [ref=f3e538]: 25,40
+            - generic [ref=f3e539]: 132,67 kr/kg
+            - generic [ref=f3e540]:
+              - generic [ref=f3e541]: KIWI
+              - generic [ref=f3e543]: Jacobs
+              - generic [ref=f3e545]: "+2"
+              - button "Legg i handleliste" [ref=f3e546] [cursor=pointer]: +
+        - article [ref=f3e547]:
+          - generic [ref=f3e548]:
+            - img "Servelat" [ref=f3e549]
+            - generic [ref=f3e550]: −18%
+            - generic [ref=f3e551]: 4 butikker
+          - generic [ref=f3e552]:
+            - generic [ref=f3e553]: Kjøtt & fjørfe
+            - generic [ref=f3e554]: Servelat
+            - generic [ref=f3e555]:
+              - generic [ref=f3e556]: 19,20kr
+              - generic [ref=f3e557]: 21,40
+            - generic [ref=f3e558]: 174,55 kr/kg
+            - generic [ref=f3e559]:
+              - generic [ref=f3e560]: REMA 1000
+              - generic [ref=f3e562]: Jacobs
+              - generic [ref=f3e564]: "+2"
+              - button "Legg i handleliste" [ref=f3e565] [cursor=pointer]: +
+        - article [ref=f3e566]:
+          - generic [ref=f3e567]:
+            - img "Hakkede tomater" [ref=f3e568]
+            - generic [ref=f3e569]: 4 butikker
+          - generic [ref=f3e570]:
+            - generic [ref=f3e571]: Frukt & grønt
+            - generic [ref=f3e572]: Hakkede tomater
+            - generic [ref=f3e573]: 10,–kr
+            - generic [ref=f3e575]: 25,64 kr/kg
+            - generic [ref=f3e576]:
+              - generic [ref=f3e577]: REMA 1000
+              - generic [ref=f3e579]: Jacobs
+              - generic [ref=f3e581]: "+2"
+              - button "Legg i handleliste" [ref=f3e582] [cursor=pointer]: +
+        - article [ref=f3e583]:
+          - generic [ref=f3e584]:
+            - img "Powerade" [ref=f3e585]
+            - generic [ref=f3e586]: 4 butikker
+          - generic [ref=f3e587]:
+            - generic [ref=f3e588]: Drikke
+            - generic [ref=f3e589]: Powerade
+            - generic [ref=f3e590]: 15,–kr
+            - generic [ref=f3e592]: 30,– kr/l
+            - generic [ref=f3e593]:
+              - generic [ref=f3e594]: Joker
+              - generic [ref=f3e596]: Jacobs
+              - generic [ref=f3e598]: "+2"
+              - button "Legg i handleliste" [ref=f3e599] [cursor=pointer]: +
+        - article [ref=f3e600]:
+          - generic [ref=f3e601]:
+            - img "TINE Kremgo" [ref=f3e602]
+            - generic [ref=f3e603]: −56%
+            - generic [ref=f3e604]: 3 butikker
+          - generic [ref=f3e605]:
+            - generic [ref=f3e606]: Ost
+            - generic [ref=f3e607]: TINE Kremgo
+            - generic [ref=f3e608]:
+              - generic [ref=f3e609]: 10,–kr
+              - generic [ref=f3e610]: 22,90
+            - generic [ref=f3e611]: 80,– kr/kg
+            - generic [ref=f3e612]:
+              - generic [ref=f3e613]: Jacobs
+              - generic [ref=f3e615]: MENY
+              - generic [ref=f3e617]: "+1"
+              - button "Legg i handleliste" [ref=f3e618] [cursor=pointer]: +
+        - article [ref=f3e619]:
+          - generic [ref=f3e620]:
+            - img "Bygglunsj" [ref=f3e621]
+            - generic [ref=f3e622]: −54%
+            - generic [ref=f3e623]: 3 butikker
+          - generic [ref=f3e624]:
+            - generic [ref=f3e625]: Brød & bakeri
+            - generic [ref=f3e626]: Bygglunsj
+            - generic [ref=f3e627]:
+              - generic [ref=f3e628]: 10,–kr
+              - generic [ref=f3e629]: 21,90
+            - generic [ref=f3e630]: 66,67 kr/kg
+            - generic [ref=f3e631]:
+              - generic [ref=f3e632]: Joker
+              - generic [ref=f3e634]: Jacobs
+              - generic [ref=f3e636]: "+1"
+              - button "Legg i handleliste" [ref=f3e637] [cursor=pointer]: +
+        - article [ref=f3e638]:
+          - generic [ref=f3e639]:
+            - img "Ankelsokker" [ref=f3e640]
+            - generic [ref=f3e641]: −50%
+            - generic [ref=f3e642]: 3 butikker
+          - generic [ref=f3e643]:
+            - generic [ref=f3e644]: Annet
+            - generic [ref=f3e645]: Ankelsokker
+            - generic [ref=f3e646]:
+              - generic [ref=f3e647]: 29,90kr
+              - generic [ref=f3e648]: 49,90
+            - generic [ref=f3e649]: 1 pcs
+            - generic [ref=f3e650]:
+              - generic [ref=f3e651]: Rusta
+              - generic [ref=f3e653]: Jacobs
+              - generic [ref=f3e655]: "+1"
+              - button "Legg i handleliste" [ref=f3e656] [cursor=pointer]: +
+        - article [ref=f3e657]:
+          - generic [ref=f3e658]:
+            - img "MUFFINS" [ref=f3e659]
+            - generic [ref=f3e660]: −50%
+            - generic [ref=f3e661]: 3 butikker
+          - generic [ref=f3e662]:
+            - generic [ref=f3e663]: Snacks & godteri
+            - generic [ref=f3e664]: MUFFINS
+            - generic [ref=f3e665]:
+              - generic [ref=f3e666]: 10,–kr
+              - generic [ref=f3e667]: 19,90
+            - generic [ref=f3e668]: 100,– kr/kg
+            - generic [ref=f3e669]:
+              - generic [ref=f3e670]: KIWI
+              - generic [ref=f3e672]: Jacobs
+              - generic [ref=f3e674]: "+1"
+              - button "Legg i handleliste" [ref=f3e675] [cursor=pointer]: +
+        - article [ref=f3e676]:
+          - generic [ref=f3e677]:
+            - img "Sokker" [ref=f3e678]
+            - generic [ref=f3e679]: −49%
+            - generic [ref=f3e680]: 3 butikker
+          - generic [ref=f3e681]:
+            - generic [ref=f3e682]: Klær & sko
+            - generic [ref=f3e683]: Sokker
+            - generic [ref=f3e684]:
+              - generic [ref=f3e685]: 50,–kr
+              - generic [ref=f3e686]: 99,–
+            - generic [ref=f3e687]: 1 pcs
+            - generic [ref=f3e688]:
+              - generic [ref=f3e689]: Jacobs
+              - generic [ref=f3e691]: MENY
+              - generic [ref=f3e693]: "+1"
+              - button "Legg i handleliste" [ref=f3e694] [cursor=pointer]: +
+        - article [ref=f3e695]:
+          - generic [ref=f3e696]:
+            - img "Apetina original" [ref=f3e697]
+            - generic [ref=f3e698]: −44%
+            - generic [ref=f3e699]: 3 butikker
+          - generic [ref=f3e700]:
+            - generic [ref=f3e701]: Ost
+            - generic [ref=f3e702]: Apetina original
+            - generic [ref=f3e703]:
+              - generic [ref=f3e704]: 25,–kr
+              - generic [ref=f3e705]: 44,90
+            - generic [ref=f3e706]: 125,– kr/kg
+            - generic [ref=f3e707]:
+              - generic [ref=f3e708]: REMA 1000
+              - generic [ref=f3e710]: Jacobs
+              - generic [ref=f3e712]: "+1"
+              - button "Legg i handleliste" [ref=f3e713] [cursor=pointer]: +
+        - article [ref=f3e714]:
+          - generic [ref=f3e715]:
+            - img "Billys pan pizza" [ref=f3e716]
+            - generic [ref=f3e717]: −42%
+            - generic [ref=f3e718]: 3 butikker
+          - generic [ref=f3e719]:
+            - generic [ref=f3e720]: Middag & ferdigmat
+            - generic [ref=f3e721]: Billys pan pizza
+            - generic [ref=f3e722]:
+              - generic [ref=f3e723]: 15,–kr
+              - generic [ref=f3e724]: 23,90
+            - generic [ref=f3e725]: 73,53 kr/kg
+            - generic [ref=f3e726]:
+              - generic [ref=f3e727]: Jacobs
+              - generic [ref=f3e729]: MENY
+              - generic [ref=f3e731]: "+1"
+              - button "Legg i handleliste" [ref=f3e732] [cursor=pointer]: +
+        - article [ref=f3e733]:
+          - generic [ref=f3e734]:
+            - img "Berlinerboller" [ref=f3e735]
+            - generic [ref=f3e736]: −37%
+            - generic [ref=f3e737]: 3 butikker
+          - generic [ref=f3e738]:
+            - generic [ref=f3e739]: Brød & bakeri
+            - generic [ref=f3e740]: Berlinerboller
+            - generic [ref=f3e741]:
+              - generic [ref=f3e742]: 10,–kr
+              - generic [ref=f3e743]: 15,90
+            - generic [ref=f3e744]: 111,11 kr/kg
+            - generic [ref=f3e745]:
+              - generic [ref=f3e746]: Jacobs
+              - generic [ref=f3e748]: MENY
+              - generic [ref=f3e750]: "+1"
+              - button "Legg i handleliste" [ref=f3e751] [cursor=pointer]: +
+        - article [ref=f3e752]:
+          - generic [ref=f3e753]:
+            - img "Mango i biter" [ref=f3e754]
+            - generic [ref=f3e755]: −37%
+            - generic [ref=f3e756]: 3 butikker
+          - generic [ref=f3e757]:
+            - generic [ref=f3e758]: Frukt & grønt
+            - generic [ref=f3e759]: Mango i biter
+            - generic [ref=f3e760]:
+              - generic [ref=f3e761]: 15,–kr
+              - generic [ref=f3e762]: 23,90
+            - generic [ref=f3e763]: 50,– kr/kg
+            - generic [ref=f3e764]:
+              - generic [ref=f3e765]: Jacobs
+              - generic [ref=f3e767]: MENY
+              - generic [ref=f3e769]: "+1"
+              - button "Legg i handleliste" [ref=f3e770] [cursor=pointer]: +
+        - article [ref=f3e771]:
+          - generic [ref=f3e772]:
+            - img "Nudler i kopp" [ref=f3e773]
+            - generic [ref=f3e774]: −34%
+            - generic [ref=f3e775]: 3 butikker
+          - generic [ref=f3e776]:
+            - generic [ref=f3e777]: Kjøtt & fjørfe
+            - generic [ref=f3e778]: Nudler i kopp
+            - generic [ref=f3e779]:
+              - generic [ref=f3e780]: 18,90kr
+              - generic [ref=f3e781]: 25,40
+            - generic [ref=f3e782]: 290,77 kr/kg
+            - generic [ref=f3e783]:
+              - generic [ref=f3e784]: KIWI
+              - generic [ref=f3e786]: Jacobs
+              - generic [ref=f3e788]: "+1"
+              - button "Legg i handleliste" [ref=f3e789] [cursor=pointer]: +
+        - article [ref=f3e790]:
+          - generic [ref=f3e791]:
+            - img "Dusjsåpe" [ref=f3e792]
+            - generic [ref=f3e793]: −33%
+            - generic [ref=f3e794]: 3 butikker
+          - generic [ref=f3e795]:
+            - generic [ref=f3e796]: Personlig pleie
+            - generic [ref=f3e797]: Dusjsåpe
+            - generic [ref=f3e798]: 10,–kr
+            - generic [ref=f3e800]: 33,33 kr/l
+            - generic [ref=f3e801]:
+              - generic [ref=f3e802]: Europris
+              - generic [ref=f3e804]: Jacobs
+              - generic [ref=f3e806]: "+1"
+              - button "Legg i handleliste" [ref=f3e807] [cursor=pointer]: +
+        - article [ref=f3e808]:
+          - generic [ref=f3e809]:
+            - img "Fiskepinner" [ref=f3e810]
+            - generic [ref=f3e811]: −33%
+            - generic [ref=f3e812]: 3 butikker
+          - generic [ref=f3e813]:
+            - generic [ref=f3e814]: Fisk & sjømat
+            - generic [ref=f3e815]: Fiskepinner
+            - generic [ref=f3e816]:
+              - generic [ref=f3e817]: 20,–kr
+              - generic [ref=f3e818]: 30,–
+            - generic [ref=f3e819]: 66,67 kr/kg
+            - generic [ref=f3e820]:
+              - generic [ref=f3e821]: Jacobs
+              - generic [ref=f3e823]: MENY
+              - generic [ref=f3e825]: "+1"
+              - button "Legg i handleliste" [ref=f3e826] [cursor=pointer]: +
+        - article [ref=f3e827]:
+          - generic [ref=f3e828]:
+            - img "Mango" [ref=f3e829]
+            - generic [ref=f3e830]: −33%
+            - generic [ref=f3e831]: 3 butikker
+          - generic [ref=f3e832]:
+            - generic [ref=f3e833]: Snacks & godteri
+            - generic [ref=f3e834]: Mango
+            - generic [ref=f3e835]: 19,90kr
+            - generic [ref=f3e837]: 300,– kr/kg
+            - generic [ref=f3e838]:
+              - generic [ref=f3e839]: KIWI
+              - generic [ref=f3e841]: Jacobs
+              - generic [ref=f3e843]: "+1"
+              - button "Legg i handleliste" [ref=f3e844] [cursor=pointer]: +
+        - article [ref=f3e845]:
+          - generic [ref=f3e846]:
+            - img "Nudler" [ref=f3e847]
+            - generic [ref=f3e848]: −33%
+            - generic [ref=f3e849]: 3 butikker
+          - generic [ref=f3e850]:
+            - generic [ref=f3e851]: Kjøtt & fjørfe
+            - generic [ref=f3e852]: Nudler
+            - generic [ref=f3e853]: 10,–kr
+            - generic [ref=f3e855]: 100,– kr/kg
+            - generic [ref=f3e856]:
+              - generic [ref=f3e857]: Jacobs
+              - generic [ref=f3e859]: MENY
+              - generic [ref=f3e861]: "+1"
+              - button "Legg i handleliste" [ref=f3e862] [cursor=pointer]: +
+        - article [ref=f3e863]:
+          - generic [ref=f3e864]:
+            - img "TINE YOGHURT" [ref=f3e865]
+            - generic [ref=f3e866]: −33%
+            - generic [ref=f3e867]: 3 butikker
+          - generic [ref=f3e868]:
+            - generic [ref=f3e869]: Meieri & egg
+            - generic [ref=f3e870]: TINE YOGHURT
+            - generic [ref=f3e871]:
+              - generic [ref=f3e872]: 30,–kr
+              - generic [ref=f3e873]: 44,90
+            - generic [ref=f3e874]: 25,– kr/kg
+            - generic [ref=f3e875]:
+              - generic [ref=f3e876]: Jacobs
+              - generic [ref=f3e878]: MENY
+              - generic [ref=f3e880]: "+1"
+              - button "Legg i handleliste" [ref=f3e881] [cursor=pointer]: +
+        - article [ref=f3e882]:
+          - generic [ref=f3e883]:
+            - img "Brødposer" [ref=f3e884]
+            - generic [ref=f3e885]: −32%
+            - generic [ref=f3e886]: 3 butikker
+          - generic [ref=f3e887]:
+            - generic [ref=f3e888]: Annet
+            - generic [ref=f3e889]: Brødposer
+            - generic [ref=f3e890]:
+              - generic [ref=f3e891]: 15,–kr
+              - generic [ref=f3e892]: 21,90
+            - generic [ref=f3e893]: 1 pcs
+            - generic [ref=f3e894]:
+              - generic [ref=f3e895]: Jacobs
+              - generic [ref=f3e897]: MENY
+              - generic [ref=f3e899]: "+1"
+              - button "Legg i handleliste" [ref=f3e900] [cursor=pointer]: +
+        - article [ref=f3e901]:
+          - generic [ref=f3e902]:
+            - img "LOFOTEN HJEMMELAGDE FISKEKAKER" [ref=f3e903]
+            - generic [ref=f3e904]: −31%
+            - generic [ref=f3e905]: 3 butikker
+          - generic [ref=f3e906]:
+            - generic [ref=f3e907]: Fisk & sjømat
+            - generic [ref=f3e908]: LOFOTEN HJEMMELAGDE FISKEKAKER
+            - generic [ref=f3e909]:
+              - generic [ref=f3e910]: 89,90kr
+              - generic [ref=f3e911]: 105,90
+            - generic [ref=f3e912]: 199,78 kr/kg
+            - generic [ref=f3e913]:
+              - generic [ref=f3e914]: Coop Prix
+              - generic [ref=f3e916]: Coop Marked
+              - generic [ref=f3e918]: "+1"
+              - button "Legg i handleliste" [ref=f3e919] [cursor=pointer]: +
+        - article [ref=f3e920]:
+          - generic [ref=f3e921]:
+            - img "Selbu blå" [ref=f3e922]
+            - generic [ref=f3e923]: −30%
+            - generic [ref=f3e924]: 3 butikker
+          - generic [ref=f3e925]:
+            - generic [ref=f3e926]: Meieri & egg
+            - generic [ref=f3e927]: Selbu blå
+            - generic [ref=f3e928]:
+              - generic [ref=f3e929]: 30,–kr
+              - generic [ref=f3e930]: 42,90
+            - generic [ref=f3e931]: 200,– kr/kg
+            - generic [ref=f3e932]:
+              - generic [ref=f3e933]: Jacobs
+              - generic [ref=f3e935]: MENY
+              - generic [ref=f3e937]: "+1"
+              - button "Legg i handleliste" [ref=f3e938] [cursor=pointer]: +
+        - article [ref=f3e939]:
+          - generic [ref=f3e940]:
+            - img "COOP FISKEPINNER" [ref=f3e941]
+            - generic [ref=f3e942]: −29%
+            - generic [ref=f3e943]: 3 butikker
+          - generic [ref=f3e944]:
+            - generic [ref=f3e945]: Fisk & sjømat
+            - generic [ref=f3e946]: COOP FISKEPINNER
+            - generic [ref=f3e947]:
+              - generic [ref=f3e948]: 39,90kr
+              - generic [ref=f3e949]: 48,90
+            - generic [ref=f3e950]: 88,67 kr/kg
+            - generic [ref=f3e951]:
+              - generic [ref=f3e952]: Coop Prix
+              - generic [ref=f3e954]: Coop Marked
+              - generic [ref=f3e956]: "+1"
+              - button "Legg i handleliste" [ref=f3e957] [cursor=pointer]: +
+        - article [ref=f3e958]:
+          - generic [ref=f3e959]:
+            - img "Kyllingkjøttdeig" [ref=f3e960]
+            - generic [ref=f3e961]: −29%
+            - generic [ref=f3e962]: 3 butikker
+          - generic [ref=f3e963]:
+            - generic [ref=f3e964]: Kjøtt & fjørfe
+            - generic [ref=f3e965]: Kyllingkjøttdeig
+            - generic [ref=f3e966]:
+              - generic [ref=f3e967]: 49,90kr
+              - generic [ref=f3e968]: 67,90
+            - generic [ref=f3e969]: 83,33 kr/kg
+            - generic [ref=f3e970]:
+              - generic [ref=f3e971]: Joker
+              - generic [ref=f3e973]: Obs
+              - generic [ref=f3e975]: "+1"
+              - button "Legg i handleliste" [ref=f3e976] [cursor=pointer]: +
+        - article [ref=f3e977]:
+          - generic [ref=f3e978]:
+            - img "LAMINATGULV" [ref=f3e979]
+            - generic [ref=f3e980]: −29%
+            - generic [ref=f3e981]: 3 butikker
+          - generic [ref=f3e982]:
+            - generic [ref=f3e983]: Annet
+            - generic [ref=f3e984]: LAMINATGULV
+            - generic [ref=f3e985]:
+              - generic [ref=f3e986]: 148,78kr
+              - generic [ref=f3e987]: 169,–
+            - generic [ref=f3e988]: 1 pcs
+            - generic [ref=f3e989]:
+              - generic [ref=f3e990]: MAXBO
+              - generic [ref=f3e992]: Byggmakker
+              - generic [ref=f3e994]: "+1"
+              - button "Legg i handleliste" [ref=f3e995] [cursor=pointer]: +
+        - article [ref=f3e996]:
+          - generic [ref=f3e997]:
+            - img "BACON" [ref=f3e998]
+            - generic [ref=f3e999]: −28%
+            - generic [ref=f3e1000]: 3 butikker
+          - generic [ref=f3e1001]:
+            - generic [ref=f3e1002]: Kjøtt & fjørfe
+            - generic [ref=f3e1003]: BACON
+            - generic [ref=f3e1004]:
+              - generic [ref=f3e1005]: 30,–kr
+              - generic [ref=f3e1006]: 41,50
+            - generic [ref=f3e1007]: 174,75 kr/kg
+            - generic [ref=f3e1008]:
+              - generic [ref=f3e1009]: REMA 1000
+              - generic [ref=f3e1011]: Jacobs
+              - generic [ref=f3e1013]: "+1"
+              - button "Legg i handleliste" [ref=f3e1014] [cursor=pointer]: +
+        - article [ref=f3e1015]:
+          - generic [ref=f3e1016]:
+            - img "Smøremyk" [ref=f3e1017]
+            - generic [ref=f3e1018]: −27%
+            - generic [ref=f3e1019]: 3 butikker
+          - generic [ref=f3e1020]:
+            - generic [ref=f3e1021]: Meieri & egg
+            - generic [ref=f3e1022]: Smøremyk
+            - generic [ref=f3e1023]:
+              - generic [ref=f3e1024]: 30,–kr
+              - generic [ref=f3e1025]: 40,90
+            - generic [ref=f3e1026]: 50,– kr/kg
+            - generic [ref=f3e1027]:
+              - generic [ref=f3e1028]: Jacobs
+              - generic [ref=f3e1030]: MENY
+              - generic [ref=f3e1032]: "+1"
+              - button "Legg i handleliste" [ref=f3e1033] [cursor=pointer]: +
+        - article [ref=f3e1034]:
+          - generic [ref=f3e1035]:
+            - img "Sommerhonning" [ref=f3e1036]
+            - generic [ref=f3e1037]: −24%
+            - generic [ref=f3e1038]: 3 butikker
+          - generic [ref=f3e1039]:
+            - generic [ref=f3e1040]: Pålegg
+            - generic [ref=f3e1041]: Sommerhonning
+            - generic [ref=f3e1042]:
+              - generic [ref=f3e1043]: 25,–kr
+              - generic [ref=f3e1044]: 32,90
+            - generic [ref=f3e1045]: 105,33 kr/kg
+            - generic [ref=f3e1046]:
+              - generic [ref=f3e1047]: Bunnpris
+              - generic [ref=f3e1049]: Jacobs
+              - generic [ref=f3e1051]: "+1"
+              - button "Legg i handleliste" [ref=f3e1052] [cursor=pointer]: +
+        - article [ref=f3e1053]:
+          - generic [ref=f3e1054]:
+            - img "Soft flora" [ref=f3e1055]
+            - generic [ref=f3e1056]: −23%
+            - generic [ref=f3e1057]: 3 butikker
+          - generic [ref=f3e1058]:
+            - generic [ref=f3e1059]: Meieri & egg
+            - generic [ref=f3e1060]: Soft flora
+            - generic [ref=f3e1061]: 30,–kr
+            - generic [ref=f3e1063]: 55,56 kr/kg
+            - generic [ref=f3e1064]:
+              - generic [ref=f3e1065]: Joker
+              - generic [ref=f3e1067]: REMA 1000
+              - generic [ref=f3e1069]: "+1"
+              - button "Legg i handleliste" [ref=f3e1070] [cursor=pointer]: +
+        - article [ref=f3e1071]:
+          - generic [ref=f3e1072]:
+            - img "Isklar" [ref=f3e1073]
+            - generic [ref=f3e1074]: −20%
+            - generic [ref=f3e1075]: 3 butikker
+          - generic [ref=f3e1076]:
+            - generic [ref=f3e1077]: Drikke
+            - generic [ref=f3e1078]: Isklar
+            - generic [ref=f3e1079]: 10,–kr
+            - generic [ref=f3e1081]: 6,67 kr/l
+            - generic [ref=f3e1082]:
+              - generic [ref=f3e1083]: Jacobs
+              - generic [ref=f3e1085]: MENY
+              - generic [ref=f3e1087]: "+1"
+              - button "Legg i handleliste" [ref=f3e1088] [cursor=pointer]: +
+        - article [ref=f3e1089]:
+          - generic [ref=f3e1090]:
+            - img "Grillpølser" [ref=f3e1091]
+            - generic [ref=f3e1092]: −17%
+            - generic [ref=f3e1093]: 3 butikker
+          - generic [ref=f3e1094]:
+            - generic [ref=f3e1095]: Kjøtt & fjørfe
+            - generic [ref=f3e1096]: Grillpølser
+            - generic [ref=f3e1097]:
+              - generic [ref=f3e1098]: 50,–kr
+              - generic [ref=f3e1099]: 59,90
+            - generic [ref=f3e1100]: 83,33 kr/kg
+            - generic [ref=f3e1101]:
+              - generic [ref=f3e1102]: Jacobs
+              - generic [ref=f3e1104]: MENY
+              - generic [ref=f3e1106]: "+1"
+              - button "Legg i handleliste" [ref=f3e1107] [cursor=pointer]: +
+        - article [ref=f3e1108]:
+          - generic [ref=f3e1109]:
+            - img "BIOLA" [ref=f3e1110]
+            - generic [ref=f3e1111]: 3 butikker
+          - generic [ref=f3e1112]:
+            - generic [ref=f3e1113]: Meieri & egg
+            - generic [ref=f3e1114]: BIOLA
+            - generic [ref=f3e1115]: 25,–kr
+            - generic [ref=f3e1117]: 25,– kr/kg
+            - generic [ref=f3e1118]:
+              - generic [ref=f3e1119]: Extra
+              - generic [ref=f3e1121]: Jacobs
+              - generic [ref=f3e1123]: "+1"
+              - button "Legg i handleliste" [ref=f3e1124] [cursor=pointer]: +
+        - article [ref=f3e1125]:
+          - generic [ref=f3e1126]:
+            - img "Brekkbønner/wokmix" [ref=f3e1127]
+            - generic [ref=f3e1128]: 3 butikker
+          - generic [ref=f3e1129]:
+            - generic [ref=f3e1130]: Annet
+            - generic [ref=f3e1131]: Brekkbønner/wokmix
+            - generic [ref=f3e1132]: 15,–kr
+            - generic [ref=f3e1134]: 35,29 kr/kg
+            - generic [ref=f3e1135]:
+              - generic [ref=f3e1136]: Jacobs
+              - generic [ref=f3e1138]: MENY
+              - generic [ref=f3e1140]: "+1"
+              - button "Legg i handleliste" [ref=f3e1141] [cursor=pointer]: +
+        - article [ref=f3e1142]:
+          - generic [ref=f3e1143]:
+            - img "BUTINOX ELEGANT 05/MATT INTERIØRMALING" [ref=f3e1144]
+            - generic [ref=f3e1145]: 3 butikker
+          - generic [ref=f3e1146]:
+            - generic [ref=f3e1147]: Annet
+            - generic [ref=f3e1148]: BUTINOX ELEGANT 05/MATT INTERIØRMALING
+            - generic [ref=f3e1149]: 349,–kr
+            - generic [ref=f3e1151]: 129,26 kr/l
+            - generic [ref=f3e1152]:
+              - generic [ref=f3e1153]: Obs! Bygg
+              - generic [ref=f3e1155]: Coop Byggmix
+              - generic [ref=f3e1157]: "+1"
+              - button "Legg i handleliste" [ref=f3e1158] [cursor=pointer]: +
+        - article [ref=f3e1159]:
+          - generic [ref=f3e1160]:
+            - img "Butinox Klassisk 10/silkematt interiørmaling" [ref=f3e1161]
+            - generic [ref=f3e1162]: 3 butikker
+          - generic [ref=f3e1163]:
+            - generic [ref=f3e1164]: Annet
+            - generic [ref=f3e1165]: Butinox Klassisk 10/silkematt interiørmaling
+            - generic [ref=f3e1166]: 339,–kr
+            - generic [ref=f3e1168]: 125,56 kr/l
+            - generic [ref=f3e1169]:
+              - generic [ref=f3e1170]: Obs! Bygg
+              - generic [ref=f3e1172]: Coop Byggmix
+              - generic [ref=f3e1174]: "+1"
+              - button "Legg i handleliste" [ref=f3e1175] [cursor=pointer]: +
+        - article [ref=f3e1176]:
+          - generic [ref=f3e1177]:
+            - img "BUTINOX SUPERDEKK TAK 02/HELMATT INTERIØRMALING" [ref=f3e1178]
+            - generic [ref=f3e1179]: 3 butikker
+          - generic [ref=f3e1180]:
+            - generic [ref=f3e1181]: Annet
+            - generic [ref=f3e1182]: BUTINOX SUPERDEKK TAK 02/HELMATT INTERIØRMALING
+            - generic [ref=f3e1183]: 299,–kr
+            - generic [ref=f3e1185]: 110,74 kr/l
+            - generic [ref=f3e1186]:
+              - generic [ref=f3e1187]: Obs! Bygg
+              - generic [ref=f3e1189]: Coop Byggmix
+              - generic [ref=f3e1191]: "+1"
+              - button "Legg i handleliste" [ref=f3e1192] [cursor=pointer]: +
+        - article [ref=f3e1193]:
+          - generic [ref=f3e1194]:
+            - img "CALLUNA" [ref=f3e1195]
+            - generic [ref=f3e1196]: 3 butikker
+          - generic [ref=f3e1197]:
+            - generic [ref=f3e1198]: Annet
+            - generic [ref=f3e1199]: CALLUNA
+            - generic [ref=f3e1200]: 24,90kr
+            - generic [ref=f3e1202]: 1 pcs
+            - generic [ref=f3e1203]:
+              - generic [ref=f3e1204]: Bunnpris
+              - generic [ref=f3e1206]: KIWI
+              - generic [ref=f3e1208]: "+1"
+              - button "Legg i handleliste" [ref=f3e1209] [cursor=pointer]: +
+        - article [ref=f3e1210]:
+          - generic [ref=f3e1211]:
+            - img "CALLUNA STAUDELYNG" [ref=f3e1212]
+            - generic [ref=f3e1213]: 3 butikker
+          - generic [ref=f3e1214]:
+            - generic [ref=f3e1215]: Annet
+            - generic [ref=f3e1216]: CALLUNA STAUDELYNG
+            - generic [ref=f3e1217]: 24,90kr
+            - generic [ref=f3e1219]: 1 pcs
+            - generic [ref=f3e1220]:
+              - generic [ref=f3e1221]: Extra
+              - generic [ref=f3e1223]: Coop Mega
+              - generic [ref=f3e1225]: "+1"
+              - button "Legg i handleliste" [ref=f3e1226] [cursor=pointer]: +
+        - article [ref=f3e1227]:
+          - generic [ref=f3e1228]:
+            - img "COOP BLÅBÆR SHAKER" [ref=f3e1229]
+            - generic [ref=f3e1230]: 3 butikker
+          - generic [ref=f3e1231]:
+            - generic [ref=f3e1232]: Frukt & grønt
+            - generic [ref=f3e1233]: COOP BLÅBÆR SHAKER
+            - generic [ref=f3e1234]: 39,90kr
+            - generic [ref=f3e1236]: 177,33 kr/kg
+            - generic [ref=f3e1237]:
+              - generic [ref=f3e1238]: Coop Prix
+              - generic [ref=f3e1240]: Coop Marked
+              - generic [ref=f3e1242]: "+1"
+              - button "Legg i handleliste" [ref=f3e1243] [cursor=pointer]: +
+        - article [ref=f3e1244]:
+          - generic [ref=f3e1245]:
+            - img "FETTUCCINE" [ref=f3e1246]
+            - generic [ref=f3e1247]: 3 butikker
+          - generic [ref=f3e1248]:
+            - generic [ref=f3e1249]: Meieri & egg
+            - generic [ref=f3e1250]: FETTUCCINE
+            - generic [ref=f3e1251]: 32,90kr
+            - generic [ref=f3e1253]: 109,67 kr/kg
+            - generic [ref=f3e1254]:
+              - generic [ref=f3e1255]: Coop Prix
+              - generic [ref=f3e1257]: Coop Marked
+              - generic [ref=f3e1259]: "+1"
+              - button "Legg i handleliste" [ref=f3e1260] [cursor=pointer]: +
+        - article [ref=f3e1261]:
+          - generic [ref=f3e1262]:
+            - img "FREIA STORE PLATER" [ref=f3e1263]
+            - generic [ref=f3e1264]: 3 butikker
+          - generic [ref=f3e1265]:
+            - generic [ref=f3e1266]: Snacks & godteri
+            - generic [ref=f3e1267]: FREIA STORE PLATER
+            - generic [ref=f3e1268]: 100,–kr
+            - generic [ref=f3e1270]: 222,22 kr/kg
+            - generic [ref=f3e1271]:
+              - generic [ref=f3e1272]: Coop Prix
+              - generic [ref=f3e1274]: Coop Marked
+              - generic [ref=f3e1276]: "+1"
+              - button "Legg i handleliste" [ref=f3e1277] [cursor=pointer]: +
+        - article [ref=f3e1278]:
+          - generic [ref=f3e1279]:
+            - img "FRIELE KAFFE" [ref=f3e1280]
+            - generic [ref=f3e1281]: 3 butikker
+          - generic [ref=f3e1282]:
+            - generic [ref=f3e1283]: Kaffe & te
+            - generic [ref=f3e1284]: FRIELE KAFFE
+            - generic [ref=f3e1285]: 90,–kr
+            - generic [ref=f3e1287]: 180,– kr/kg
+            - generic [ref=f3e1288]:
+              - generic [ref=f3e1289]: Coop Prix
+              - generic [ref=f3e1291]: Coop Marked
+              - generic [ref=f3e1293]: "+1"
+              - button "Legg i handleliste" [ref=f3e1294] [cursor=pointer]: +
+        - article [ref=f3e1295]:
+          - generic [ref=f3e1296]:
+            - img "Fryseposer" [ref=f3e1297]
+            - generic [ref=f3e1298]: 3 butikker
+          - generic [ref=f3e1299]:
+            - generic [ref=f3e1300]: Husholdning
+            - generic [ref=f3e1301]: Fryseposer
+            - generic [ref=f3e1302]: 10,–kr
+            - generic [ref=f3e1304]: 1 pcs
+            - generic [ref=f3e1305]:
+              - generic [ref=f3e1306]: Jacobs
+              - generic [ref=f3e1308]: MENY
+              - generic [ref=f3e1310]: "+1"
+              - button "Legg i handleliste" [ref=f3e1311] [cursor=pointer]: +
+        - article [ref=f3e1312]:
+          - generic [ref=f3e1313]:
+            - img "Go Morgen yoghurt" [ref=f3e1314]
+            - generic [ref=f3e1315]: 3 butikker
+          - generic [ref=f3e1316]:
+            - generic [ref=f3e1317]: Meieri & egg
+            - generic [ref=f3e1318]: Go Morgen yoghurt
+            - generic [ref=f3e1319]: 10,–kr
+            - generic [ref=f3e1321]: 52,63 kr/kg
+            - generic [ref=f3e1322]:
+              - generic [ref=f3e1323]: Jacobs
+              - generic [ref=f3e1325]: MENY
+              - generic [ref=f3e1327]: "+1"
+              - button "Legg i handleliste" [ref=f3e1328] [cursor=pointer]: +
+        - article [ref=f3e1329]:
+          - generic [ref=f3e1330]:
+            - img "Imsdal" [ref=f3e1331]
+            - generic [ref=f3e1332]: 3 butikker
+          - generic [ref=f3e1333]:
+            - generic [ref=f3e1334]: Drikke
+            - generic [ref=f3e1335]: Imsdal
+            - generic [ref=f3e1336]: 15,–kr
+            - generic [ref=f3e1338]: 30,– kr/l
+            - generic [ref=f3e1339]:
+              - generic [ref=f3e1340]: Jacobs
+              - generic [ref=f3e1342]: MENY
+              - generic [ref=f3e1344]: "+1"
+              - button "Legg i handleliste" [ref=f3e1345] [cursor=pointer]: +

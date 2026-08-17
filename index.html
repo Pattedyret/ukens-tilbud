@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="nb" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ukens tilbud — alle butikker på ett sted</title>
+<meta name="description" content="Alle ukens tilbud fra norske butikkjeder samlet, gruppert per produkt og sortert på pris og kilopris.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏷️</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="wordmark">
+      <span class="tag">Tilbud</span>
+      <span class="full">Ukens tilbud</span>
+    </div>
+
+    <div class="search">
+      <span class="icon" aria-hidden="true">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </span>
+      <input id="q" type="search" placeholder="Søk etter produkt, merke eller butikk…" autocomplete="off" aria-label="Søk">
+      <button class="clear" id="clear-q" hidden aria-label="Tøm søk">✕</button>
+    </div>
+
+    <button class="icon-btn mobile-filter-btn" id="toggle-facets" aria-label="Filtre">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 6h18M6 12h12M10 18h4"/></svg>
+    </button>
+
+    <button class="icon-btn" id="open-list">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+      <span class="full">Handleliste</span>
+      <span class="count" id="list-count">0</span>
+    </button>
+
+    <button class="icon-btn" id="toggle-theme" aria-label="Bytt tema">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="strip" id="strip"></div>
+
+<div class="shell">
+  <aside class="facets" id="facets"></aside>
+
+  <main>
+    <div class="results-bar">
+      <div class="results-count" id="results-count"></div>
+      <div class="chips" id="active-chips"></div>
+      <select id="sort" aria-label="Sortering">
+        <option value="relevance">Mest relevant</option>
+        <option value="discount">Størst rabatt</option>
+        <option value="price-asc">Lavest pris</option>
+        <option value="price-desc">Høyest pris</option>
+        <option value="unit">Lavest kilopris</option>
+        <option value="chains">Flest butikker</option>
+        <option value="name">Navn A–Å</option>
+      </select>
+    </div>
+
+    <div class="grid" id="grid"></div>
+    <div class="sentinel" id="sentinel"></div>
+    <div class="loading" id="loading">Laster tilbud…</div>
+  </main>
+</div>
+
+<dialog id="detail">
+  <div class="dlg-head">
+    <div>
+      <h2 id="d-name"></h2>
+      <div class="sub" id="d-sub"></div>
+    </div>
+    <button class="dlg-close" data-close aria-label="Lukk">✕</button>
+  </div>
+  <div class="dlg-body" id="d-body"></div>
+</dialog>
+
+<dialog id="listdlg">
+  <div class="dlg-head">
+    <div>
+      <h2>Handleliste</h2>
+      <div class="sub" id="l-sub"></div>
+    </div>
+    <button class="dlg-close" data-close aria-label="Lukk">✕</button>
+  </div>
+  <div class="dlg-body" id="l-body"></div>
+</dialog>
+
+<script src="app.js" type="module"></script>
+</body>
+</html>

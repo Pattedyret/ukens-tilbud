@@ -1,0 +1,76 @@
+name: Update offers & deploy
+
+on:
+  schedule:
+    # Norwegian weekly offers turn over on Monday, so refresh early Monday
+    # morning (05:00 UTC ≈ 07:00 Oslo) and again Thursday for mid-week papers.
+    - cron: '0 5 * * 1'
+    - cron: '0 5 * * 4'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Scrape this week's offers
+        run: node scrape.mjs
+
+      - name: Fail if the scrape came back empty
+        # A silent zero-offer deploy would look like "no offers this week"
+        # rather than a broken scraper, so make it a build failure instead.
+        run: |
+          node -e "
+            const d = require('./data/offers.json');
+            const s = d.stats;
+            console.log(JSON.stringify(s, null, 1));
+            if (s.offers < 500) { console.error('Too few offers: ' + s.offers); process.exit(1); }
+            if (s.chains < 10) { console.error('Too few chains: ' + s.chains); process.exit(1); }
+            if (s.offers_with_price / s.offers < 0.9) {
+              console.error('Price coverage collapsed: ' + s.offers_with_price + '/' + s.offers);
+              process.exit(1);
+            }
+          "
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "data: refresh offers ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,12 @@
+{
+  "name": "ukens-tilbud",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Alle ukens tilbud fra norske butikkjeder, gruppert per produkt",
+  "scripts": {
+    "scrape": "node scrape.mjs",
+    "serve": "python3 -m http.server 8000"
+  },
+  "engines": { "node": ">=20" }
+}
