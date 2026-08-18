@@ -30,6 +30,20 @@ const kr = v => v == null ? '–' : nf.format(v).replace(',00', ',–');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
+/** "99,50 kr/kg", or "99,60–249,– kr/kg" when the pack size is a range. */
+const unitText = u => u.exact === false && u.max != null
+  ? `${kr(u.value)}–${kr(u.max)} kr/${esc(u.symbol)}`
+  : `${kr(u.value)} kr/${esc(u.symbol)}`;
+
+/**
+ * The API returns offsets as "+0000" (no colon), which is outside the date
+ * format ES guarantees engines will parse. V8 accepts it; not every engine
+ * does, and a silent Invalid Date would make "hide expired" drop every offer
+ * and blank the page. Normalising costs nothing and removes the whole class.
+ */
+const parseDate = s => new Date(String(s ?? '').replace(/([+-]\d{2})(\d{2})$/, '$1:$2'));
+const isLive = o => !o.valid_to || parseDate(o.valid_to) >= new Date();
+
 /* ---------------- persistence ---------------- */
 
 const STORE_KEY = 'ukens-tilbud:v1';
@@ -68,7 +82,7 @@ function headline(product) {
 
 function visibleOffers(product) {
   if (!state.hideExpired) return product.offers;
-  const live = product.offers.filter(o => !o.valid_to || new Date(o.valid_to) >= new Date());
+  const live = product.offers.filter(isLive);
   // A product whose offers have all lapsed still shows its last known prices
   // rather than rendering an empty card.
   return live.length ? live : product.offers;
@@ -93,7 +107,7 @@ function applyFilters() {
     if (state.sectors.size && !p.chains.some(c => state.sectors.has(sectorOf(c)))) continue;
     if (state.onlyMultiChain && p.chain_count < 2) continue;
     if (state.onlyDiscount && maxDiscount(p) <= 0) continue;
-    if (state.hideExpired && !p.offers.some(o => !o.valid_to || new Date(o.valid_to) >= now)) continue;
+    if (state.hideExpired && !p.offers.some(isLive)) continue;
 
     let score = 0;
     if (terms.length) {
@@ -104,7 +118,7 @@ function applyFilters() {
         if (at === -1) { ok = false; break; }
         // Prefix matches on the product name rank above matches buried in a
         // description, so "kaffe" surfaces coffee before coffee-flavoured cake.
-        score += at === 0 ? 100 : hay.startsWith(t, 0) ? 60 : 20 - Math.min(19, at / 10);
+        score += at === 0 ? 100 : 20 - Math.min(19, at / 10);
       }
       if (!ok) continue;
     }
@@ -141,7 +155,10 @@ function cardHTML(p) {
   const best = headline(p);
   const disc = maxDiscount(p);
   const img = best?.image;
-  const unit = p.best_unit;
+  // The kr/kg must belong to the offer whose price is on the card. Using the
+  // product-wide best_unit paired "10 kr" (a 100 g jar) with "99,50 kr/kg"
+  // (a 200 g jar at another chain) — two true numbers making a false claim.
+  const unit = best?.unit_price;
   const chains = p.chains.slice(0, 2);
   const extra = p.chains.length - chains.length;
   const inList = p.offers.some(o => state.list.has(o.id));
@@ -162,7 +179,7 @@ function cardHTML(p) {
           <span class="price num">${kr(best?.price)}<span class="kr">kr</span></span>
           ${best?.pre_price ? `<span class="price-was num">${kr(best.pre_price)}</span>` : ''}
         </div>
-        ${unit ? `<div class="card-unit num">${kr(unit.value)} kr/${esc(unit.symbol)}</div>`
+        ${unit ? `<div class="card-unit num">${unitText(unit)}</div>`
                : best?.size_text ? `<div class="card-unit">${esc(best.size_text)}</div>` : ''}
         <div class="card-foot">
           ${chains.map(c => `<span class="store-tag"><i class="dot" style="background:${esc(chainColor(c) || 'var(--line-strong)')}"></i>${esc(chainName(c))}</span>`).join('')}
@@ -172,6 +189,11 @@ function cardHTML(p) {
         </div>
       </div>
     </article>`;
+}
+
+function isInView(el, margin = 600) {
+  const rect = el.getBoundingClientRect();
+  return rect.top <= (window.innerHeight || 0) + margin;
 }
 
 function renderMore() {
@@ -278,7 +300,7 @@ function renderFacets() {
 
 function renderStrip() {
   const s = state.data.stats;
-  const updated = new Date(state.data.generated_at);
+  const updated = parseDate(state.data.generated_at);
   // Deliberately no overall date range: catalogues run anywhere from days to
   // months, so a min–max span reads as "this week" while meaning nothing.
   $('#strip').innerHTML = `
@@ -310,7 +332,7 @@ function openDetail(id) {
   ].filter(Boolean).join(' · ');
 
   $('#d-body').innerHTML = offers.map(o => {
-    const expired = o.valid_to && new Date(o.valid_to) < new Date();
+    const expired = o.valid_to && !isLive(o);
     return `
       <div class="offer-row">
         ${o.image ? `<img src="${esc(o.image)}" alt="" loading="lazy">`
@@ -324,14 +346,14 @@ function openDetail(id) {
           <div class="offer-desc">
             ${esc(o.description || o.heading || '')}
             ${o.size_text ? ` · ${esc(o.size_text)}` : ''}
-            ${o.valid_to ? ` · ${expired ? 'utgått' : 'til ' + df.format(new Date(o.valid_to))}` : ''}
+            ${o.valid_to ? ` · ${expired ? 'utgått' : 'til ' + df.format(parseDate(o.valid_to))}` : ''}
             ${o.catalogue_url ? ` · <a href="${esc(o.catalogue_url)}" target="_blank" rel="noopener">kundeavis s. ${o.page ?? '?'}</a>` : ''}
           </div>
         </div>
         <div class="offer-price">
           <div class="price num">${kr(o.price)}<span class="kr">kr</span></div>
           ${o.pre_price ? `<div class="price-was num">${kr(o.pre_price)}</div>` : ''}
-          ${o.unit_price ? `<div class="card-unit num">${kr(o.unit_price.value)} kr/${esc(o.unit_price.symbol)}</div>` : ''}
+          ${o.unit_price ? `<div class="card-unit num">${unitText(o.unit_price)}</div>` : ''}
           <button class="add-btn" style="margin-top:5px" data-add-offer="${esc(o.id)}"
             data-in="${state.list.has(o.id) ? 1 : 0}">${state.list.has(o.id) ? '✓' : '+'}</button>
         </div>
@@ -512,9 +534,20 @@ function wire() {
     if (e.key === '/' && document.activeElement !== $('#q')) { e.preventDefault(); $('#q').focus(); }
   });
 
-  new IntersectionObserver(entries => {
-    if (entries[0].isIntersecting) renderMore();
-  }, { rootMargin: '600px' }).observe($('#sentinel'));
+  // IntersectionObserver only fires on a *crossing*. If a page of cards is
+  // shorter than the viewport plus the margin, the sentinel never leaves the
+  // root and no second callback arrives — pagination stalls with the user
+  // staring at 60 of 4000 products. Keep filling while it remains in view.
+  const io = new IntersectionObserver(entries => {
+    if (!entries[0].isIntersecting) return;
+    let guard = 0;
+    do {
+      const before = state.rendered;
+      renderMore();
+      if (state.rendered === before) break;      // nothing left to add
+    } while (++guard < 40 && isInView($('#sentinel')));
+  }, { rootMargin: '600px' });
+  io.observe($('#sentinel'));
 }
 
 /* ---------------- boot ---------------- */

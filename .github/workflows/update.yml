@@ -50,6 +50,12 @@ jobs:
               console.error('Price coverage collapsed: ' + s.offers_with_price + '/' + s.offers);
               process.exit(1);
             }
+            // Without this, a third of the chains could fail to fetch and the
+            // run would still pass the offer-count floor and ship quietly.
+            if (s.failed_catalogues > s.catalogues * 0.1) {
+              console.error('Too many catalogues failed: ' + s.failed_catalogues + '/' + s.catalogues);
+              process.exit(1);
+            }
           "
 
       - name: Commit weekly snapshot

@@ -132,35 +132,56 @@ async function fetchOffers(catalogue) {
  * "pr. kg 174,75". Returns null when the pack size is unknown or dimensionless.
  */
 function unitPrice(price, quantity) {
-  const size = quantity?.size?.from;
+  const from = quantity?.size?.from;
+  const to = quantity?.size?.to ?? from;
   const factor = quantity?.unit?.si?.factor;
   const symbol = quantity?.unit?.si?.symbol;
-  if (!price || !size || !factor || !symbol) return null;
+  if (!price || !from || !factor || !symbol) return null;
   if (!['kg', 'l'].includes(symbol)) return null;
-  const pieces = quantity?.pieces?.from || 1;
-  const total = size * pieces * factor;
-  if (!total || total <= 0) return null;
-  const value = price / total;
-  if (!Number.isFinite(value) || value > 100000) return null;
-  return { value: Math.round(value * 100) / 100, symbol };
+
+  const piecesFrom = quantity?.pieces?.from || 1;
+  const piecesTo = quantity?.pieces?.to || piecesFrom;
+
+  const round = v => Math.round(v * 100) / 100;
+  const at = (size, pieces) => {
+    const total = size * pieces * factor;
+    if (!total || total <= 0) return null;
+    const value = price / total;
+    return Number.isFinite(value) && value <= 100000 ? round(value) : null;
+  };
+
+  // A pack sold as "100–250 g" has no single kr/kg. Taking size.from alone
+  // reported 249 kr/kg for a bag whose own label prints "99,60–249,00" — 2.5x
+  // the real floor. Ranges are carried as ranges and marked inexact, so they
+  // are shown honestly and kept out of cross-chain "cheapest per kilo" maths.
+  const high = at(from, piecesFrom);     // smallest pack -> dearest per kilo
+  const low = at(to, piecesTo);          // largest pack  -> cheapest per kilo
+  if (low == null || high == null) return null;
+
+  return low === high
+    ? { value: low, symbol, exact: true }
+    : { value: low, max: high, symbol, exact: false };
 }
 
-/** "4 x 100 g" / "1,5 l" / "6 stk" — human-readable pack size for the card. */
+/** "4 x 100 g" / "1,5 l" / "100–250 g" / "6 stk" — pack size for the card. */
 function sizeText(quantity) {
-  const size = quantity?.size?.from;
+  const from = quantity?.size?.from;
+  const to = quantity?.size?.to ?? from;
   const symbol = quantity?.unit?.symbol;
-  if (!size || !symbol) return null;
+  if (!from || !symbol) return null;
   const pieces = quantity?.pieces?.from || 1;
 
   // 'pcs' is the API's dimensionless unit. "1 pcs" says nothing, so drop it
   // entirely rather than printing a size that carries no information.
   if (symbol === 'pcs') {
-    const total = size * pieces;
+    const total = from * pieces;
     return total > 1 ? `${total} stk` : null;
   }
 
-  const n = Number.isInteger(size) ? size : String(size).replace('.', ',');
-  return pieces > 1 ? `${pieces} x ${n} ${symbol}` : `${n} ${symbol}`;
+  const num = v => Number.isInteger(v) ? String(v) : String(v).replace('.', ',');
+  // Show the real span rather than silently printing only the lower bound.
+  const size = to !== from ? `${num(from)}–${num(to)}` : num(from);
+  return pieces > 1 ? `${pieces} x ${size} ${symbol}` : `${size} ${symbol}`;
 }
 
 function buildProducts(offers) {
@@ -197,7 +218,7 @@ function buildProducts(offers) {
     // the group ("rik på omega-3" once turned tinned mackerel into medicine).
     const descriptions = items.map(i => i.description ?? '').filter(Boolean).join(' ');
     const prices = items.map(i => i.price).filter(p => p != null);
-    const units = items.map(i => i.unit_price).filter(Boolean);
+    const exactUnits = items.map(i => i.unit_price).filter(u => u?.exact);
     const chains = [...new Set(items.map(i => i.chain))];
 
     // A "brand" that just repeats the product name tells the reader nothing.
@@ -215,9 +236,10 @@ function buildProducts(offers) {
       min_price: prices.length ? Math.min(...prices) : null,
       max_price: prices.length ? Math.max(...prices) : null,
       // Only meaningful when every offer shares one SI unit, otherwise we would
-      // be comparing kr/kg against kr/l and calling it a saving.
-      best_unit: units.length && new Set(units.map(u => u.symbol)).size === 1
-        ? { value: Math.min(...units.map(u => u.value)), symbol: units[0].symbol }
+      // be comparing kr/kg against kr/l and calling it a saving. Inexact
+      // (ranged) unit prices are excluded so the headline figure is a fact.
+      best_unit: exactUnits.length && new Set(exactUnits.map(u => u.symbol)).size === 1
+        ? { value: Math.min(...exactUnits.map(u => u.value)), symbol: exactUnits[0].symbol }
         : null,
       offers: items
         .map(({ chain, ...rest }) => ({ chain, ...rest }))
@@ -301,6 +323,9 @@ async function main() {
   // into the database, not from the raw fetch. Reporting the pre-dedup count
   // would make the header disagree with the grid the reader is looking at.
   const kept = products.flatMap(p => p.offers);
+  // buildProducts skips offers whose heading normalises to nothing; counted
+  // here so they are reported rather than folded into the dedup figure.
+  const droppedNoHeading = rows.filter(r => !normName(r.heading)).length;
 
   // Per-chain totals were accumulated during the fetch, so restate them from
   // the deduplicated set for the same reason.
@@ -328,19 +353,23 @@ async function main() {
     valid_from: kept.map(r => r.valid_from).filter(Boolean).sort()[0] ?? null,
     valid_to: kept.map(r => r.valid_to).filter(Boolean).sort().at(-1) ?? null,
     stats: {
-      chains: chains.size,
+      // Chains whose catalogue carried no offers are not 'covered', so they
+      // are excluded here to match what the Butikk facet actually lists.
+      chains: [...chains.values()].filter(c => c.offer_count > 0).length,
       catalogues: catalogues.length,
       offers: kept.length,
       offers_fetched: rows.length,
-      // Same offer republished across a chain's regional catalogues.
-      duplicates_collapsed: rows.length - kept.length,
+      // Split so a dropped record never hides inside the dedup number.
+      dropped_no_heading: droppedNoHeading,
+      duplicates_collapsed: rows.length - droppedNoHeading - kept.length,
       offers_live: live.length,
       offers_expiring_7d: expiringSoon.length,
       products: products.length,
       multi_chain_products: products.filter(p => p.chain_count > 1).length,
       offers_with_price: kept.filter(r => r.price != null).length,
       offers_with_pre_price: kept.filter(r => r.pre_price != null).length,
-      offers_with_unit_price: kept.filter(r => r.unit_price).length,
+      offers_with_unit_price: kept.filter(r => r.unit_price?.exact).length,
+      offers_with_unit_price_range: kept.filter(r => r.unit_price && !r.unit_price.exact).length,
       uncategorised: products.filter(p => p.category === 'Annet').length,
       failed_catalogues: failed.length,
     },
