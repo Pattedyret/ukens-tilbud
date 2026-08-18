@@ -52,6 +52,26 @@ const countryOf = dealer => {
   return typeof c === 'object' ? c?.id : c;
 };
 
+// Everything below comes from a third-party API and ends up inside an HTML
+// attribute in the client, so it is validated here rather than trusted.
+
+/** Accept only a plain hex colour; anything else is dropped, not escaped. */
+function safeColor(value) {
+  const hex = String(value ?? '').replace(/^#/, '');
+  return /^[0-9a-f]{3,8}$/i.test(hex) ? `#${hex}` : null;
+}
+
+/** Accept only http(s) URLs — a javascript: href would run on click. */
+function safeUrl(value) {
+  if (!value) return null;
+  try {
+    const url = new URL(String(value));
+    return ['http:', 'https:'].includes(url.protocol) ? url.href : null;
+  } catch {
+    return null;
+  }
+}
+
 /** Lowercase, de-accent, strip punctuation — the key products are grouped on. */
 function normName(s) {
   return String(s ?? '').toLowerCase().normalize('NFD')
@@ -75,8 +95,8 @@ async function discoverCatalogues() {
           id: c.id,
           dealer_id: c.dealer?.id ?? null,
           dealer: c.dealer?.name ?? c.branding?.name ?? 'Ukjent',
-          color: c.branding?.color ?? c.dealer?.color ?? null,
-          logo: c.branding?.logo ?? c.dealer?.logo ?? null,
+          color: safeColor(c.branding?.color ?? c.dealer?.color),
+          logo: safeUrl(c.branding?.logo ?? c.dealer?.logo),
           run_from: c.run_from, run_till: c.run_till,
           page_count: c.page_count ?? null,
         });
@@ -237,7 +257,7 @@ async function main() {
     if (!chains.has(slug)) {
       chains.set(slug, {
         slug, name: cat.dealer, id: cat.dealer_id,
-        color: cat.color ? `#${String(cat.color).replace('#', '')}` : null,
+        color: cat.color,
         logo: cat.logo, sector: SECTORS[cat.dealer] ?? 'Annet',
         catalogues: 0, offer_count: 0,
       });
@@ -263,9 +283,9 @@ async function main() {
         size_text: sizeText(o.quantity),
         // Only the 300px crop is kept: the transform URL is signed, so a larger
         // width cannot be derived from it, and the UI never shows one.
-        image: o.images?.thumb ?? null,
+        image: safeUrl(o.images?.thumb),
         page: o.catalog_page ?? null,
-        catalogue_url: o.catalog_url ?? null,
+        catalogue_url: safeUrl(o.catalog_url),
         valid_from: o.run_from ?? cat.run_from,
         valid_to: o.run_till ?? cat.run_till,
       });
