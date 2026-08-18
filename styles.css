@@ -583,7 +583,25 @@ dialog::backdrop { background: rgba(20, 18, 14, .55); backdrop-filter: blur(3px)
 
 @media (max-width: 560px) {
   .wordmark .full { display: none; }
-  .topbar-inner { gap: 8px; padding: 8px 12px; }
+  .topbar-inner { gap: 8px; padding: 8px 12px; flex-wrap: wrap; }
+  /* Three buttons plus a field leave the input unusably narrow, so the search
+     drops to its own full-width row rather than shrinking to "Søk e…". */
+  .search { order: 10; flex-basis: 100%; }
   .shell { padding: 12px 12px 60px; }
   .strip { padding: 8px 12px 0; }
 }
+
+/* ---------- footer ---------- */
+
+.site-foot {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 28px 20px 40px;
+  border-top: 1px solid var(--line);
+  color: var(--faint);
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+
+.site-foot p { margin: 0; max-width: 68ch; }
+.site-foot a { color: var(--muted); }

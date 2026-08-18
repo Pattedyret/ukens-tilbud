@@ -277,8 +277,21 @@ async function main() {
   }
 
   const products = buildProducts(rows);
+  // Every statistic below is computed from the offers that actually survive
+  // into the database, not from the raw fetch. Reporting the pre-dedup count
+  // would make the header disagree with the grid the reader is looking at.
+  const kept = products.flatMap(p => p.offers);
+
+  // Per-chain totals were accumulated during the fetch, so restate them from
+  // the deduplicated set for the same reason.
+  for (const chain of chains.values()) chain.offer_count = 0;
+  for (const offer of kept) {
+    const chain = chains.get(offer.chain);
+    if (chain) chain.offer_count++;
+  }
+
   const now = new Date();
-  const live = rows.filter(r => r.valid_to && new Date(r.valid_to) >= now);
+  const live = kept.filter(r => r.valid_to && new Date(r.valid_to) >= now);
   const weekOut = new Date(now.getTime() + 7 * 86400000);
   const expiringSoon = live.filter(r => new Date(r.valid_to) <= weekOut);
 
@@ -292,19 +305,22 @@ async function main() {
     // The full span across every catalogue, which runs months wide because a
     // few chains publish long-running papers. It is NOT "this week" — the UI
     // reports live/expiring counts instead of presenting this as a week.
-    valid_from: rows.map(r => r.valid_from).filter(Boolean).sort()[0] ?? null,
-    valid_to: rows.map(r => r.valid_to).filter(Boolean).sort().at(-1) ?? null,
+    valid_from: kept.map(r => r.valid_from).filter(Boolean).sort()[0] ?? null,
+    valid_to: kept.map(r => r.valid_to).filter(Boolean).sort().at(-1) ?? null,
     stats: {
       chains: chains.size,
       catalogues: catalogues.length,
-      offers: rows.length,
+      offers: kept.length,
+      offers_fetched: rows.length,
+      // Same offer republished across a chain's regional catalogues.
+      duplicates_collapsed: rows.length - kept.length,
       offers_live: live.length,
       offers_expiring_7d: expiringSoon.length,
       products: products.length,
       multi_chain_products: products.filter(p => p.chain_count > 1).length,
-      offers_with_price: rows.filter(r => r.price != null).length,
-      offers_with_pre_price: rows.filter(r => r.pre_price != null).length,
-      offers_with_unit_price: rows.filter(r => r.unit_price).length,
+      offers_with_price: kept.filter(r => r.price != null).length,
+      offers_with_pre_price: kept.filter(r => r.pre_price != null).length,
+      offers_with_unit_price: kept.filter(r => r.unit_price).length,
       uncategorised: products.filter(p => p.category === 'Annet').length,
       failed_catalogues: failed.length,
     },

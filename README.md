@@ -40,8 +40,10 @@ Kiwi week-34 paper, same offers — but as structured records with real pricing:
   "run_from": "2026-08-16T22:00:00+0000", "run_till": "2026-09-06T21:59:59+0000" }
 ```
 
-Measured coverage: **7 838 offers, 100% with a price**, 39% with a
-pre-discount price, across 44 chains.
+Measured coverage on the first full run: **5 219 offers, 100% with a price**
+(43% also carrying a pre-discount price) across **48 chains** and 102
+catalogues — deduplicated down from 8 377 fetched, because chains republish the
+same offer in one catalogue per region.
 
 ## How it works
 
@@ -81,8 +83,12 @@ category it does not belong to.
 | `products[]` | grouped product: name, category, brand, chains, min/max price, `best_unit` |
 | `products[].offers[]` | per-chain offer: price, `pre_price`, `discount_pct`, `unit_price`, `size_text`, image, catalogue page, validity |
 
-`data/history/` keeps a slimmed snapshot per ISO week, so week-on-week price
-history accumulates from the first run onward.
+`data/offers.json` is **not** committed — it is a 4 MB build artifact rebuilt on
+every run and published straight to Pages. Run `node scrape.mjs` once after
+cloning to create it locally.
+
+`data/history/` keeps a slimmed snapshot per ISO week (~500 KB), and that *is*
+committed, so week-on-week price history accumulates from the first run onward.
 
 ## Automation
 
