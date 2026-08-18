@@ -2,15 +2,8 @@
  {
   "week": 34,
   "year": 2026,
-  "file": "history/2026-w34.json",
-  "offers": 1259,
-  "generated_at": "2026-08-17T13:41:31.628Z"
- },
- {
-  "week": 34,
-  "year": 2026,
   "file": "2026-w34.json",
-  "offers": 8378,
-  "generated_at": "2026-08-18T06:53:39.768Z"
+  "offers": 5219,
+  "generated_at": "2026-08-18T07:00:00.000Z"
  }
 ]

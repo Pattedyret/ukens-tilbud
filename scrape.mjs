@@ -369,8 +369,12 @@ async function main() {
   }));
   const idxPath = 'data/history/index.json';
   const idx = existsSync(idxPath) ? JSON.parse(await readFile(idxPath, 'utf8')) : [];
-  const merged = [...idx.filter(e => e.file !== file),
-    { week, year: now.getUTCFullYear(), file, offers: rows.length, generated_at: payload.generated_at }]
+  const year = now.getUTCFullYear();
+  // Key the replacement on week+year rather than on the filename: a rename of
+  // the file convention would otherwise leave a second, stale row for the same
+  // week that never gets superseded.
+  const merged = [...idx.filter(e => !(e.week === week && e.year === year)),
+    { week, year, file, offers: kept.length, generated_at: payload.generated_at }]
     .sort((a, b) => b.year - a.year || b.week - a.week);
   await writeFile(idxPath, JSON.stringify(merged, null, 1));
 
