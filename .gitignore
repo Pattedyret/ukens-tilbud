@@ -7,3 +7,6 @@ node_modules/
 # straight to Pages. Committing 4 MB twice a week would bloat the repo, while
 # the weekly snapshots under data/history/ keep the durable price record.
 data/offers.json
+
+# Playwright/browser artifacts from local verification
+app-*.png
