@@ -88,8 +88,14 @@ function visibleOffers(product) {
   return live.length ? live : product.offers;
 }
 
+// "3 for 2" has no discount_pct from the scraper (the API never discounts
+// `price` for it) — derive an equivalent percentage from the multibuy's
+// effective price so it sorts and filters alongside a normal markdown.
+const offerDiscountPct = o => o.discount_pct
+  ?? (o.multibuy ? Math.round((1 - o.multibuy.effective_price / o.multibuy.unit_price) * 100) : 0);
+
 const maxDiscount = p =>
-  Math.max(0, ...p.offers.map(o => o.discount_pct ?? 0));
+  Math.max(0, ...p.offers.map(offerDiscountPct));
 
 /* ---------------- filtering ---------------- */
 
@@ -181,6 +187,7 @@ function cardHTML(p) {
         </div>
         ${unit ? `<div class="card-unit num">${unitText(unit)}</div>`
                : best?.size_text ? `<div class="card-unit">${esc(best.size_text)}</div>` : ''}
+        ${best?.multibuy ? `<div class="card-multibuy">${best.multibuy.buy} for ${best.multibuy.pay} · ${kr(best.multibuy.effective_price)} kr/stk</div>` : ''}
         <div class="card-foot">
           ${chains.map(c => `<span class="store-tag"><i class="dot" style="background:${esc(chainColor(c) || 'var(--line-strong)')}"></i>${esc(chainName(c))}</span>`).join('')}
           ${extra > 0 ? `<span class="store-tag">+${extra}</span>` : ''}
@@ -354,6 +361,7 @@ function openDetail(id) {
           <div class="price num">${kr(o.price)}<span class="kr">kr</span></div>
           ${o.pre_price ? `<div class="price-was num">${kr(o.pre_price)}</div>` : ''}
           ${o.unit_price ? `<div class="card-unit num">${unitText(o.unit_price)}</div>` : ''}
+          ${o.multibuy ? `<div class="card-multibuy">${o.multibuy.buy} for ${o.multibuy.pay} · ${kr(o.multibuy.effective_price)} kr/stk</div>` : ''}
           <button class="add-btn" style="margin-top:5px" data-add-offer="${esc(o.id)}"
             data-in="${state.list.has(o.id) ? 1 : 0}">${state.list.has(o.id) ? '✓' : '+'}</button>
         </div>

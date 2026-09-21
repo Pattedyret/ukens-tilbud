@@ -163,6 +163,45 @@ function unitPrice(price, quantity) {
     : { value: low, max: high, symbol, exact: false };
 }
 
+/**
+ * Detects a "buy N pay for M" multi-buy condition ("3 FOR 2", "KJØP 3 BETAL
+ * FOR 2", "3=2") inside the offer's free-text description.
+ *
+ * Unlike a flat bundle price ("2 FOR 90,-"), which the API prices as a real
+ * N-pack — `pricing.price` is the bundle total and `quantity.pieces.from` is
+ * already 2 — a "3 for 2" condition has no structured field at all: the API
+ * leaves `pricing.price` as the single-unit sticker price and buries the
+ * condition in marketing copy. So there is nothing to recover once the API
+ * has already resolved a multi-item price (`piecesFrom > 1`); this only
+ * fires on the single-unit case, and `pay < buy` is what actually rejects a
+ * bundle price masquerading as a ratio (a real price is always numerically
+ * larger than the item count, e.g. "2 FOR 90" fails `90 < 2`).
+ */
+function parseMultibuy(description, piecesFrom) {
+  if (!description || (piecesFrom ?? 1) > 1) return null;
+  const text = String(description);
+  const valid = (buy, pay) =>
+    Number.isFinite(buy) && Number.isFinite(pay) &&
+    buy >= 2 && buy <= 10 && pay >= 1 && pay < buy;
+
+  const ratio = text.match(/\b(\d{1,2})\s*for\s*(\d{1,2})\b/i);
+  if (ratio && valid(Number(ratio[1]), Number(ratio[2]))) {
+    return { buy: Number(ratio[1]), pay: Number(ratio[2]) };
+  }
+
+  const eq = text.match(/\b(\d{1,2})\s*=\s*(\d{1,2})\b/);
+  if (eq && valid(Number(eq[1]), Number(eq[2]))) {
+    return { buy: Number(eq[1]), pay: Number(eq[2]) };
+  }
+
+  const kjop = text.match(/kjøp\s*(\d{1,2})[^\d]{0,15}betal[^\d]{0,10}(\d{1,2})/i);
+  if (kjop && valid(Number(kjop[1]), Number(kjop[2]))) {
+    return { buy: Number(kjop[1]), pay: Number(kjop[2]) };
+  }
+
+  return null;
+}
+
 /** "4 x 100 g" / "1,5 l" / "100–250 g" / "6 stk" — pack size for the card. */
 function sizeText(quantity) {
   const from = quantity?.size?.from;
@@ -241,6 +280,7 @@ function buildProducts(offers) {
       best_unit: exactUnits.length && new Set(exactUnits.map(u => u.symbol)).size === 1
         ? { value: Math.min(...exactUnits.map(u => u.value)), symbol: exactUnits[0].symbol }
         : null,
+      has_multibuy: items.some(i => i.multibuy != null),
       offers: items
         .map(({ chain, ...rest }) => ({ chain, ...rest }))
         .sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity)),
@@ -292,6 +332,13 @@ async function main() {
       seen.add(o.id);
       const price = o.pricing?.price ?? null;
       const pre = o.pricing?.pre_price ?? null;
+      const mb = parseMultibuy(o.description, o.quantity?.pieces?.from);
+      const multibuy = mb && price != null ? {
+        buy: mb.buy,
+        pay: mb.pay,
+        unit_price: price,
+        effective_price: Math.round(price * mb.pay / mb.buy * 100) / 100,
+      } : null;
       rows.push({
         id: o.id,
         chain: slug,
@@ -301,6 +348,9 @@ async function main() {
         pre_price: pre != null && price != null && pre > price ? pre : null,
         discount_pct: pre != null && price != null && pre > price
           ? Math.round((1 - price / pre) * 100) : null,
+        // "3 for 2" etc: the API never discounts `price` for this, so it is
+        // carried separately rather than silently rewriting the sticker price.
+        multibuy,
         unit_price: unitPrice(price, o.quantity),
         size_text: sizeText(o.quantity),
         // Only the 300px crop is kept: the transform URL is signed, so a larger
@@ -368,6 +418,7 @@ async function main() {
       multi_chain_products: products.filter(p => p.chain_count > 1).length,
       offers_with_price: kept.filter(r => r.price != null).length,
       offers_with_pre_price: kept.filter(r => r.pre_price != null).length,
+      offers_with_multibuy: kept.filter(r => r.multibuy != null).length,
       offers_with_unit_price: kept.filter(r => r.unit_price?.exact).length,
       offers_with_unit_price_range: kept.filter(r => r.unit_price && !r.unit_price.exact).length,
       uncategorised: products.filter(p => p.category === 'Annet').length,
@@ -411,7 +462,7 @@ async function main() {
   console.log(`\n${'='.repeat(64)}`);
   console.log(`chains ${s.chains} | catalogues ${s.catalogues} | offers ${s.offers} (${s.offers_live} live)`);
   console.log(`products ${s.products} | in 2+ chains ${s.multi_chain_products}`);
-  console.log(`prices ${s.offers_with_price}/${s.offers} | before-price ${s.offers_with_pre_price} | kr/kg ${s.offers_with_unit_price}`);
+  console.log(`prices ${s.offers_with_price}/${s.offers} | before-price ${s.offers_with_pre_price} | multibuy ${s.offers_with_multibuy} | kr/kg ${s.offers_with_unit_price}`);
   console.log(`uncategorised products ${s.uncategorised} (${(100 * s.uncategorised / s.products).toFixed(1)}%)`);
   if (failed.length) console.log(`FAILED catalogues: ${failed.length}`);
   console.log(`wrote data/offers.json`);
