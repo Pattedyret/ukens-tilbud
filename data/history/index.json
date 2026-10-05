@@ -1,5 +1,12 @@
 [
  {
+  "week": 41,
+  "year": 2026,
+  "file": "2026-w41.json",
+  "offers": 4162,
+  "generated_at": "2026-10-05T11:59:23.946Z"
+ },
+ {
   "week": 40,
   "year": 2026,
   "file": "2026-w40.json",
