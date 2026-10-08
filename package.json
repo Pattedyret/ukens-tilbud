@@ -6,7 +6,14 @@
   "description": "Alle ukens tilbud fra norske butikkjeder, gruppert per produkt",
   "scripts": {
     "scrape": "node scrape.mjs",
-    "serve": "python3 -m http.server 8000"
+    "serve": "python3 -m http.server 8000",
+    "test": "node --test",
+    "test:e2e": "node --test test/e2e/*.e2e.mjs"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
 }

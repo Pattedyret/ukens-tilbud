@@ -58,6 +58,23 @@ jobs:
             }
           "
 
+      - name: Log store coverage
+        # Store API failures are non-fatal, but the artifact must always exist.
+        run: |
+          node -e "
+            const fs = require('node:fs');
+            if (!fs.existsSync('./data/stores.json')) {
+              console.error('Missing data/stores.json'); process.exit(1);
+            }
+            try {
+              const d = JSON.parse(fs.readFileSync('./data/stores.json', 'utf8'));
+              console.log(JSON.stringify({ complete: d.complete, stores: d.stores.length,
+                stores_without_catalogues: d.stores.filter(s => !s.catalogues.length).length,
+                stores_failed: d.failed.length }));
+              if (!d.complete) console.warn('Store coverage is partial', d.failed);
+            } catch (err) { console.warn('Unable to log store stats:', err.message); }
+          "
+
       - name: Commit weekly snapshot
         # Only the small per-week snapshots are committed. data/offers.json is a
         # 4 MB build artifact that goes straight to Pages; committing it twice a

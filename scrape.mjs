@@ -12,7 +12,10 @@
 
 import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { categorize, extractBrand, SECTORS } from './lib/categorize.mjs';
+import * as cat from './lib/categorize.mjs';
+import { parseDeal, comparablePrice } from './lib/deals.mjs';
+import { buildStoreIndex } from './lib/stores.mjs';
+const { extractBrand, SECTORS } = cat;
 
 const API = 'https://squid-api.tjek.com/v2';
 const API_KEY = process.env.TJEK_API_KEY || 'QPq_vh';
@@ -30,6 +33,7 @@ const CITIES = [
 const RADIUS = 80000;
 const DELAY_MS = Number(process.env.SCRAPE_DELAY_MS ?? 120);
 
+let apiCalls = 0;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function api(path, params = {}, tries = 4) {
@@ -37,7 +41,8 @@ async function api(path, params = {}, tries = 4) {
   const url = `${API}/${path}?${qs}`;
   for (let i = 1; i <= tries; i++) {
     try {
-      const res = await fetch(url, { headers: { 'User-Agent': UA } });
+      apiCalls++;
+      const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return await res.json();
     } catch (err) {
@@ -94,6 +99,7 @@ async function discoverCatalogues() {
         catalogues.set(c.id, {
           id: c.id,
           dealer_id: c.dealer?.id ?? null,
+          all_stores: c.all_stores,
           dealer: c.dealer?.name ?? c.branding?.name ?? 'Ukjent',
           color: safeColor(c.branding?.color ?? c.dealer?.color),
           logo: safeUrl(c.branding?.logo ?? c.dealer?.logo),
@@ -163,45 +169,6 @@ function unitPrice(price, quantity) {
     : { value: low, max: high, symbol, exact: false };
 }
 
-/**
- * Detects a "buy N pay for M" multi-buy condition ("3 FOR 2", "KJØP 3 BETAL
- * FOR 2", "3=2") inside the offer's free-text description.
- *
- * Unlike a flat bundle price ("2 FOR 90,-"), which the API prices as a real
- * N-pack — `pricing.price` is the bundle total and `quantity.pieces.from` is
- * already 2 — a "3 for 2" condition has no structured field at all: the API
- * leaves `pricing.price` as the single-unit sticker price and buries the
- * condition in marketing copy. So there is nothing to recover once the API
- * has already resolved a multi-item price (`piecesFrom > 1`); this only
- * fires on the single-unit case, and `pay < buy` is what actually rejects a
- * bundle price masquerading as a ratio (a real price is always numerically
- * larger than the item count, e.g. "2 FOR 90" fails `90 < 2`).
- */
-function parseMultibuy(description, piecesFrom) {
-  if (!description || (piecesFrom ?? 1) > 1) return null;
-  const text = String(description);
-  const valid = (buy, pay) =>
-    Number.isFinite(buy) && Number.isFinite(pay) &&
-    buy >= 2 && buy <= 10 && pay >= 1 && pay < buy;
-
-  const ratio = text.match(/\b(\d{1,2})\s*for\s*(\d{1,2})\b/i);
-  if (ratio && valid(Number(ratio[1]), Number(ratio[2]))) {
-    return { buy: Number(ratio[1]), pay: Number(ratio[2]) };
-  }
-
-  const eq = text.match(/\b(\d{1,2})\s*=\s*(\d{1,2})\b/);
-  if (eq && valid(Number(eq[1]), Number(eq[2]))) {
-    return { buy: Number(eq[1]), pay: Number(eq[2]) };
-  }
-
-  const kjop = text.match(/kjøp\s*(\d{1,2})[^\d]{0,15}betal[^\d]{0,10}(\d{1,2})/i);
-  if (kjop && valid(Number(kjop[1]), Number(kjop[2]))) {
-    return { buy: Number(kjop[1]), pay: Number(kjop[2]) };
-  }
-
-  return null;
-}
-
 /** "4 x 100 g" / "1,5 l" / "100–250 g" / "6 stk" — pack size for the card. */
 function sizeText(quantity) {
   const from = quantity?.size?.from;
@@ -223,7 +190,7 @@ function sizeText(quantity) {
   return pieces > 1 ? `${pieces} x ${size} ${symbol}` : `${size} ${symbol}`;
 }
 
-function buildProducts(offers) {
+function buildProducts(offers, chainSectorsBySlug) {
   const groups = new Map();
   for (const o of offers) {
     const key = normName(o.heading);
@@ -239,10 +206,12 @@ function buildProducts(offers) {
     // the same pack is one fact, not three.
     const byIdentity = new Map();
     for (const item of allItems) {
-      const identity = `${item.chain}|${item.price}|${item.size_text ?? ''}`;
+      const identity = JSON.stringify([item.chain, item.price, item.size_text, item.bundle, item.multibuy]);
       const kept = byIdentity.get(identity);
       // Prefer the copy that carries an image so the card is never blank.
-      if (!kept || (!kept.image && item.image)) byIdentity.set(identity, item);
+      const preferred = !kept || (!kept.image && item.image) ? item : kept;
+      preferred.catalogues = [...new Set([...(kept?.catalogues ?? []), ...item.catalogues])].sort();
+      byIdentity.set(identity, preferred);
     }
     const items = [...byIdentity.values()];
     // Display the most frequent spelling; fall back to the alphabetically first
@@ -255,8 +224,9 @@ function buildProducts(offers) {
     // Classify on the name first and treat descriptions only as a fallback:
     // pooling every variant's marketing copy lets one incidental phrase hijack
     // the group ("rik på omega-3" once turned tinned mackerel into medicine).
-    const descriptions = items.map(i => i.description ?? '').filter(Boolean).join(' ');
-    const prices = items.map(i => i.price).filter(p => p != null);
+    const descriptions = items.map(i => i.description ?? '').filter(Boolean);
+    // Per-item, so a "2 for 50" bundle ranks as 25 rather than 50.
+    const prices = items.map(comparablePrice).filter(p => p != null);
     const exactUnits = items.map(i => i.unit_price).filter(u => u?.exact);
     const chains = [...new Set(items.map(i => i.chain))];
 
@@ -264,10 +234,14 @@ function buildProducts(offers) {
     const brandRaw = extractBrand(name) ?? extractBrand(items[0]?.description ?? '') ?? null;
     const brand = brandRaw && normName(brandRaw) !== normName(name) ? brandRaw : null;
 
+    const classification = cat.classifyProduct
+      ? cat.classifyProduct({ name, descriptions, chainSectors: chains.map(c => chainSectorsBySlug.get(c)) })
+      : { category: cat.categorize(name, descriptions.join(' ')), department: null };
+
     products.push({
       id: key.replace(/ /g, '-').slice(0, 64),
       name,
-      category: categorize(name, descriptions),
+      ...classification,
       brand,
       chain_count: chains.length,
       chains,
@@ -283,7 +257,7 @@ function buildProducts(offers) {
       has_multibuy: items.some(i => i.multibuy != null),
       offers: items
         .map(({ chain, ...rest }) => ({ chain, ...rest }))
-        .sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity)),
+        .sort((a, b) => (comparablePrice(a) ?? Infinity) - (comparablePrice(b) ?? Infinity)),
     });
   }
 
@@ -292,7 +266,42 @@ function buildProducts(offers) {
   return products;
 }
 
+async function fetchStores(catalogues, chains) {
+  const chainSlugByDealer = new Map([...chains.values()].map(c => [c.id, c.slug]));
+  const dealerStores = new Map(), catalogueStores = new Map(), failed = [];
+  const fetchPages = async (path, params) => {
+    const stores = [];
+    for (let offset = 0; ; offset += 100) {
+      const batch = await api(path, { ...params, limit: 100, offset });
+      if (!Array.isArray(batch) || batch.some(s => !s?.id)) throw new Error('Invalid store response');
+      stores.push(...batch);
+      if (batch.length < 100) return stores;
+      await sleep(DELAY_MS);
+    }
+  };
+  const load = async (path, params, target, id) => {
+    try { target.set(id, await fetchPages(path, params)); }
+    catch (err) {
+      console.warn(`  ! stores ${path} (${id}): ${err.message}`);
+      failed.push({ endpoint: path, id, error: err.message });
+    }
+    await sleep(DELAY_MS);
+  };
+  for (const dealer of chainSlugByDealer.keys()) {
+    if (!dealer) { failed.push({ endpoint: 'stores', id: null, error: 'Missing dealer id' }); continue; }
+    await load('stores', { dealer_ids: dealer }, dealerStores, dealer);
+  }
+  const relevant = catalogues.filter(c => chainSlugByDealer.has(c.dealer_id));
+  for (const catalogue of relevant) {
+    if (catalogue.all_stores === true) continue;
+    await load(`catalogs/${encodeURIComponent(catalogue.id)}/stores`, {}, catalogueStores, catalogue.id);
+  }
+  return { generated_at: new Date().toISOString(), complete: failed.length === 0, failed,
+    stores: buildStoreIndex({ catalogues: relevant, dealerStores, catalogueStores, chainSlugByDealer }) };
+}
+
 async function main() {
+  const started = Date.now();
   console.log('Discovering Norwegian catalogues…');
   const catalogues = await discoverCatalogues();
   console.log(`\n${catalogues.length} catalogues across ` +
@@ -301,7 +310,7 @@ async function main() {
   console.log('Fetching offers…');
   const chains = new Map();
   const rows = [];
-  const seen = new Set();
+  const seen = new Map();
   const failed = [];
 
   for (const [i, cat] of catalogues.entries()) {
@@ -328,17 +337,15 @@ async function main() {
     chain.catalogues++;
 
     for (const o of offers) {
-      if (seen.has(o.id)) continue;       // same catalogue reachable from many cities
-      seen.add(o.id);
+      if (seen.has(o.id)) {
+        const existing = seen.get(o.id);
+        if (!existing.catalogues.includes(cat.id)) existing.catalogues.push(cat.id);
+        if (!existing.image && o.images?.thumb) existing.image = safeUrl(o.images.thumb);
+        continue;
+      }
       const price = o.pricing?.price ?? null;
       const pre = o.pricing?.pre_price ?? null;
-      const mb = parseMultibuy(o.description, o.quantity?.pieces?.from);
-      const multibuy = mb && price != null ? {
-        buy: mb.buy,
-        pay: mb.pay,
-        unit_price: price,
-        effective_price: Math.round(price * mb.pay / mb.buy * 100) / 100,
-      } : null;
+      const { bundle, multibuy } = parseDeal({ heading: o.heading, description: o.description, price, piecesFrom: o.quantity?.pieces?.from });
       rows.push({
         id: o.id,
         chain: slug,
@@ -351,6 +358,8 @@ async function main() {
         // "3 for 2" etc: the API never discounts `price` for this, so it is
         // carried separately rather than silently rewriting the sticker price.
         multibuy,
+        bundle,
+        catalogues: [cat.id],
         unit_price: unitPrice(price, o.quantity),
         size_text: sizeText(o.quantity),
         // Only the 300px crop is kept: the transform URL is signed, so a larger
@@ -361,6 +370,7 @@ async function main() {
         valid_from: o.run_from ?? cat.run_from,
         valid_to: o.run_till ?? cat.run_till,
       });
+      seen.set(o.id, rows.at(-1));
       chain.offer_count++;
     }
 
@@ -368,7 +378,7 @@ async function main() {
     await sleep(DELAY_MS);
   }
 
-  const products = buildProducts(rows);
+  const products = buildProducts(rows, new Map([...chains.values()].map(c => [c.slug, c.sector])));
   // Every statistic below is computed from the offers that actually survive
   // into the database, not from the raw fetch. Reporting the pre-dedup count
   // would make the header disagree with the grid the reader is looking at.
@@ -385,6 +395,9 @@ async function main() {
     if (chain) chain.offer_count++;
   }
 
+  console.log('Fetching stores…');
+  const storePayload = await fetchStores(catalogues, chains);
+
   const now = new Date();
   const live = kept.filter(r => r.valid_to && new Date(r.valid_to) >= now);
   const weekOut = new Date(now.getTime() + 7 * 86400000);
@@ -392,6 +405,9 @@ async function main() {
 
   const catCount = new Map();
   for (const p of products) catCount.set(p.category, (catCount.get(p.category) ?? 0) + 1);
+
+  const departmentCount = new Map();
+  for (const p of products) departmentCount.set(p.department, (departmentCount.get(p.department) ?? 0) + 1);
 
   const payload = {
     generated_at: now.toISOString(),
@@ -418,6 +434,12 @@ async function main() {
       multi_chain_products: products.filter(p => p.chain_count > 1).length,
       offers_with_price: kept.filter(r => r.price != null).length,
       offers_with_pre_price: kept.filter(r => r.pre_price != null).length,
+      offers_with_bundle: kept.filter(r => r.bundle != null).length,
+      stores: storePayload.stores.length,
+      stores_without_catalogues: storePayload.stores.filter(s => !s.catalogues.length).length,
+      stores_failed: storePayload.failed.length,
+      api_calls: apiCalls,
+      duration_ms: Date.now() - started,
       offers_with_multibuy: kept.filter(r => r.multibuy != null).length,
       offers_with_unit_price: kept.filter(r => r.unit_price?.exact).length,
       offers_with_unit_price_range: kept.filter(r => r.unit_price && !r.unit_price.exact).length,
@@ -425,8 +447,9 @@ async function main() {
       failed_catalogues: failed.length,
     },
     failed_catalogues: failed,
+    departments: [...departmentCount.entries()].map(([name, products]) => ({ name, products })),
     categories: [...catCount.entries()]
-      .map(([name, count]) => ({ name, count }))
+      .map(([name, count]) => ({ name, count, department: cat.departmentOf?.(name) ?? null }))
       .sort((a, b) => b.count - a.count),
     chains: [...chains.values()].sort((a, b) =>
       b.offer_count - a.offer_count || a.name.localeCompare(b.name, 'nb')),
@@ -435,6 +458,7 @@ async function main() {
 
   await mkdir('data', { recursive: true });
   await writeFile('data/offers.json', JSON.stringify(payload));
+  await writeFile('data/stores.json', JSON.stringify(storePayload));
 
   // Weekly archive so week-on-week price history accumulates.
   const week = isoWeek(now);
@@ -463,6 +487,8 @@ async function main() {
   console.log(`chains ${s.chains} | catalogues ${s.catalogues} | offers ${s.offers} (${s.offers_live} live)`);
   console.log(`products ${s.products} | in 2+ chains ${s.multi_chain_products}`);
   console.log(`prices ${s.offers_with_price}/${s.offers} | before-price ${s.offers_with_pre_price} | multibuy ${s.offers_with_multibuy} | kr/kg ${s.offers_with_unit_price}`);
+  console.log(`bundles ${s.offers_with_bundle} | stores ${s.stores} | without catalogues ${s.stores_without_catalogues} | store failures ${s.stores_failed}`);
+  console.log(`API calls ${s.api_calls} | duration ${(s.duration_ms / 1000).toFixed(1)}s`);
   console.log(`uncategorised products ${s.uncategorised} (${(100 * s.uncategorised / s.products).toFixed(1)}%)`);
   if (failed.length) console.log(`FAILED catalogues: ${failed.length}`);
   console.log(`wrote data/offers.json`);

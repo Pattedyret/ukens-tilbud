@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-10-08",
+  "complete": true,
+  "failed": [],
+  "stores": [
+    {
+      "id": "kiwi-oslo",
+      "chain": "kiwi",
+      "name": "KIWI Grünerløkka",
+      "street": "Storgata 1",
+      "zip": "0184",
+      "city": "Oslo",
+      "lat": 59.9139,
+      "lng": 10.7522,
+      "catalogues": [
+        "kiwi-oslo"
+      ]
+    },
+    {
+      "id": "obs-oslo",
+      "chain": "obs",
+      "name": "Obs Alnabru",
+      "street": "Alnabruveien 1",
+      "zip": "0668",
+      "city": "Oslo",
+      "lat": 59.926,
+      "lng": 10.846,
+      "catalogues": [
+        "obs-oslo"
+      ]
+    },
+    {
+      "id": "kiwi-bergen",
+      "chain": "kiwi",
+      "name": "KIWI Bergen sentrum",
+      "street": "Strandgaten 1",
+      "zip": "5003",
+      "city": "Bergen",
+      "lat": 60.3913,
+      "lng": 5.3221,
+      "catalogues": [
+        "kiwi-bergen"
+      ]
+    },
+    {
+      "id": "obs-bergen",
+      "chain": "obs",
+      "name": "Obs Bergen",
+      "street": "Åsane 1",
+      "zip": "5116",
+      "city": "Bergen",
+      "lat": 60.46,
+      "lng": 5.33,
+      "catalogues": [
+        "obs-bergen"
+      ]
+    },
+    {
+      "id": "empty",
+      "chain": "kiwi",
+      "name": "KIWI uten katalog",
+      "street": "Testveien 1",
+      "zip": "0190",
+      "city": "Oslo",
+      "lat": 59.92,
+      "lng": 10.76,
+      "catalogues": []
+    },
+    {
+      "id": "kiwi-majorstuen",
+      "chain": "kiwi",
+      "name": "KIWI Majorstuen",
+      "street": "Kirkeveien 1",
+      "zip": "0368",
+      "city": "Oslo",
+      "lat": 59.93,
+      "lng": 10.715,
+      "catalogues": [
+        "kiwi-oslo"
+      ]
+    }
+  ]
+}

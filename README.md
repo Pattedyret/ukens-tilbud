@@ -64,31 +64,47 @@ against a 400 g jar on sticker price alone is meaningless; this is the honest
 comparison. A product only gets an aggregate unit price when all its offers
 share one SI unit, so kr/kg is never silently compared against kr/l.
 
-**Categories are rule-based.** `lib/categorize.mjs` holds an ordered list of
-`[category, regex]`; first match wins, so narrow rules (baby food, pet food) sit
-above broad ones (dairy, meat). Norwegian forms closed compounds, so most stems
-are matched as infixes — `lampe` has to match `VEGGLAMPE`, and `\blampe\b`
-does not. Anything unmatched stays in `Annet` rather than being forced into a
-category it does not belong to.
+**Kategorier og avdelinger.** `lib/categorize.mjs` klassifiserer produkter ut fra
+navn, beskrivelse og kjedenes sektorer. Avdelingen utledes fra produktkategorien,
+slik at butikkens bransje alene ikke gjør en ovn til en dagligvare.
+
+**Deals.** `lib/deals.mjs` leser både overskrift og beskrivelse. «3 for 100»
+blir en `bundle` når totalprisen stemmer med API-prisen (±0,50 kr), mens «3 for 2»
+blir `multibuy` med stykkpris og effektiv pris. Et tilbud har aldri begge deler.
+Et antall i pakningsdata alene betyr ikke at varen har en pakkedeal.
+
+**Butikker og regionale kataloger.** Scraperen henter kjedenes butikker og
+butikklisten for hver regional katalog. Et dedupet tilbud beholder unionen av
+katalog-id-ene fra alle kopier. Butikkfilteret kan dermed sammenligne tilbudets
+kataloger med dem som gjelder den konkrete butikken. Butikker uten katalogdata
+beholdes med en tom liste. Feil i butikk-API-et registreres uten å stoppe tilbudsbyggingen.
 
 ## Data
 
-`data/offers.json` is the whole database, rebuilt on each run:
+`data/offers.json` bygges på nytt ved hver kjøring:
 
-| Field | Meaning |
+| Felt | Innhold |
 |---|---|
-| `stats` | counts, price coverage, uncategorised share, failed catalogues |
-| `chains[]` | slug, display name, brand colour, sector, offer count |
-| `categories[]` | category name + product count |
-| `products[]` | grouped product: name, category, brand, chains, min/max price, `best_unit` |
-| `products[].offers[]` | per-chain offer: price, `pre_price`, `discount_pct`, `unit_price`, `size_text`, image, catalogue page, validity |
+| `stats` | Tilbud, prisdekning, `offers_with_bundle`, `offers_with_multibuy`, `stores`, `stores_without_catalogues`, `stores_failed`, `api_calls`, `duration_ms` |
+| `chains[]` | Slug, navn, farge, sektor og tilbudsantall |
+| `categories[]` | `name`, `count`, `department` |
+| `departments[]` | `name`, `products` (antall produkter) |
+| `products[]` | Navn, kategori, `department`, merke, kjeder, min/maks-pris og `best_unit` |
+| `products[].offers[]` | Pris, førpris, rabatt, enhetspris, størrelse, bilde, gyldighet og `catalogues` (alle relevante katalog-id-er) |
+| `products[].offers[].bundle` | `{count,total,each}` for en uttrykkelig pakkedeal, ellers `null` |
+| `products[].offers[].multibuy` | `{buy,pay,unit_price,effective_price}` for «ta N, betal M», ellers `null` |
 
-`data/offers.json` is **not** committed — it is a 4 MB build artifact rebuilt on
-every run and published straight to Pages. Run `node scrape.mjs` once after
-cloning to create it locally.
+`data/stores.json` inneholder `{generated_at, complete, failed, stores}`.
+Hver butikk har `{id, chain, name, street, zip, city, lat, lng, catalogues}`.
+`chain` er samme slug som i tilbudsdataene. `catalogues` kombinerer landsdekkende
+kataloger for kjeden og regionale kataloger som uttrykkelig lister butikken.
+Ukjente koordinater er `null`. `complete:false` og `failed[]` viser hvilke
+butikkforespørsler som feilet; en tom katalogliste betyr manglende tilbudsdata.
 
-`data/history/` keeps a slimmed snapshot per ISO week (~500 KB), and that *is*
-committed, so week-on-week price history accumulates from the first run onward.
+Begge JSON-filene er byggartefakter som ignoreres av git og publiseres til Pages.
+Kjør `node scrape.mjs` for å bygge dem lokalt. Scraperen skriver også en slank
+ukesnapshot i `data/history/`, som committes for varig prishistorikk.
+Kjør `npm test` for tester av parsing, butikkmapping og scraperens feiltilstander.
 
 ## Automation
 

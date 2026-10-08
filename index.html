@@ -30,7 +30,9 @@
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 6h18M6 12h12M10 18h4"/></svg>
     </button>
 
-    <button class="icon-btn" id="open-list">
+    <button class="icon-btn" id="open-stores" aria-label="Butikker nær meg">📍 <span>Butikker nær meg</span></button>
+
+    <button class="icon-btn" id="open-list" aria-label="Åpne handleliste">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
       <span class="full">Handleliste</span>
       <span class="count" id="list-count">0</span>
@@ -62,6 +64,7 @@
       </select>
     </div>
 
+    <p id="store-notice" class="store-notice" role="status" hidden></p>
     <div class="grid" id="grid"></div>
     <div class="sentinel" id="sentinel"></div>
     <div class="loading" id="loading">Laster tilbud…</div>
@@ -77,7 +80,7 @@
   </p>
 </footer>
 
-<dialog id="detail">
+<dialog id="detail" aria-labelledby="d-name">
   <div class="dlg-head">
     <div>
       <h2 id="d-name"></h2>
@@ -88,15 +91,42 @@
   <div class="dlg-body" id="d-body"></div>
 </dialog>
 
-<dialog id="listdlg">
+<dialog id="listdlg" aria-labelledby="l-name">
   <div class="dlg-head">
     <div>
-      <h2>Handleliste</h2>
+      <h2 id="l-name">Handleliste</h2>
       <div class="sub" id="l-sub"></div>
     </div>
     <button class="dlg-close" data-close aria-label="Lukk">✕</button>
   </div>
+  <form id="custom-form" class="list-input">
+    <input id="custom-item" placeholder="Legg til vare …" aria-label="Legg til vare" autocomplete="off" maxlength="200">
+    <button type="submit" class="icon-btn" aria-label="Legg til egen vare">Legg til</button>
+  </form>
   <div class="dlg-body" id="l-body"></div>
+  <div class="list-actions">
+    <button class="icon-btn" id="copy-list">Kopier som tekst</button>
+    <button class="icon-btn" id="clear-checked">Fjern avkryssede</button>
+    <button class="icon-btn" id="clear-list">Tøm liste</button>
+  </div>
+</dialog>
+
+<dialog id="storedlg" aria-labelledby="s-name">
+  <div class="dlg-head">
+    <div><h2 id="s-name">Butikker nær meg</h2><div class="sub">Velg butikkene du vil se tilbud fra.</div></div>
+    <button class="dlg-close" data-close aria-label="Lukk">✕</button>
+  </div>
+  <div class="store-tools">
+    <input id="store-search" type="search" placeholder="Søk etter sted, postnummer eller butikk …" aria-label="Søk etter butikk" autocomplete="off">
+    <button class="icon-btn" id="use-position">Bruk min posisjon</button>
+    <p id="position-status" role="status"></p>
+    <p id="stores-status" role="status"></p>
+    <p id="map-status" role="status"></p>
+  </div>
+  <div class="stores-layout">
+    <div id="store-map" aria-label="Kart over butikker. Du kan også velge butikker i listen." role="region"></div>
+    <div id="store-results" class="store-results" aria-label="Butikker"></div>
+  </div>
 </dialog>
 
 <script src="app.js" type="module"></script>

@@ -1,0 +1,6834 @@
+[
+  {
+    "name": "H&S SHAMPOO",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Synnøve original gulost",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer",
+    "before_category": "Ost"
+  },
+  {
+    "name": "SJOKO POPP",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "REMA 1000, 90 g, 221,11 pr. kg",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Lano håndsåpe 5 l",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Makeup Jelly Job",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Wasa knekkebrød",
+    "chains": [
+      "nærbutikken",
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "RYVITA KNEKKEBRØD MED SESAM",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "250 g. Pr pk Pr kg 80,00 Førpris 37,80",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "SKUMPINNER MAIS & HIRSE",
+    "chains": [
+      "bunnpris"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "40 g Fra 6 mnd. 725/KG",
+    "sample_group": "grocery",
+    "expected_category": "Barn & baby",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "PEPPER SORT MALT",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Saus & krydder"
+  },
+  {
+    "name": "TWININGS TE",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kaffe & te",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kaffe & te"
+  },
+  {
+    "name": "Barebells Banana Dream/Caramel Choco",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "SØRLANDSCHIPS VERDENS TYNNESTE",
+    "chains": [
+      "obs",
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "ODELIA RAPSOLJE",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Saus & krydder"
+  },
+  {
+    "name": "FERSKEN OG MANGO TØRKET",
+    "chains": [
+      "bunnpris"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "200 g Sunshine Delights pr. pk 195/KG",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "COOP LAMMEKOTELETTER",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "0,8 kg. Pr kg SESONGPRIS",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Vanilje Cappuccino",
+    "chains": [
+      "afood-market"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kaffe & te",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "BLIW HÅNDSÅPE MARKJORDBÆR REFILL",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Dusjsåpe",
+    "chains": [
+      "europris",
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Lavpris & variert",
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Revive Eye Serum",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Coop crispy hot wings",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Bakepapir 30 -pk 42x38 cm",
+    "chains": [
+      "jula"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "1061972",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "Korres Yoghurt Kids Spray 150ml",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Kefir/sjokolademelk",
+    "chains": [
+      "meny",
+      "jacobs"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Meieri & egg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg"
+  },
+  {
+    "name": "NUDLER POSE",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "SERRANOSKINKE SKIVET",
+    "chains": [
+      "bunnpris"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "80 g 9 mnd Noel pr. pk 675/KG",
+    "sample_group": "grocery",
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "PAI",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "San Pellegrino",
+    "chains": [
+      "spar",
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "FINISH MASKINOPPVASK",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "RHUBARB & ELDERFLOWER TE",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Vitalkost, 16 stk, 1,87 pr. stk",
+    "sample_group": "grocery",
+    "expected_category": "Kaffe & te",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kaffe & te"
+  },
+  {
+    "name": "MANGO & APPELSIN SMOOTHIE 10PK",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "REMA 1000, 10 pk, 60,56 pr. l",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "BRINGEBÆR",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "Hysekaker",
+    "chains": [
+      "cc-mat"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "Nystekt Hannas grove kneipp",
+    "chains": [
+      "meny",
+      "jacobs"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "PartyFun Light Rødt blinkende diskolys",
+    "chains": [
+      "kids-outlet"
+    ],
+    "chainSectors": [
+      "Leker & barn"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Belysning",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Syltetøy 80 %",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Pålegg"
+  },
+  {
+    "name": "LAMBI TOALETTPAPIR 24 PK",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "Fried Bread Sticks 900 g",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Comfort flytende tøymykner",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "Fruktpastiller 120 g",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Nourishing Cleansing Gel",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "OPPVASKMIDDEL",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "Maiskorn",
+    "chains": [
+      "rema-1000",
+      "cc-mat",
+      "kiwi",
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer",
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "340 g, First Price, pr. kg 34,74 62,50/kg 3 x 160 g Green Giant. Førpris 38,90 Gjelder t.o.m. 17.10.2026",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Bondi Sands Everyday Gradual Tanning Milk",
+    "chains": [
+      "apotek-1"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Kokt skinke/røkt svinefilet",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "Ajax 1 l",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Original/Lemon Førpris 29,90 Gjelder t.o.m. 17.10.2026",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "Mais 2,95 kg",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "FJORDLAND SWEET CHILI",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "Kikerter 12 x 400 g",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Tørrvarer & baking"
+  },
+  {
+    "name": "CRISPISALAT",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "150 g. Pr kg 200,00",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "Alt fra Smilelab",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøkken & servering",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "NAAN BREAD",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "Philadelphia",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer",
+    "before_category": "Ost"
+  },
+  {
+    "name": "HVITOST",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer",
+    "before_category": "Ost"
+  },
+  {
+    "name": "BIXIT SJOKOLADE",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "KIMS POTETCHIPS",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "FAXE KONDI 6 PK",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "FINDUS PERFEKT TIL FISK",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frysevarer",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frysevarer"
+  },
+  {
+    "name": "Evergood 500 g",
+    "chains": [
+      "joker"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kaffe & te",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kaffe & te"
+  },
+  {
+    "name": "Krone-is",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Is & dessert",
+    "expected_department": "Dagligvarer",
+    "before_category": "Is & dessert"
+  },
+  {
+    "name": "Lano Dusjsåpe refill 750 ml",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "66,67/l Førpris 69,90 Gjelder t.o.m. 17.10.2026",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "TOALETTRENS",
+    "chains": [
+      "jem-fix"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Annet",
+    "expected_without_sector_guard": {
+      "category": "Husholdning",
+      "department": "Dagligvarer"
+    },
+    "contract_revision": 2
+  },
+  {
+    "name": "Medisterfarse 4 kg’s form",
+    "chains": [
+      "cc-mat"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøkken & servering"
+  },
+  {
+    "name": "DOKALK \"RETT I DASS\"",
+    "chains": [
+      "jem-fix"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Annet",
+    "expected_without_sector_guard": {
+      "category": "Husholdning",
+      "department": "Dagligvarer"
+    },
+    "contract_revision": 2
+  },
+  {
+    "name": "Hennig Olsen iskrem",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Is & dessert",
+    "expected_department": "Dagligvarer",
+    "before_category": "Is & dessert"
+  },
+  {
+    "name": "Tyttebær",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Werther'S Original",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "PEPSI MAX/SOLO/SOLO SUPER 15 PK",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "Rask mat",
+    "chains": [
+      "joker"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Pålegg"
+  },
+  {
+    "name": "Coop Krossade Hakkede Tomaattimurska",
+    "chains": [
+      "coop-marked"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "SP Balance Shampoo",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "AXA BJØRN LETTKOKTE/STORE HAVREGRYN",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Tørrvarer & baking"
+  },
+  {
+    "name": "Soyasaus",
+    "chains": [
+      "jacobs",
+      "meny",
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Saus & krydder"
+  },
+  {
+    "name": "KRABBEKLØR",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "FRØBAGUETTE M/ OST/SKINKE",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Ost"
+  },
+  {
+    "name": "Ahlgrens Biler",
+    "chains": [
+      "gigaboks",
+      "coop-prix"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "GRILSTAD PULLED PORK",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "2 varianter. 400 g. Pr pk Pr kg 225,00 Førpris 125,90. Spar 29%",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "PRIOR GRILLPØLSE KYLLING & KALKUN",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "Tortilla Chips",
+    "chains": [
+      "holdbart",
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "170g - 87,65 pr kg 50% BILLIGERE* BF: 12.03.2027 *SAMMENLIGNET MED LAVPRIS DAGLIGVARE 10/09-26 Ass. utvalg, Old El Paso 1 pk 22,90. Fra 98,04/kg",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "Q SKYR LUFTIG",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Meieri & egg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg"
+  },
+  {
+    "name": "Facial Moisturising Lotion SPF30 ansiktskrem",
+    "chains": [
+      "apotek-1"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "OMO COLOR FLYTENDE",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "TORO SAUS",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "FLESKESVOR GAMMELDAGS",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Saus & krydder"
+  },
+  {
+    "name": "Blomkål",
+    "chains": [
+      "cc-mat",
+      "joker"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "pr. stk. NYT NORGE",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "VASKEKLUTER",
+    "chains": [
+      "spar-kjøp"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "Fonduesett 800 W",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Oppvaskkost",
+    "chains": [
+      "jula"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "011420",
+    "sample_group": "grocery",
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "SJOKOLADE MINIS",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "333 g",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "DEN STOLTE HANE LOLLIPOP CHILI BBQ",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Deodorant, roll-on Axe",
+    "chains": [
+      "rusta"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Steinbitfilet",
+    "chains": [
+      "cc-mat"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "RENGJØRINGSBØRSTE",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "COOP HAVREGULL HAVREGRØT",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Tørrvarer & baking"
+  },
+  {
+    "name": "KNEKKEBRØD ORGINAL",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "EGG",
+    "chains": [
+      "jacobs",
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Meieri & egg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg"
+  },
+  {
+    "name": "Tacokrydder 532 g",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "PEANUT SATAY KIT",
+    "chains": [
+      "holdbart"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "2 x 255g - 58,82 pr kg BF: 30.10.2026",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "NORVEGIA ORIGINAL SKIVET",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer",
+    "before_category": "Ost"
+  },
+  {
+    "name": "Sætre Safari original",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "Krossade Hakkede Tomaattimurska TOMATER",
+    "chains": [
+      "matkroken"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "FISKEBOLLER",
+    "chains": [
+      "kiwi",
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøkken & servering"
+  },
+  {
+    "name": "MAISKAKER OST",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Glutenfri 125 g, Friggs, pr. kg 239,20",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Ost"
+  },
+  {
+    "name": "KLENNING",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Torsk loins uten skinn og bein 1 kg",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "GILDE GRILLPØLSE OST & CHILI",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Ost"
+  },
+  {
+    "name": "Chilipepper Ichimi Togoarashi",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "FRITTGÅENDE EGG",
+    "chains": [
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Meieri & egg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg"
+  },
+  {
+    "name": "BUER LOMPER 10 PK",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "Kex sjokolade",
+    "chains": [
+      "europris",
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Lavpris & variert",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "STABBURET MAKRELL I TOMAT",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "FISKEBURGER HYES&TORSK",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "SPRØ CHIPS",
+    "chains": [
+      "coop-marked",
+      "matkroken"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "Gouda ca. 1 kg",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Blokk, Visser Kaas Førpris 159,00/kg KRONEMARKED /kg Gjelder t.o.m. 17.10.2026",
+    "sample_group": "grocery",
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "FISH TACO KLASSISK",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Lerøy, fryst, 300 g, 133,00 pr. kg",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "BABYLEAF MIX, RUCCULA, FELDSALAT MIX, BABYSPINAT",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Barn & baby"
+  },
+  {
+    "name": "Diner 2pk tøyserviett",
+    "chains": [
+      "kid"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "ELDHUSRØYKT FÅREPØLSE",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "COOP LAKSEFILET I BITER",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "Krabbe, hel",
+    "chains": [
+      "cc-mat"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "Nystekt Bondebrød",
+    "chains": [
+      "joker"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "NIVEA BODY LOTION",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Mama nudler i kopp",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "TORO BASMATIRIS BOIL IN BAG 1 KG",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "ANGUSBURGER",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Nakkekoteletter",
+    "chains": [
+      "cc-mat"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "BUER ORIGINALE LOMPER 10 STK",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "XTRA HAMBURGERRYGG",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Farris/Frus/Bris",
+    "chains": [
+      "joker"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "1,5 l Enh.pris 13,27 pr. l Førpris 32,90–37,90 Utvalget kan variere",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "Stryhn’s dansk grov leverpostei",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Pålegg"
+  },
+  {
+    "name": "Sweet & Sour saus",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Saus & krydder"
+  },
+  {
+    "name": "Pepsi Max 6-pk",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "STAUR PINSA",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "TANNKREM ZENDIUM",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "CRISPY KYLLINGFILET",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "Druer i beger, Cevita",
+    "chains": [
+      "cc-mat"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "Alt fra John Frida",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøkken & servering",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Katrin Plus 3-lags toalettpapir",
+    "chains": [
+      "felleskjøpet"
+    ],
+    "chainSectors": [
+      "Hage & dyr"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Husholdning",
+    "round1_chainSectors": [
+      "Annet"
+    ],
+    "expected_without_sector_guard": {
+      "category": "Husholdning",
+      "department": "Dagligvarer"
+    },
+    "contract_revision": 2
+  },
+  {
+    "name": "BRUSBRETT 20 STK",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "SIMPLE FACIAL WIPES",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "XL Sour Rainbow/Sour Strawberry/Salmiak",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Maarud potetgull/Tortilla Cheese",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "MAXCAT KATTEMAT",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Dyremat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Dyr"
+  },
+  {
+    "name": "BYGGRØT AV SJÅKGRYN",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "370 g, Fjordland, pr. kg 72,70",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "Supersoft toalettpapir",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "24-pk SPAR 39,- UKENS MER-KUPP Med 3 lag. Ord.pris 119,-",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "REAL TURMAT KYLLING TIKKA MASALA OG STORFEGRYTE",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Enkel tilberedning - tilsett kun varmt vann Lang holdbarhet. Lav vekt 1 pk fra 79,- TILBUDET GJELDER KUN AVBILDEDE PRODUKTER.",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "HATTING",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "TANNBØRSTE",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Postei",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "Tyrkisk Peber Original",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "133,33/kg Fazer. Førpris 48,90",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Risnudler",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "60,00/kg 500 g Oh! Ricey. Førpris 44,90",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "NOOA Sminkereisebag",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Kjøkkenrull/Toalettpapir",
+    "chains": [
+      "nærbutikken"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "Coop Kyllingfilet",
+    "chains": [
+      "coop-prix",
+      "coop-marked"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "Naturell",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "COOP GROVT SPELTBRØD",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "XTRA FILTERMALT KAFFE",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kaffe & te",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kaffe & te"
+  },
+  {
+    "name": "MILO TØYMYKNER",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "Deodorant, roll-on Dr Greve",
+    "chains": [
+      "rusta"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Dessertskåler",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Blåskjell",
+    "chains": [
+      "obs",
+      "cc-mat"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "TØRRSHAMPOO",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Nocco Electrolyte",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "Wafer Rolls",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "125,00/kg Vanilla/Hazelnut & Cocoa Førpris 69,90 Gjelder t.o.m. 17.10.2026",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "HVITLØKPULVER",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "COOP FROSNE GRØNNSAKER",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "APETINA ORIGINAL",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer",
+    "before_category": "Ost"
+  },
+  {
+    "name": "ALT FRA SOLIDOX",
+    "chains": [
+      "spar-kjøp"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Wienerpølser",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "770g, 14 pølser, Leiv Vidar (90,78/kg) FASTE KNALLKJØP 770g, 14 pølser, Leiv Vidar (90,78/kg) FASTE KNALLKJØP",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "STANGSELLERI",
+    "chains": [
+      "kiwi",
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "VEGETAR BURGERE",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Pålegg"
+  },
+  {
+    "name": "BROKKOLI",
+    "chains": [
+      "kiwi",
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "COOP SALTE KJEKS",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "Nugget Chicken Spicy Flavor/ Tom Yum Kung Flavour 90 g",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Donut",
+    "chains": [
+      "nærbutikken"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "Egg",
+    "chains": [
+      "jacobs",
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "15stk, S/M, Norgården (3,33/stk) UKENS TILBUD 18 stk. 1,062 kg, First Price, pr. kg 61,11",
+    "sample_group": "grocery",
+    "expected_category": "Meieri & egg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg"
+  },
+  {
+    "name": "Nidar smågodt i løsvekt",
+    "chains": [
+      "coop-prix",
+      "coop-marked",
+      "matkroken"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "COOP FLERKORNBRØD",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "DONUTS 12 PK",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Fuglepeanøtter",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "250 g 220253",
+    "sample_group": "grocery",
+    "expected_category": "Dyremat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "KIMS/OLW",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Utvalget kan variere Fra 65-80 g. Pr pk. Pr kg fra 125,00 Førpris 18,50-27,50. Spar opptil 64%",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "Fransk solsikkebrød",
+    "chains": [
+      "jacobs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "Coca-Cola Original/Zero Sugar 6 pk",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "Cartoonies sjokoladekjeks",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "Småis",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Is & dessert",
+    "expected_department": "Dagligvarer",
+    "before_category": "Is & dessert"
+  },
+  {
+    "name": "SVENSKE KJØTTBOLLE",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøkken & servering"
+  },
+  {
+    "name": "CARMEX STICK",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "2 varianter. 25 g. Pr pk Førpris fra 29,50-34,90 Spar opptil 28%",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Stekt And",
+    "chains": [
+      "afood-market"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "LUCKY DUCK stekt and hel, 1,3 kg pr. pose. Førpris: 450,00-569,90",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "NORSKE NYPOTETER",
+    "chains": [
+      "coop-prix"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "Rowntree's godteposer 143–150 g",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "TØSSE HAVREGRYN",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Tørrvarer & baking"
+  },
+  {
+    "name": "CARTOONIES",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "MAKE-UP SVAMPER",
+    "chains": [
+      "spar-kjøp"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "GATORADE COOL BLUE",
+    "chains": [
+      "extra",
+      "bunnpris"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "0,5 l. Pr flaske Pr l 40,00 Førpris 25,90 + pant Spar kr 5,90",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "Skinke",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Gilde, et utvalg, 70 g 212,86/kg Førpris: 22,90",
+    "sample_group": "grocery",
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "L'Oréal Paris Revitalift Laser Retinol Night Serum",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Rapsolje 5 l",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Saus & krydder"
+  },
+  {
+    "name": "Be-Kind nøttebar",
+    "chains": [
+      "joker"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "Bodylotion LdB",
+    "chains": [
+      "rusta"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "TYRKISK PEBER",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "INDERØY ERTESUPPE",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "MAGGI BULJONG",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Saus & krydder"
+  },
+  {
+    "name": "Nystekt grovt havrebrød",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "UKENS TILBUD 61% 700G, FRA BAKERIET (50,00/KG) FØRPRIS 47,90 700g, fra bakeriet (50,00/kg)",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "FJORDLAND KALDE GRØTER",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "4 typer. 150 g. Pr. kg 66,67 Pr. stk MANGO NYHET! Ikke-medlem: 18,90-20,90 SPAR OPPTIL 10,90",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "KALKUNKORV",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "PRIOR KJØTTPØLSE",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "U/skinn. Kylling & kalkun. 450 g. Pr pk. Pr kg 88,89 Førpris 65,90. Spar 39%",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "Double Serum",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "TRUSEINNLEGG/BIND",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Müsli",
+    "chains": [
+      "joker",
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Tørrvarer & baking"
+  },
+  {
+    "name": "COOP KJØTTBOLLER",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøkken & servering"
+  },
+  {
+    "name": "Proteinbar Nick’s",
+    "chains": [
+      "rusta"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "NIVEA DUSJSÅPE",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "650 ml. Ord.pris 44,90",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Norsk isbergsalat",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "Deodorant, roll-on Sterilan",
+    "chains": [
+      "rusta"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "PLUMBO rengjøring",
+    "chains": [
+      "jernia"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Husholdning",
+    "expected_without_sector_guard": {
+      "category": "Husholdning",
+      "department": "Dagligvarer"
+    },
+    "contract_revision": 2
+  },
+  {
+    "name": "AVFALLSEKK",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Imsdal",
+    "chains": [
+      "jacobs",
+      "meny",
+      "coop-mega",
+      "nærbutikken"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer",
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "Proteinbar ProPud",
+    "chains": [
+      "rusta"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Tørrvarer & baking"
+  },
+  {
+    "name": "FRESH DISCS LAVENDER OG MARINE",
+    "chains": [
+      "bunnpris"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "JAPP PEANUT",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Mondelez norge, 60 g, 315,00 pr. kg",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "KVARG",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Meieri & egg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg"
+  },
+  {
+    "name": "LAMBI TØRKERULL PREMIUM 3 PK",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Pr pk. Pr 100 m 84,03 Førpris 53,90. Spar 44%",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "Old El Paso Extra Thin Tortillas 6 pk",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "Pistasj nøtter",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "Mentos 3-pk 113–114 g",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Always",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "NIDAR TROIKA",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "XTRA MAJONES 2 PK",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Pålegg"
+  },
+  {
+    "name": "TORTILLA ROLLS",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "PRIOR CRISPY STICKS TEX MEX",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "LOKE oppvaskklut",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Husholdning",
+    "expected_without_sector_guard": {
+      "category": "Husholdning",
+      "department": "Dagligvarer"
+    },
+    "contract_revision": 2
+  },
+  {
+    "name": "ØSTAVIND",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg"
+  },
+  {
+    "name": "GILDE KARBONADER",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "VITAKRAFT KATTESNACKS",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Dyremat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "LAKS CHEF'S CUT",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Lerøy, 280 g, 356,79 pr. kg",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "Selbu blå",
+    "chains": [
+      "jacobs",
+      "meny",
+      "cc-mat"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg"
+  },
+  {
+    "name": "Instant Nudler",
+    "chains": [
+      "afood-market"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "NORSKE GULRØTTER",
+    "chains": [
+      "coop-marked",
+      "coop-prix",
+      "matkroken",
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer",
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "750 g. Pr pk Pr kg 33,20",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "GO’&MAGRERE LEVERPOSTEI",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "150 g, Gilde, pr. kg 132,67",
+    "sample_group": "grocery",
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Pålegg"
+  },
+  {
+    "name": "PEPSI MAX BOKS",
+    "chains": [
+      "coop-prix"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "0,33 l. Pr stk. Ord. pris 25,50 pr stk + pant. Tilbudet gjelder hver onsdag fra 16. september - 7. oktober 2026. Maks 10 stk. pr husstand. + PANT Kun onsdager!",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "Alt fra Garofalo 0,25–3 kg",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Chiron håndsåpe",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "NAMASTE",
+    "chains": [
+      "holdbart"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "2x350g - 64,29 pr kg BF: 07.04.2027 BF: 18.09.2026",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "FRISKIES OKSE/ KYLLING/LEVER",
+    "chains": [
+      "bunnpris"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "3.5 kg Purina pr. pk 35,71/KG",
+    "sample_group": "grocery",
+    "expected_category": "Dyremat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "Coop fullkornsris",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "JUICY DROP MALLOWS",
+    "chains": [
+      "holdbart"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "OXO TEX VASKEPULVER",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "COOP SUPERBRØD/SKÅRET/FRYST",
+    "chains": [
+      "coop-marked",
+      "matkroken"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "Rose bolle ø 20,5",
+    "chains": [
+      "kid"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Kjøkken & servering",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Thai Hom Mali Cargo Ris",
+    "chains": [
+      "afood-market"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Tørrvarer & baking"
+  },
+  {
+    "name": "Coop brød",
+    "chains": [
+      "extra",
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "PIZZASAUS",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "Hundemat 1,5 kg",
+    "chains": [
+      "jula"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "Nyhet 1063072 Pris per kg 66.60",
+    "sample_group": "grocery",
+    "expected_category": "Dyremat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Dyr"
+  },
+  {
+    "name": "Risnudler med biffsmak 71 g",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "211,27/kg Oh! Ricey. Førpris 18,90",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Sprayflaske til olje 100 ml",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Førpris 29,90 Gjelder t.o.m. 17.10.2026",
+    "sample_group": "grocery",
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Saus & krydder"
+  },
+  {
+    "name": "Coc-Cola",
+    "chains": [
+      "cc-mat"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "SUNSHINE DELIGHTS TØRKET FRUKT",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "Fårikålkjøtt av lam ca. 2 kg",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "Laks 4-pk",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Lerøy, u/skinn, 4x125 g 218,00/kg Førpris: 169,00",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "REKER 70/90",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "OLIVERO SMØR- OG OLIVENOLJE",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Meieri & egg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg"
+  },
+  {
+    "name": "TANNKREM",
+    "chains": [
+      "europris",
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Lavpris & variert",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Burger",
+    "chains": [
+      "joker",
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "Sensilis Pure 15AZ Concentrate",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøkken & servering",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "ALWAYS TRUSEINNLEGG LARGE",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "BABY VÅTSERVIETTER",
+    "chains": [
+      "spar-kjøp"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "Pr. stk 12,90 Art. 9000470",
+    "sample_group": "grocery",
+    "expected_category": "Barn & baby",
+    "expected_department": "Dagligvarer",
+    "before_category": "Barn & baby"
+  },
+  {
+    "name": "Idun Tomatketchup, Regal Siktet Hvetemel, Powerade, Ahlgrens bilar",
+    "chains": [
+      "coop-prix"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "TIKKA MASALA",
+    "chains": [
+      "rema-1000",
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "FREIA SMÅBITER",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "4 varianter. 110-150 g. Fra 133,33/kg. 1 pk fra 24,90. Ikke-medlem: se hyllepris",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "MORTADELLA",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Taga, 80 g, 373,75 pr. kg Utvalget kan variere",
+    "sample_group": "grocery",
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "PHILADELPHIA",
+    "chains": [
+      "obs",
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "Utvalget kan variere Fra 175 g. Fra 125,00/kg 1 stk fra 39,90-42,90 Spar opptil 42%",
+    "sample_group": "grocery",
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer",
+    "before_category": "Ost"
+  },
+  {
+    "name": "COOP PARTYMIX",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Hele tomater",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "Sprø Peanøtter",
+    "chains": [
+      "afood-market"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "TANNPLEIE JORDAN",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "MAARUD POPPET POPCORN",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "Kimchi - Skivet Kinakål",
+    "chains": [
+      "afood-market"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "JONGGA koreansk skivet kinakål kimchi, 300 g pr. stk. Førpris: 65,00-79,90",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Änglamark blåbær",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "HEAD & SHOULDERS CLASSIC CLEAN",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "LAMBI TOALETTPAPIR",
+    "chains": [
+      "bunnpris",
+      "europris",
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Lavpris & variert",
+      "Dagligvarer"
+    ],
+    "descriptions": "Decor 8-pk pr. pk 30.24 /*PR 100M 24 PK Pr pk. Pr 100 m 22,25 Førpris 175,90. Spar 37%",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "Sprøbakt",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "NIVEA Clear Up Strips",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "NEKTARINER",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "OLIVERO SMØR & OLIVENOLJE",
+    "chains": [
+      "bunnpris"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Partivare 500 g pr. stk 78/KG",
+    "sample_group": "grocery",
+    "expected_category": "Meieri & egg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg"
+  },
+  {
+    "name": "VILLFUGLBLANDING",
+    "chains": [
+      "jem-fix",
+      "europris"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare",
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Dyremat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "CLASSIC TØRKERULL",
+    "chains": [
+      "jem-fix"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Husholdning",
+    "expected_without_sector_guard": {
+      "category": "Husholdning",
+      "department": "Dagligvarer"
+    },
+    "contract_revision": 2
+  },
+  {
+    "name": "Pannekaker og vafler med ekstra proteiner",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Brød & bakeri",
+    "round1_chainSectors": [
+      "Annet"
+    ],
+    "expected_without_sector_guard": {
+      "category": "Brød & bakeri",
+      "department": "Dagligvarer"
+    },
+    "contract_revision": 2
+  },
+  {
+    "name": "Husets lasagne",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Middag & ferdigmat"
+  },
+  {
+    "name": "OKSEKRAFT KLAR",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "PROTEINRINGER SJOKOLADE",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "COOP MANDLER",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "Krabbeklør",
+    "chains": [
+      "cc-mat"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Fisk & sjømat"
+  },
+  {
+    "name": "FARRIS BRIS 12 PK",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "2 varianter. 0,33 l x 12. Pr pk Pr l 25,25. Førpris 165,90 Spar 40%",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "Ogura Jelly Bean Cake",
+    "chains": [
+      "afood-market"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Is & dessert",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Sjokolade Daim, Dubbelnougat og Japp",
+    "chains": [
+      "rusta"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "COOP WRAP TORTILLA HIGH PROTEIN",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "Duck Discs 36 ml",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "NORSK HODEKÅL",
+    "chains": [
+      "obs",
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "REDBULL 0,473 L BOKS",
+    "chains": [
+      "coop-prix"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "before_category": "Drikke"
+  },
+  {
+    "name": "COOP RENSKÅRET KOKT SKINKE",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "Mascara Maybelline",
+    "chains": [
+      "rusta"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "Sjokolade",
+    "chains": [
+      "spar-kjøp"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "SVERRE krus",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Kjøkken & servering"
+  },
+  {
+    "name": "BENTLY LOUNGESTOL",
+    "chains": [
+      "skeidar"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "| 12 kr x 36 mnd 4.999 Vnr. 2761404",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "ROSER",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "10 stk. 10 stk. pr. stk. 9,90 Finnes i de fleste KIWI-butikker ROSEGARANTI 7 DAGER",
+    "sample_group": "outside",
+    "expected_category": "Blomster & planter",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Blomster & planter"
+  },
+  {
+    "name": "Halloweenpynt",
+    "chains": [
+      "rusta"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "CEPTER Alpha X3 V2",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Annet"
+  },
+  {
+    "name": "OSB PLATE 12 MM",
+    "chains": [
+      "obs-bygg",
+      "coop-byggmix",
+      "byggmax",
+      "obs"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare",
+      "Bygg & jernvare",
+      "Bygg & jernvare",
+      "Dagligvarer"
+    ],
+    "descriptions": "Pris pr plate Mål 12x600x2400 mm Mål 12x600x2400 mm. Pris pr plate Pris pr plate. Mål 12x600x2400 mm",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet"
+  },
+  {
+    "name": "POLAR BLAST",
+    "chains": [
+      "thansen"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "STEG 1 2,5 liter Varenr. 51846",
+    "sample_group": "outside",
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet"
+  },
+  {
+    "name": "WORK PREMIUM PENSEL",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "Sittebenk med oppbevaring beige",
+    "chains": [
+      "megaflis"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "NYHET 76 x 38 x 38 cm • 2-i-1 løsning • Fløyelsfinish",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "100%org isoli mørk rød børstet",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "21 17 50 . pr. m 219,95 100% Økologisk bomull",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "EVO MODULSOFA",
+    "chains": [
+      "skeidar"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "500 kr x 36 mnd. hjørnesofa, 2,5-seter med åpen ende. Tekstil Rif Liver, Comfort C1. 34.389 . Vnr. 2446710",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Glidelås 6mm ikkedelbar 40cm grå/sortoks",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "vare nr. 593 42 40 pr. stk.",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Lumene CC Color Correcting Cream",
+    "chains": [
+      "vita"
+    ],
+    "chainSectors": [
+      "Helse & skjønnhet"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Sitteunderlag",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "FREKI servise Krus",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "Stentøy. 39 cl. Ø9 x H10 cm 45,- 6112331",
+    "sample_group": "outside",
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Kjøkken & servering"
+  },
+  {
+    "name": "Vikafjell Snorosa ullbukse",
+    "chains": [
+      "sport-outlet"
+    ],
+    "chainSectors": [
+      "Sport & fritid"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Klær & sko"
+  },
+  {
+    "name": "FANDRUP garderobeskap",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "GASSGRILL DISA",
+    "chains": [
+      "byggfag"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Hage & uterom",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Hage & uterom",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "TEMPRAKON LYA kontinentalseng - grå-42",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "WELLPUR BOKSELVI overmadrass - hvit",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Møbelstruktur",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "Standard 100 by OEKO-TEX® Materiale: 100% Polyester Coating: With backing Slitestyrke: 20.000 Martindale Bredde: ca. 140 cm Vask: Krymp: 3 % Normalpris pr. m 179,95",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "Mono teppe",
+    "chains": [
+      "møbelringen"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "30% Medlemstilbud Medlemspris fra 1.329 Spar fra 570 Ikke medlem fra 1.899 Finnes i flere farger og størrelser.",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Day pedalbøtte rustfritt stål sort",
+    "chains": [
+      "megaflis"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Celeste Ely kjøkkenarmatur børstet stål",
+    "chains": [
+      "megaflis"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Kjøkken & servering"
+  },
+  {
+    "name": "SANDAL",
+    "chains": [
+      "sport-outlet"
+    ],
+    "chainSectors": [
+      "Sport & fritid"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Klær & sko"
+  },
+  {
+    "name": "SIGNATURE 900 pall",
+    "chains": [
+      "bohus"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "ROBUST STØPERØR",
+    "chains": [
+      "obs-bygg"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "OKIDOKI RASK 3 SNEAKERS BARN",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Klær & sko"
+  },
+  {
+    "name": "WILMA TEPPE",
+    "chains": [
+      "skeidar"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "GRESSTRIMMER",
+    "chains": [
+      "jem-fix"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "550 W. Elektrisk. Hastighet: 9000 o/min. Skjærediameter: 330 mm. Aluminium teleskop håndtakstr. 106-126cm. Nylon linedia. 2 x 1.4 mm x 5 m på dobbel spole. Med 0,35 cm ledning og soft-grip. Hodet kan stilles inn i 4 posisjoner. 9054624.",
+    "sample_group": "outside",
+    "expected_category": "Hage & uterom",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet"
+  },
+  {
+    "name": "BADEMATTE",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Vernesko S3",
+    "chains": [
+      "jula"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "POINT Håndholdt støvsuger",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Elektronikk"
+  },
+  {
+    "name": "Sirkelsag 18 V Ø165 mm 4,0 Ah",
+    "chains": [
+      "jula"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "TURMALIN hundeseng",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Dyreutstyr",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Tennissokker Bula 3-pk",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Klær & sko"
+  },
+  {
+    "name": "JBL Lydplanke",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Elektronikk"
+  },
+  {
+    "name": "XZOUND® Trådløs Carplay tilkobling Adapter",
+    "chains": [
+      "thansen"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Elektronikk"
+  },
+  {
+    "name": "ELLIA SKJÆREBRETT",
+    "chains": [
+      "norbo1"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "40x30 cm. (003QA00012467)",
+    "sample_group": "outside",
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "DUXA BAD VELVÆRE MASSASJE DUSJKABINETT",
+    "chains": [
+      "obs-bygg"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "AUSTRA gardin",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "VILLADS lyslykt",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "Glass/metall. B20 x L20 x H50 cm B16 x L16 x H36 cm 100,- 4912798",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "HÅRBØRSTE NØKKELRING",
+    "chains": [
+      "spar-kjøp"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Galaxy Z Fold8 256 GB",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "Brett ut uendelige muligheter 7,6\" QXGA+ 120 Hz Dynamic AMOLED 2X-skjerm Hovedkamera: 50+50 MP, OIS SMF971BZKBEUB Med abonnement",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Elektronikk"
+  },
+  {
+    "name": "Sony ZV-E10 kamerakit",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Annet"
+  },
+  {
+    "name": "BORSKRUTREKKER",
+    "chains": [
+      "byggmakker"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "19\" ringlys",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Belysning",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "3M Peltor WS Alert X+ hørselvern med hodebøyle",
+    "chains": [
+      "felleskjøpet"
+    ],
+    "chainSectors": [
+      "Hage & dyr"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Knapp 4-hulls m/kant 15mm hvit 10stk",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "vare nr. 334 51 pr. pakke 24,95",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "HØY",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Dyremat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "PIZZAKUTTER COZZE",
+    "chains": [
+      "byggfag"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Hage & uterom",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Imperial Stone Ethereal Polished 60x120 Rectified",
+    "chains": [
+      "right-price-tiles"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "pr. m2 Blankpolert overflate Grålig og hvit marmor stil",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Midtmodul",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Kardet ull, 50 g",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "pr. pakke 90048002 90048038 90048004 90048007 90048042 90048026 90048027 90048024 90048021 90048043 90048009 90048017 90048010 90048046 90048008 90048014",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "SKOVLUNDE spisebord",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Syskrin tre lakkert 23x45x21cm",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "vare nr. 462 73 pr. stk.",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "POLLY",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "TCL TAB 10L Nettbrett",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Elektronikk"
+  },
+  {
+    "name": "ETNA sengegavl",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "SAGRADO HJØRNESOFA",
+    "chains": [
+      "skeidar"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Alle kniver og kjøkkenredskaper",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "Stort utvalg! -50% På allerede lave Europriser! CUISINE NÅ 24,95 Ord.pris 49,90 CUISINE NÅ 39,95 Ord.pris 79,90 FISKARS NÅ 64,50 Ord.pris 129,- FISKARS Essential 2-pk NÅ 99,50 Ord.pris 199,-",
+    "sample_group": "outside",
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Kjøkken & servering"
+  },
+  {
+    "name": "gorenje Vaskemaskin",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Elektronikk"
+  },
+  {
+    "name": "Trend Cloud lysspeil",
+    "chains": [
+      "megaflis"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Belysning",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "UNUM VASE",
+    "chains": [
+      "norbo1"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "TENNPOSER",
+    "chains": [
+      "jem-fix"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "Danskprodusert opptenningsposer til grill, peis og ovn. 9069172. 400 stk.",
+    "sample_group": "outside",
+    "expected_category": "Hage & uterom",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Hage & uterom"
+  },
+  {
+    "name": "Tøfler Astrid",
+    "chains": [
+      "rusta"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "INFERNO Lithium Jumpstarter",
+    "chains": [
+      "thansen"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet"
+  },
+  {
+    "name": "DOVRE 40 CBS PEISOVN",
+    "chains": [
+      "obs-bygg",
+      "coop-byggmix"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare",
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Oppvarming",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Oppvarming"
+  },
+  {
+    "name": "ULLONGS",
+    "chains": [
+      "spar-kjøp"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Broderisaks 13cm",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "vare nr. 420 11 vare nr. 420 11 pr. stk. 68,95",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "15,6\" laptop",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "Ultralett design på 1,59 kg Intel® Core™ 7 150U Kampanjeperiode: 28.sep - 18.okt Førpris: 11 999,- 15FD0482NO",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Elektronikk"
+  },
+  {
+    "name": "Isabella justerbart bord",
+    "chains": [
+      "fagmøbler"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "All munnhygiene fra SOFT",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "REPARASJONSKIT",
+    "chains": [
+      "jem-fix"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "Til bildekk. Inneholder 1 spiralnøkkel, 1 hakenøkkel, 5 tetningspropper og 1 lim. Kan brukes på slangeløse bildekk, og er utelukkende til nødreparasjon. 9054292.",
+    "sample_group": "outside",
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Serie Neutra",
+    "chains": [
+      "megaflis"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "FØR 179,- SJEKK PRISEN 60 x 60 x 0,9 cm • Matt overflate • Gulv- og veggflis • Produsert i Spania",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "ANJA HVILESTOL",
+    "chains": [
+      "norbo1"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Ileggsplate",
+    "chains": [
+      "bohus"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "120x40 Nr. 308480",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "SORTBIRK spisebrikke",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "BELLINGE spisestol",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "NORDIC SHAPES",
+    "chains": [
+      "skeidar"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Annet"
+  },
+  {
+    "name": "EFFEKT GRYTESKRUBB",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "OXEL fuskepelsteppe",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Atlas lenestol",
+    "chains": [
+      "møbelringen"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "m/fothviler tekstil Brego beige, Polaris svart sokkel 18.999 Nå 9.999 Spar 9.000",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "VEJLBY sovesofa med sjeselong",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Nilfisk S1 petcare+ støvsuger",
+    "chains": [
+      "megaflis"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "• Enkel lading • Komfortabelt grep • Med ministøvsuger",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Elektronikk"
+  },
+  {
+    "name": "Monster High Scare-adise Island Clawdeen Dukke",
+    "chains": [
+      "kids-outlet"
+    ],
+    "chainSectors": [
+      "Leker & barn"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Drikke",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Traktor med tilhenger",
+    "chains": [
+      "kids-outlet"
+    ],
+    "chainSectors": [
+      "Leker & barn"
+    ],
+    "descriptions": "[25078-9961]",
+    "sample_group": "outside",
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Point Elektrisk tannbørste",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "SØMOMETER",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "TRAPPEVANGE",
+    "chains": [
+      "jem-fix",
+      "byggmakker"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare",
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "GILLETTE BARBERHØVEL",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "HEKKSAKS",
+    "chains": [
+      "jem-fix"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Hage & uterom",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Hage & uterom"
+  },
+  {
+    "name": "Vinda spisestol",
+    "chains": [
+      "møbelringen"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "Nyhet! Vinda-spisestolserie Vinda er en moderne og fleksibel spisestolserie designet for å passe inn i både små og store hjem. Med sitt lette uttrykk, gode sittekomfort og rene linjer gir serien et stilrent og innbydende preg rundt spiseplassen. • Med Ergo glide –funksjon • Mange valgmuligheter med  med arm, sving og Ergo glide, tekstil Brego grønn, hvitoljete ben Introduksjonspris 3.599 Spar 2.400 Pris etter kampanje 5.999",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Ulldress",
+    "chains": [
+      "sport-outlet"
+    ],
+    "chainSectors": [
+      "Sport & fritid"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Klær & sko"
+  },
+  {
+    "name": "Rebel hylle",
+    "chains": [
+      "fagmøbler"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Denim leo twill 10oz",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "85 65 63 . pr. m 198,00 100% Bomull STANDARD 100 BY OEKO-TEX®",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Beltespenne metall 35mm sølvfarget 1stk",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "RC Magic flying ball - USB",
+    "chains": [
+      "kids-outlet"
+    ],
+    "chainSectors": [
+      "Leker & barn"
+    ],
+    "descriptions": "- 3.7V batteripakke [RC168]",
+    "sample_group": "outside",
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Elektronikk",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "HYLLE GRAN 18 MM",
+    "chains": [
+      "jem-fix"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Bomullspinner 300 stk",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "0,08/stk Topz Førpris 26,90 Gjelder t.o.m. 17.10.2026",
+    "sample_group": "outside",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "FERRELLI Ryggsekk",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Sport & fritid"
+  },
+  {
+    "name": "Luftavfukter 30 m² 12 l 185 W",
+    "chains": [
+      "jula"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Thadea W Pocket Tights",
+    "chains": [
+      "sport-outlet"
+    ],
+    "chainSectors": [
+      "Sport & fritid"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "PARADIS sovesofa",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "SKUFFEREOL",
+    "chains": [
+      "jem-fix"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "CURVER. Med 5 skuffer á 20 liter. 9061385. D: 37,1 x B: 38,8 x H: 100 cm",
+    "sample_group": "outside",
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "point. Riskoker",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Tørrvarer & baking"
+  },
+  {
+    "name": "SAMSUNG 50\" 4K Smart TV",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Elektronikk"
+  },
+  {
+    "name": "ETON 3 seter",
+    "chains": [
+      "bohus"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "SPONPLATE VÅTROM GRÅ, PRIS PR. M²",
+    "chains": [
+      "byggfag"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Tefal Duetto stekepanne",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Kjøkken & servering"
+  },
+  {
+    "name": "Ox-On hørselvern R1 Supreme",
+    "chains": [
+      "megaflis"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet"
+  },
+  {
+    "name": "HEAD LITE 125 MM SPARKESYKKEL",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "SmartStore Essence",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "Str S / Slim 39,90/stk / Str M 49,90/stk / Str L 69,90/stk. Vi spanderer den billigste!",
+    "sample_group": "outside",
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Kjøkken & servering"
+  },
+  {
+    "name": "TEDDY RECLINERGRUPPE",
+    "chains": [
+      "norbo1"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "Brungrå mikrofiber-tekstil. Elektrisk reclinerfunksjon. STOL B97xH105 cm. (1160689080) 2-SETER B156xH105 cm. (1160689081) 3-SETER B215xH105 cm. (1160689082)",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Maemo hjørnesovesofa",
+    "chains": [
+      "møbelringen"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "Kombinasjonssofa som kan brukes som daybed, sofa og seng B 260 cm, D 197 cm. Utslått liggemål: 145 x 200 cm. Pris i tekstil Bris og Ribbon 43.999 Nå 19.999 Spar 24.000 Kombinasjonssofa som kan brukes som daybed, sofa og seng. Sofaen har stor oppbevaringsdel.",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Verktøysett 46 deler",
+    "chains": [
+      "jula"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "HP Blekkskriver",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Elektronikk"
+  },
+  {
+    "name": "WILFA stavmikser",
+    "chains": [
+      "jernia"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Waterguard watersensor med luftfuktighet & temperatur",
+    "chains": [
+      "megaflis"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "Oppdager vann, temperatur og luftfuktighet Sender signal til Linkbox+",
+    "sample_group": "outside",
+    "expected_category": "Smarthus & sikkerhet",
+    "expected_department": "Elektronikk",
+    "before_category": "Annet"
+  },
+  {
+    "name": "MAYFAIR LENESTOL CLASSIC",
+    "chains": [
+      "skeidar"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "278 kr x 36 mnd. Medium. Hud Batick New Caramel og Classic eik understell. Vnr. 2966007 Ytterligere nedsatt.",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "SENSITIVE 400 KONTINENTAL",
+    "chains": [
+      "skeidar"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "SPAR 49% SISTE SJANSE KOMFORTGARANTI | PRISMATCH | 25 ÅRS GARANTI 750 kr x 36 mnd. 160x200 cm nå 26.999 spar 26.100 180x200 cm nå 29.999 spar 28.500 Tekstil Natural 56. Vnr. 8121845",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "BALSAMIN stolpute",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Personlig pleie"
+  },
+  {
+    "name": "DACOTA DPDESKMHA",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Lysefjord",
+    "chains": [
+      "modena"
+    ],
+    "chainSectors": [
+      "Annet"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Annet"
+  },
+  {
+    "name": "A3 Xerox kopipapir",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "OKIDOKI ENGEN 3-LAGS SOFTSHELLDRESS BARN",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Klær & sko"
+  },
+  {
+    "name": "HØVIK sofabord Ø80 H 38 cm",
+    "chains": [
+      "bohus"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "SIGRID kreppsengesett",
+    "chains": [
+      "jysk"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "KAFFERENSEMIDDEL",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "STJERNEKLAR KONTINENTALSENG",
+    "chains": [
+      "norbo1"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Magiske tusjer som kan skifte farge",
+    "chains": [
+      "kids-outlet"
+    ],
+    "chainSectors": [
+      "Leker & barn"
+    ],
+    "descriptions": "[110750590] - 10 pk",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Felleskjøpet spiss spade 119,5 cm",
+    "chains": [
+      "felleskjøpet"
+    ],
+    "chainSectors": [
+      "Hage & dyr"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Hage & uterom",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "Galaxy Watch8 44 mm BT",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Annet"
+  },
+  {
+    "name": "DOMO",
+    "chains": [
+      "bohus"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "Unik 100 Beige",
+    "chains": [
+      "modena"
+    ],
+    "chainSectors": [
+      "Annet"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "Mjølner demoleringshammer 1700W 45j",
+    "chains": [
+      "megaflis"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Kortspill Skip-Bo Express",
+    "chains": [
+      "kids-outlet"
+    ],
+    "chainSectors": [
+      "Leker & barn"
+    ],
+    "descriptions": "[HWV20]",
+    "sample_group": "outside",
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet",
+    "round1_chainSectors": [
+      "Annet"
+    ]
+  },
+  {
+    "name": "FEEL Partyhøyttaler",
+    "chains": [
+      "power"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Elektronikk"
+  },
+  {
+    "name": "DOCKBOOT NEOPREN STØVEL",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Tabit Gold 33,3x100",
+    "chains": [
+      "right-price-tiles"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "Matt, slett overflate Off-white bakgrunn med gylne marmorårer",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Vertical TURSKO Rasmon Q-lock Boot WP",
+    "chains": [
+      "sport-outlet"
+    ],
+    "chainSectors": [
+      "Sport & fritid"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "TAKPLATE",
+    "chains": [
+      "byggmakker"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "Forestia Sponplate Premium Ceiling Pris pr. m². Før: 237,60,- • Skrufast og tapetsert takplate i spon med en unik låseprofil • Trebasert takplate beregnet for maling",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Bygg & jernvare"
+  },
+  {
+    "name": "Garnfarget tynne striper lin/sort",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "STRIKKEPINNESETT",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "MULTIBLOKK HELLE GRÅ 5 CM",
+    "chains": [
+      "obs-bygg"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Annet"
+  },
+  {
+    "name": "MASTERCLASS ALUMINIUMSGRYTE",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "4 LITER Midlertidig sortiment Ikke-medlem: 799,-",
+    "sample_group": "outside",
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "b37/b38 Trykkfotsett",
+    "chains": [
+      "selfmade"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker",
+    "before_category": "Annet"
+  },
+  {
+    "name": "SIENDO speil 50x100, H 100 cm",
+    "chains": [
+      "bohus"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "BOSCH Integrert stekeovn HBA571BB4",
+    "chains": [
+      "elon"
+    ],
+    "chainSectors": [
+      "Annet"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "JANIK spisestol",
+    "chains": [
+      "bohus"
+    ],
+    "chainSectors": [
+      "Møbler & interiør"
+    ],
+    "descriptions": "",
+    "sample_group": "outside",
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Møbler & interiør"
+  },
+  {
+    "name": "GRILSTAD SNITZEL",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "EXIDE Batterier",
+    "chains": [
+      "thansen"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "KLEENEX BALM MINI",
+    "chains": [
+      "bunnpris"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Baguetter/ Ciabatta",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "Sellerirot/pastinakk",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Myk & Rund",
+    "chains": [
+      "joker"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Havre/Fullkorn, Bakehuset, 450 g Enh.pris 77,56 pr. kg Førpris 44,90",
+    "sample_group": "grocery",
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Brød & bakeri"
+  },
+  {
+    "name": "TOMATBØNNER",
+    "chains": [
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "410 g, First Price, pr. kg 20,49",
+    "sample_group": "grocery",
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "ST. MICHAEL PEANUTS",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Kattemat 40-pk",
+    "chains": [
+      "jula"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "CLEVER CAT 40x85 g • To forskjellige smaker • Porsjonspakket • Naturlige ingredienser 029894 189.-",
+    "sample_group": "grocery",
+    "expected_category": "Dyremat",
+    "expected_department": "Dagligvarer",
+    "before_category": "Dyr"
+  },
+  {
+    "name": "GRILSTAD PULLED",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "Dressingmix",
+    "chains": [
+      "jacobs",
+      "meny"
+    ],
+    "chainSectors": [
+      "Dagligvarer",
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Chili 80 g",
+    "chains": [
+      "gigaboks"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Annet"
+  },
+  {
+    "name": "KIMS SNACKS",
+    "chains": [
+      "coop-mega"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "Avokado, 2-pk.",
+    "chains": [
+      "nærbutikken"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "before_category": "Frukt & grønt"
+  },
+  {
+    "name": "AKTIV & SPORT TØYVASK",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "before_category": "Husholdning"
+  },
+  {
+    "name": "Fløtemys/Gudbrand",
+    "chains": [
+      "spar"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer",
+    "before_category": "Meieri & egg"
+  },
+  {
+    "name": "GRESSKAR LED",
+    "chains": [
+      "europris"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Belysning",
+    "expected_department": "Hjem & interiør",
+    "before_category": "Annet"
+  },
+  {
+    "name": "Q-SJOKOLADEMELK",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Meieri & egg",
+    "expected_department": "Dagligvarer",
+    "before_category": "Snacks & godteri"
+  },
+  {
+    "name": "KARBONADEDEIG SVIN 6%",
+    "chains": [
+      "rema-1000"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "Gilde, 400 g, 174,75 pr. kg",
+    "sample_group": "grocery",
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer",
+    "before_category": "Kjøtt & fjørfe"
+  },
+  {
+    "name": "Colgate tannkrem",
+    "chains": [
+      "extra"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "descriptions": "",
+    "sample_group": "grocery",
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "before_category": "Personlig pleie"
+  }
+]

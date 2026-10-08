@@ -606,3 +606,55 @@ dialog::backdrop { background: rgba(20, 18, 14, .55); backdrop-filter: blur(3px)
 
 .site-foot p { margin: 0; max-width: 68ch; }
 .site-foot a { color: var(--muted); }
+
+/* ---------- deals, stores and list actions ---------- */
+.bundle-count { font-size: 13px; font-weight: 600; }
+.badge-deal {
+  position: absolute; top: 10px; left: 10px;
+  padding: 4px 7px; border-radius: 5px;
+  background: var(--good); color: var(--card);
+  font-size: 12px; font-weight: 700;
+}
+.card-deal { color: var(--good); font-size: 11.5px; font-weight: 600; }
+button.card-name { padding: 0; border: 0; background: none; text-align: left; color: inherit; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.icon-btn:disabled { opacity: .5; cursor: default; }
+.stores-facet { margin-bottom: 20px; width: 100%; justify-content: center; }
+.store-notice { color: var(--muted); font-size: 13px; padding: 10px; border: 1px solid var(--line-strong); border-radius: var(--radius); }
+#storedlg { max-width: 940px; }
+.store-tools { padding: 16px 20px 10px; display: flex; flex-wrap: wrap; gap: 10px; }
+.store-tools input, .list-input input {
+  flex: 1; min-width: 160px; border: 1px solid var(--line-strong); border-radius: 7px;
+  background: var(--paper); color: var(--ink); padding: 10px 12px; font: inherit; font-size: 13px;
+}
+.store-tools p { flex-basis: 100%; margin: 0; color: var(--muted); font-size: 13px; }
+.store-tools p:empty { display: none; }
+.stores-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 0 20px 20px; }
+#store-map { height: 420px; border-radius: var(--radius); border: 1px solid var(--line); }
+#store-map[hidden] { display: none; }
+.stores-layout:has(#store-map[hidden]) { grid-template-columns: 1fr; }
+.store-results { overflow-y: auto; max-height: 420px; }
+.store-option { display: flex; align-items: flex-start; gap: 10px; padding: 12px 4px; border-bottom: 1px solid var(--line); cursor: pointer; font-size: 13px; }
+.store-option input, .list-item input { flex: none; width: 18px; height: 18px; accent-color: var(--accent); }
+.store-option strong { display: flex; align-items: center; gap: 6px; }
+.store-address, .store-warning { display: block; margin-top: 3px; color: var(--muted); font-size: 12px; }
+.store-warning { color: var(--accent); }
+.store-distance { margin-left: auto; flex: none; color: var(--muted); font-size: 12px; }
+.store-empty { padding: 16px; color: var(--muted); }
+.leaflet-popup-content-wrapper { background: var(--card); color: var(--ink); }
+.leaflet-popup-tip { background: var(--card); }
+.leaflet-popup-content .icon-btn { margin-top: 8px; }
+.list-input, .list-actions { display: flex; flex-wrap: wrap; gap: 8px; padding: 14px 20px; }
+.list-actions { border-top: 1px solid var(--line); }
+.list-description { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.list-size { color: var(--faint); }
+.list-item.checked .list-name { text-decoration: line-through; color: var(--faint); }
+.expired-label { margin-left: 6px; color: var(--accent); font-size: 11px; }
+@media (max-width: 650px) {
+  .stores-layout { grid-template-columns: 1fr; }
+  #store-map { height: 200px; }
+  .store-results { max-height: 30vh; }
+  #storedlg { max-height: 92vh; overflow-y: auto; }
+  #open-stores { font-size: 11px; padding: 7px; }
+  .list-actions .icon-btn { font-size: 11px; }
+}

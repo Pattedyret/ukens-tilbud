@@ -1,0 +1,789 @@
+{
+  "generated_at": "2026-10-08T07:00:00Z",
+  "products": [
+    {
+      "id": "pizza",
+      "name": "Pizza trepakning",
+      "offers": [
+        {
+          "id": "pizza-kiwi",
+          "chain": "kiwi",
+          "price": 100,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000",
+          "bundle": {
+            "count": 3,
+            "total": 100,
+            "each": 33.33
+          },
+          "size_text": "3 x 320 g",
+          "description": "3 for 100",
+          "unit_price": {
+            "value": 104.17,
+            "symbol": "kg"
+          }
+        },
+        {
+          "id": "pizza-obs",
+          "chain": "obs",
+          "price": 120,
+          "catalogues": [
+            "obs-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000",
+          "bundle": {
+            "count": 3,
+            "total": 120,
+            "each": 40
+          },
+          "size_text": "3 x 320 g",
+          "unit_price": {
+            "value": 125,
+            "symbol": "kg"
+          }
+        }
+      ],
+      "category": "Middag & ferdigmat",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi",
+        "obs"
+      ],
+      "chain_count": 2,
+      "min_price": 100,
+      "offer_count": 2
+    },
+    {
+      "id": "ost",
+      "name": "Ost ratio",
+      "offers": [
+        {
+          "id": "ost-obs",
+          "chain": "obs",
+          "price": 39.9,
+          "catalogues": [
+            "obs-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000",
+          "multibuy": {
+            "buy": 3,
+            "pay": 2,
+            "unit_price": 39.9,
+            "effective_price": 26.6
+          }
+        }
+      ],
+      "category": "Ost",
+      "department": "Dagligvarer",
+      "chains": [
+        "obs"
+      ],
+      "chain_count": 1,
+      "min_price": 39.9,
+      "offer_count": 1
+    },
+    {
+      "id": "ovn",
+      "name": "Vedovn fra Obs",
+      "offers": [
+        {
+          "id": "ovn-obs",
+          "chain": "obs",
+          "price": 7999,
+          "catalogues": [
+            "obs-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Varme & ventilasjon",
+      "department": "Bygg, hage & bil",
+      "chains": [
+        "obs"
+      ],
+      "chain_count": 1,
+      "min_price": 7999,
+      "offer_count": 1
+    },
+    {
+      "id": "melk",
+      "name": "Melk",
+      "offers": [
+        {
+          "id": "melk-kiwi",
+          "chain": "kiwi",
+          "price": 15,
+          "catalogues": [
+            "kiwi-bergen"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        },
+        {
+          "id": "melk-obs",
+          "chain": "obs",
+          "price": 25,
+          "catalogues": [
+            "obs-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Meieri & egg",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi",
+        "obs"
+      ],
+      "chain_count": 2,
+      "min_price": 15,
+      "offer_count": 2
+    },
+    {
+      "id": "vare-0",
+      "name": "Frokostvare 1",
+      "offers": [
+        {
+          "id": "vare-0-kiwi",
+          "chain": "kiwi",
+          "price": 20,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 20,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-1",
+      "name": "Frokostvare 2",
+      "offers": [
+        {
+          "id": "vare-1-kiwi",
+          "chain": "kiwi",
+          "price": 21,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 21,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-2",
+      "name": "Frokostvare 3",
+      "offers": [
+        {
+          "id": "vare-2-kiwi",
+          "chain": "kiwi",
+          "price": 22,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 22,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-3",
+      "name": "Frokostvare 4",
+      "offers": [
+        {
+          "id": "vare-3-kiwi",
+          "chain": "kiwi",
+          "price": 23,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 23,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-4",
+      "name": "Frokostvare 5",
+      "offers": [
+        {
+          "id": "vare-4-kiwi",
+          "chain": "kiwi",
+          "price": 24,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 24,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-5",
+      "name": "Frokostvare 6",
+      "offers": [
+        {
+          "id": "vare-5-kiwi",
+          "chain": "kiwi",
+          "price": 25,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 25,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-6",
+      "name": "Frokostvare 7",
+      "offers": [
+        {
+          "id": "vare-6-kiwi",
+          "chain": "kiwi",
+          "price": 26,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 26,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-7",
+      "name": "Frokostvare 8",
+      "offers": [
+        {
+          "id": "vare-7-kiwi",
+          "chain": "kiwi",
+          "price": 27,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 27,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-8",
+      "name": "Frokostvare 9",
+      "offers": [
+        {
+          "id": "vare-8-kiwi",
+          "chain": "kiwi",
+          "price": 28,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 28,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-9",
+      "name": "Frokostvare 10",
+      "offers": [
+        {
+          "id": "vare-9-kiwi",
+          "chain": "kiwi",
+          "price": 29,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 29,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-10",
+      "name": "Frokostvare 11",
+      "offers": [
+        {
+          "id": "vare-10-kiwi",
+          "chain": "kiwi",
+          "price": 30,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 30,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-11",
+      "name": "Frokostvare 12",
+      "offers": [
+        {
+          "id": "vare-11-kiwi",
+          "chain": "kiwi",
+          "price": 31,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 31,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-12",
+      "name": "Frokostvare 13",
+      "offers": [
+        {
+          "id": "vare-12-kiwi",
+          "chain": "kiwi",
+          "price": 32,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 32,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-13",
+      "name": "Frokostvare 14",
+      "offers": [
+        {
+          "id": "vare-13-kiwi",
+          "chain": "kiwi",
+          "price": 33,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 33,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-14",
+      "name": "Frokostvare 15",
+      "offers": [
+        {
+          "id": "vare-14-kiwi",
+          "chain": "kiwi",
+          "price": 34,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 34,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-15",
+      "name": "Frokostvare 16",
+      "offers": [
+        {
+          "id": "vare-15-kiwi",
+          "chain": "kiwi",
+          "price": 35,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 35,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-16",
+      "name": "Frokostvare 17",
+      "offers": [
+        {
+          "id": "vare-16-kiwi",
+          "chain": "kiwi",
+          "price": 36,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 36,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-17",
+      "name": "Frokostvare 18",
+      "offers": [
+        {
+          "id": "vare-17-kiwi",
+          "chain": "kiwi",
+          "price": 37,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 37,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-18",
+      "name": "Frokostvare 19",
+      "offers": [
+        {
+          "id": "vare-18-kiwi",
+          "chain": "kiwi",
+          "price": 38,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 38,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-19",
+      "name": "Frokostvare 20",
+      "offers": [
+        {
+          "id": "vare-19-kiwi",
+          "chain": "kiwi",
+          "price": 39,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 39,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-20",
+      "name": "Frokostvare 21",
+      "offers": [
+        {
+          "id": "vare-20-kiwi",
+          "chain": "kiwi",
+          "price": 40,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 40,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-21",
+      "name": "Frokostvare 22",
+      "offers": [
+        {
+          "id": "vare-21-kiwi",
+          "chain": "kiwi",
+          "price": 41,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 41,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-22",
+      "name": "Frokostvare 23",
+      "offers": [
+        {
+          "id": "vare-22-kiwi",
+          "chain": "kiwi",
+          "price": 42,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 42,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-23",
+      "name": "Frokostvare 24",
+      "offers": [
+        {
+          "id": "vare-23-kiwi",
+          "chain": "kiwi",
+          "price": 43,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 43,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-24",
+      "name": "Frokostvare 25",
+      "offers": [
+        {
+          "id": "vare-24-kiwi",
+          "chain": "kiwi",
+          "price": 44,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 44,
+      "offer_count": 1
+    },
+    {
+      "id": "vare-25",
+      "name": "Frokostvare 26",
+      "offers": [
+        {
+          "id": "vare-25-kiwi",
+          "chain": "kiwi",
+          "price": 45,
+          "catalogues": [
+            "kiwi-oslo"
+          ],
+          "valid_to": "2099-12-31T00:00:00+0000"
+        }
+      ],
+      "category": "Tørrvarer & baking",
+      "department": "Dagligvarer",
+      "chains": [
+        "kiwi"
+      ],
+      "chain_count": 1,
+      "min_price": 45,
+      "offer_count": 1
+    }
+  ],
+  "chains": [
+    {
+      "slug": "kiwi",
+      "name": "KIWI",
+      "color": "#00843d",
+      "sector": "Dagligvarer"
+    },
+    {
+      "slug": "obs",
+      "name": "Obs",
+      "color": "#0066bb",
+      "sector": "Dagligvarer"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Middag & ferdigmat"
+    },
+    {
+      "name": "Ost"
+    },
+    {
+      "name": "Varme & ventilasjon"
+    },
+    {
+      "name": "Meieri & egg"
+    },
+    {
+      "name": "Tørrvarer & baking"
+    }
+  ],
+  "departments": [
+    {
+      "name": "Dagligvarer",
+      "products": 29
+    },
+    {
+      "name": "Bygg, hage & bil",
+      "products": 1
+    }
+  ],
+  "stats": {
+    "offers": 32,
+    "products": 30,
+    "chains": 2,
+    "multi_chain_products": 2
+  }
+}
