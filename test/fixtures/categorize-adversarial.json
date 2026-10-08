@@ -1,0 +1,1819 @@
+[
+  {
+    "name": "Vedovn",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Oppvarming",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Peisovn",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Oppvarming",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Panelovn",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Oppvarming",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Ildsted",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Oppvarming",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Varmepumpe",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Oppvarming",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Oljefylt radiator",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Oppvarming",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "DOVRE 40 CB VEDOVN",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Oppvarming",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "MILL PANEL OVN",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Oppvarming",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "HARMONIE SILJE SMART YTTERDØR",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Innerdør",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Verktøysett",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Maling",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Treolje",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Byggskum",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Avløpsrør",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Skotørker",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk"
+  },
+  {
+    "name": "Kaffetrakter",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk"
+  },
+  {
+    "name": "Mikrobølgeovn",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk"
+  },
+  {
+    "name": "Stekeovn",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk"
+  },
+  {
+    "name": "Samsung TV",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk"
+  },
+  {
+    "name": "Ismaskin",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk"
+  },
+  {
+    "name": "Eggkoker",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk"
+  },
+  {
+    "name": "Brødrister",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk"
+  },
+  {
+    "name": "Kjøkkenmaskin",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk"
+  },
+  {
+    "name": "Elektrisk tannbørste",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk"
+  },
+  {
+    "name": "Spylervæske",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Motorolje",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Vindusviskere",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Bilpleie",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Is-skrape",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Isskrape",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Turtle Wax wheel cleaner",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Ølglass",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Ostehøvel",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Kaffekopp",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Pizzaspade",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Kakeform",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Kjøttkvern",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Salatbestikk",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Eggeglass",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Vaskebøtte",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Kleshengere",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Tørkestativ",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Toalettbørste",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Oppbevaringskurv",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Smartstore oppbevaringsboks",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Sofa",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Seng",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Spisestol",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Gulvlampe",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Belysning",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Arbeidslampe",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Belysning",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Lyspære",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Belysning",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Pizzaovn",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hage & uterom",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Gassgrill",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hage & uterom",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Bålpanne",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hage & uterom",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Utepeis",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hage & uterom",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Kattetre",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Dyreutstyr",
+    "expected_department": "Fritid, klær & leker"
+  },
+  {
+    "name": "Hundebånd",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Dyreutstyr",
+    "expected_department": "Fritid, klær & leker"
+  },
+  {
+    "name": "Akvarium",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Dyreutstyr",
+    "expected_department": "Fritid, klær & leker"
+  },
+  {
+    "name": "Kattesand",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Dyreutstyr",
+    "expected_department": "Fritid, klær & leker"
+  },
+  {
+    "name": "Whiskas kattemat",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Dyremat",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Royal Canin hundemat",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Dyremat",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Bleier",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Barn & baby",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Barnemat",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Barn & baby",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Baby våtservietter",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Barn & baby",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Baby ullgenser",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker"
+  },
+  {
+    "name": "Barnesko",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker"
+  },
+  {
+    "name": "Telys",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Zalo oppvaskmiddel",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Toalettpapir",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Peis-kos sjokolade",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Ostepop",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Søte klementiner kjeks",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Vedfyrt pizza",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Pizzaovn-pizza",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Pizza for pizzaovn",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Kjøttkaker",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Grillpølser",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Ovnsbakt kylling",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøtt & fjørfe",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Ovnsbakt laks",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Søte klementiner",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Gartner brokkolini",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Eplemost",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Solbærmost",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Salt",
+    "chains": [
+      "byggmakker"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "expected_category": "Annet",
+    "expected_department": "Annet"
+  },
+  {
+    "name": "Ris",
+    "chains": [
+      "byggmakker"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "expected_category": "Annet",
+    "expected_department": "Annet"
+  },
+  {
+    "name": "Te",
+    "chains": [
+      "byggmakker"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "expected_category": "Annet",
+    "expected_department": "Annet"
+  },
+  {
+    "name": "Pizza",
+    "chains": [
+      "byggmakker"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "expected_category": "Annet",
+    "expected_department": "Annet"
+  },
+  {
+    "name": "Salt",
+    "chains": [
+      "byggmakker",
+      "kiwi"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare",
+      "Dagligvarer"
+    ],
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Hundefôr",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Dyremat",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Barneseng",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Barnevogn",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker"
+  },
+  {
+    "name": "LED telys",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Belysning",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Fløteis",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Is & dessert",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Sveitserost reserve",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Ørretfilet",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Sirup",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Tørrvarer & baking",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "BRØDPOSE 6L",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Barnesykkel",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Sport & fritid",
+    "expected_department": "Fritid, klær & leker"
+  },
+  {
+    "name": "Mikrofibermopp",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Ovnsbakt postei",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Lammerull",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Fiskars brødkniv",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Tynn skinkepizza",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Skinkeost",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Ost",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Peanut butter",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "EXIDE Batterier",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "GRESSKAR LED",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Belysning",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Sone høy hjørnesofa",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør"
+  },
+  {
+    "name": "Sjokoladeplate",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Barberhøvel",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "BAGUETTE OST/SKINKE",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Brød & bakeri",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "Idun Tomatketchup, Regal Siktet Hvetemel, Powerade, Ahlgrens bilar",
+    "chains": [
+      "coop-prix"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Annet",
+    "expected_department": "Annet"
+  },
+  {
+    "name": "Chips, brus",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Annet",
+    "expected_department": "Annet"
+  },
+  {
+    "name": "Laks, 500 g",
+    "chains": [
+      "obs"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Fisk & sjømat",
+    "expected_department": "Dagligvarer"
+  },
+  {
+    "name": "SJEKK PRISEN",
+    "descriptions": "Matt overflate • Gulv- og veggflis",
+    "chains": [
+      "megaflis"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil"
+  },
+  {
+    "name": "Vin- og champagneglass sett 18-pk",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "round": 2,
+    "descriptions": "8,33/glass Førpris 299,00 Gjelder t.o.m. 17.10.2026"
+  },
+  {
+    "name": "Utvalgte lysholdere",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "round": 2,
+    "descriptions": "Stort utvalg! -40% Ca. 10x15 cm NÅ 47,94 Ord.pris 79,90 9,7x7,4x25,6 cm NÅ 89,40 Ord.pris 149,- Ø:8,8x10 cm NÅ 35,94 Ord.pris 59,90 Telysholder NÅ 17,94 Ord.pris 29,90"
+  },
+  {
+    "name": "Klammer 8mm til vare nr. 29811 1000stk",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "expected_category": "Bygg & jernvare",
+    "expected_department": "Bygg, hage & bil",
+    "round": 2,
+    "descriptions": "vare nr. 298 21 pr. pakke"
+  },
+  {
+    "name": "Play-Doh Iskremsett",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Leker & barn"
+    ],
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker",
+    "round": 2,
+    "descriptions": "[F73785L0]"
+  },
+  {
+    "name": "Airbrush Plush",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Leker & barn"
+    ],
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker",
+    "round": 2,
+    "descriptions": "Axolotlcorn [AIR 049] Design din egen plysjbamse *Ringo • 16.09.2026 • kr 499,90"
+  },
+  {
+    "name": "Fisher Price Klassisk telefon",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Leker & barn"
+    ],
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker",
+    "round": 2,
+    "descriptions": "[FGW66] draleke m/ringelyd *Lekia • 16.09.2026 • kr 299,90"
+  },
+  {
+    "name": "TURTLE AVFETTING",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil",
+    "round": 2,
+    "descriptions": "FAST LAVPRIS! 198672 Tar effektivt bort asfalt, tjære, olje og fett fra biler"
+  },
+  {
+    "name": "Skjæreplate 45x30cm plomme/rosa 1stk",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "round": 2,
+    "descriptions": "vare nr. 409 19 pr. stk."
+  },
+  {
+    "name": "GLADKOKKEN ISKREM-MASKIN",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "round": 2,
+    "descriptions": "3 beholdere á 500 ml (1,5 liter i alt). 12 programmer inkludert Mix-In, Re-Spin og rengjøring. Touch-display med lysindikatorer. Hastighet: 2500 omdr./min"
+  },
+  {
+    "name": "RIVE",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Bygg & jernvare"
+    ],
+    "expected_category": "Hage & uterom",
+    "expected_department": "Bygg, hage & bil",
+    "round": 2,
+    "descriptions": "Skaft i ask. Pulverlakkert stål. Med 12 tenner. 9064797. L: 160 cm"
+  },
+  {
+    "name": "NBPICO2",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Elektronikk"
+    ],
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "round": 2,
+    "descriptions": "Kjør smart, hold deg trygg, ta opp enda tydeligere 1440p HD-video 145° vidvinkel Kampanjeperiode: 28.09 - 18.10 NBPICO2"
+  },
+  {
+    "name": "Proffs stylingprodukter",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "expected_category": "Personlig pleie",
+    "expected_department": "Dagligvarer",
+    "round": 2,
+    "descriptions": "Velg mellom flere forskjellige typer, 50–400 ml. (Enhetspris 66,33–798,-/l). Ord. pris 29,90–49,90."
+  },
+  {
+    "name": "Graffiti VINTERSKO Kenailon Kids Winterboot WP",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Sport & fritid"
+    ],
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "round": 2,
+    "descriptions": "Str. 34-39 Varm fleecefôr *Prisreferanse: 21.09.2026 - shop.sportsgroup.no: 999,- Vanntett"
+  },
+  {
+    "name": "Iskremmaskin med vaniljesmak i oppskriftsheftet",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Elektronikk",
+    "expected_department": "Elektronikk",
+    "round": 2
+  },
+  {
+    "name": "Champagneglass 6-pk",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "round": 2
+  },
+  {
+    "name": "Telysholder med stearinlys",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "expected_category": "Møbler & interiør",
+    "expected_department": "Hjem & interiør",
+    "round": 2
+  },
+  {
+    "name": "Tannbørsteholder",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Hjem & oppbevaring",
+    "expected_department": "Hjem & interiør",
+    "round": 2
+  },
+  {
+    "name": "Skjærebrett med plommer",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Kjøkken & servering",
+    "expected_department": "Hjem & interiør",
+    "round": 2
+  },
+  {
+    "name": "Avfetting for bil og motor",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Bil & motor",
+    "expected_department": "Bygg, hage & bil",
+    "round": 2
+  },
+  {
+    "name": "Play-Doh Pizzasett",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker",
+    "round": 2
+  },
+  {
+    "name": "Lekesett med frukt og grønnsaker",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker",
+    "round": 2
+  },
+  {
+    "name": "Airbrush Plush sjokolade-bamse",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Lavpris & variert"
+    ],
+    "expected_category": "Leker & spill",
+    "expected_department": "Fritid, klær & leker",
+    "round": 2
+  },
+  {
+    "name": "Vinterstøvler med ullfôr",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Klær & sko",
+    "expected_department": "Fritid, klær & leker",
+    "round": 2
+  },
+  {
+    "name": "Iskrem vanilje",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Is & dessert",
+    "expected_department": "Dagligvarer",
+    "round": 2
+  },
+  {
+    "name": "Syltetøy i glass",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "round": 2
+  },
+  {
+    "name": "Pålegg-sett",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "round": 2
+  },
+  {
+    "name": "Maskinoppvasktabletter",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "round": 2
+  },
+  {
+    "name": "Ovnsbakt leverpostei",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "round": 2
+  },
+  {
+    "name": "Telys 50-pk",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Husholdning",
+    "expected_department": "Dagligvarer",
+    "round": 2
+  },
+  {
+    "name": "Friske plommer",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "round": 2
+  },
+  {
+    "name": "PRINGLES ORIGINAL, SOURCREAM & ONION OG PAPRIKA",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Snacks & godteri",
+    "expected_department": "Dagligvarer",
+    "round": 2,
+    "descriptions": "165 g"
+  },
+  {
+    "name": "URGE, COCA-COLA M OG U/SUKKER OG FANTA U/SUKKER",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "round": 2,
+    "descriptions": "9,98 pr boks 4 x 0.33 l bx + pant 30.23 /L + pant"
+  },
+  {
+    "name": "FARRIS FRUS BRINGEBÆR, MANDARIN & MANGO OG EPLE & KIWI",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Drikke",
+    "expected_department": "Dagligvarer",
+    "round": 2,
+    "descriptions": "0.33 l x 6 bx sleek + pant"
+  },
+  {
+    "name": "FINDUS WOK SPICY, CLASSIC OG ZESTY INGEFÆR",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Frysevarer",
+    "expected_department": "Dagligvarer",
+    "round": 2,
+    "descriptions": "Fra 450 g pr. pk"
+  },
+  {
+    "name": "FISKESUPPE, KJØTTSUPPE OG BETASUPPE BRIMI",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "round": 2,
+    "descriptions": "350 g Fjordland pr. pk 140/KG"
+  },
+  {
+    "name": "TZATZIKI",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "round": 2,
+    "descriptions": "REMA 1000, 250 g, 126,00 pr. kg"
+  },
+  {
+    "name": "MANDELSMØR",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Pålegg",
+    "expected_department": "Dagligvarer",
+    "round": 2,
+    "descriptions": "500g - 199,80 pr kg BF: 30.07.2027"
+  },
+  {
+    "name": "Miso",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Saus & krydder",
+    "expected_department": "Dagligvarer",
+    "round": 2,
+    "descriptions": "HIKARI miso paste, 1 kg pr. pose. Førpris: 59,90-79,90"
+  },
+  {
+    "name": "LØKPOSE",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Frukt & grønt",
+    "expected_department": "Dagligvarer",
+    "round": 2,
+    "descriptions": "BAMA, 1 kg, 19,90 pr. kg"
+  },
+  {
+    "name": "Kaffe og sjokolade",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "round": 2
+  },
+  {
+    "name": "Fanta, Pringles",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "round": 2
+  },
+  {
+    "name": "Farris mango, telysholder",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Annet",
+    "expected_department": "Annet",
+    "round": 2
+  },
+  {
+    "name": "Fiskesuppe og kjøttsuppe",
+    "chains": [
+      "test-chain"
+    ],
+    "chainSectors": [
+      "Dagligvarer"
+    ],
+    "expected_category": "Middag & ferdigmat",
+    "expected_department": "Dagligvarer",
+    "round": 2
+  }
+]
