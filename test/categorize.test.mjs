@@ -204,7 +204,7 @@ test('battery-powered appliances are not groceries, batteries and household good
   assert.notEqual(classifier.classifyProduct({ name: 'Batteridrevet flekkfjerner 2,0 Ah 18 V', chainSectors: variety }).department, 'Dagligvarer');
   assert.equal(classifier.classifyProduct({ name: 'Batteridrevet arbeidslampe 18 V 2000 lm', chainSectors: variety }).category, 'Belysning');
   assert.equal(classifier.classifyProduct({ name: 'Batteridrevet dykksag 18 V Ø165 mm', chainSectors: variety }).category, 'Bygg & jernvare');
-  for (const name of ['Batteri AA Ultra Power', 'VOLTAGE BATTERIER', 'Flekkfjerner', 'Toalettpapir Lambi']) {
+  for (const name of ['Batteri AA Ultra Power', 'VOLTAGE BATTERIER', 'Batterier AA 1,5 V 2,0 Ah', 'Flekkfjerner', 'Toalettpapir Lambi']) {
     assert.deepEqual(classifier.classifyProduct({ name, chainSectors: ['Dagligvarer'] }).department, 'Dagligvarer', name);
   }
   assert.deepEqual(classifier.classifyProduct({ name: 'LIBERO UP&GO STR 5', chainSectors: ['Dagligvarer'] }),

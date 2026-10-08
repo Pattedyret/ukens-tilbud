@@ -90,3 +90,15 @@ test('documented advantage needs a real markdown, multibuy, bundle or higher sta
   assert.equal(hasDocumentedAdvantage({ price: 89.95, description: 'Mønster: 90365 pr. stk. 89,95' }), false);
   assert.equal(hasDocumentedAdvantage({ price: null, description: 'Før 20' }), false);
 });
+
+// Review findings (TKT-9199): the whole price expression is read and then
+// validated, so a backtracked prefix of a unit price, date or percent never counts.
+test('stated before-price rejects unit-price ranges, dates and percents, and reads thousands', () => {
+  assert.equal(hasDocumentedAdvantage({ price: 40, description: '100 g Førpris 49,90–79,90/kg' }), false);
+  assert.equal(hasDocumentedAdvantage({ price: 9, description: 'Gjelder før 25/10/26' }), false);
+  assert.equal(statedPrePrice({ price: 90.3, description: 'Ord.pris 129,- -30%' }), 129);
+  assert.equal(hasDocumentedAdvantage({ price: 90.3, description: 'Ord.pris 129,- -30%' }), true);
+  assert.equal(statedPrePrice({ price: 26999, description: 'Kontinentalseng 180x200, før 45.999,-' }), 45999);
+  assert.equal(statedPrePrice({ price: 2499, description: 'Førpris 3 499,-' }), 3499);
+  assert.equal(statedPrePrice({ price: 20, description: 'Førpris 49,90 2 for 50' }), 49.9);
+});

@@ -77,3 +77,8 @@ scraperens datamodell.
 | id | provider/modell | rolle | begrunnelse |
 |---|---|---|---|
 | impl | codex / gpt-6.1-sol | developer | Avklart logikk- og testimplementering; MODEL_RANKING: Sol 6.1 implementerer, Opus 5.5 reviewer. |
+
+**Faktisk utførelse:** Sol 6.1-barnet (`t-4afa81c6e73d`) kunne ikke claime fordi roten var opprettet med overlappende
+skrivestier (PM-feil; en koordinerende rot skal ha tomme `scopes`), og spec-sjekken krever aktiv PM-eid rot. Barnet ble
+kansellert med begrunnelse. Opus 5.5 implementerte som rot-eier. Sol 6.1 gjorde en uavhengig, lesende review, og de fire
+P2-funnene (enhetsprisintervall/dato, prosent tolket som førpris, tusenskille, batteripakker) er rettet med regresjonstester.
