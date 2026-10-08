@@ -76,7 +76,7 @@
     "descriptions": "ORD. PRIS 19,90 PR STK Art. 931610",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "Lunsjkaker",
@@ -146,7 +146,7 @@
     "descriptions": "50,00/l Coconut Care. Førpris 34,90 Gjelder t.o.m. 17.10.2026",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "FREIA SMÅSJOKOLADE",
@@ -325,7 +325,7 @@
     "descriptions": "Reduserer synligheten av porer og merker etter kviser 30 ml, NÅ 189,- (Før 269,90)",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "Fluorskyll Fresh & Go",
@@ -338,7 +338,7 @@
     "descriptions": "Flere sorter, 500 ml. (Enhetspris 50,-/l).",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "Gourmetfårikål",
@@ -808,7 +808,7 @@
     "descriptions": "50-75 ml",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "DUSJSÅPE SENSITIVE",
@@ -821,7 +821,7 @@
     "descriptions": "REMA 1000, 680 ml, 43,97 pr. l",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "SPEARMINT",
@@ -918,7 +918,7 @@
     "descriptions": "",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "FLØTEMYSOST, SKIVET",
@@ -1121,7 +1121,7 @@
     "descriptions": "FRA MAX FACTOR",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "MERE MAT SUPPE",
@@ -1225,7 +1225,7 @@
     "descriptions": "200 ml 39,90 / 400 ml 54,90",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "Hjertesalat",
@@ -1316,7 +1316,7 @@
     "descriptions": "300ml - 56,33 pr liter",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "BLÅBÆRKNUTE/ KANELKNUTE",
@@ -1394,7 +1394,7 @@
     "descriptions": "Effektiv og skånsom, fjerner sminke og smuss 200 ml, (Før 259,90)",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "TOALETTPAPIR",
@@ -1523,7 +1523,7 @@
     "descriptions": "REMA 1000, 500 ml, 39,80 pr. l",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "KYLLINGFILET STRIMLET",
@@ -1564,7 +1564,7 @@
     "descriptions": "Med eller uten parfyme",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "Lutefisk",
@@ -1733,7 +1733,7 @@
     "descriptions": "REMA 1000, 500 ml, 59,80 pr. l",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "Renova toalettpapir skincare derma 24 ruller",
@@ -1790,7 +1790,7 @@
     "descriptions": "Fuktighetsgivende, bidrar til å redusere urenheter 60 ml, NÅ 112,- (Før 159,90)",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "KIKKOMAN SOYASAUS",
@@ -2006,7 +2006,7 @@
     "descriptions": "300 stk",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "Aloe Vera drikke 1,5 l",
@@ -2073,7 +2073,7 @@
     "descriptions": "200,00/l Karies Kontroll. Førpris 19,90 Gjelder t.o.m. 17.10.2026",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "SOLBÆRTODDY",
@@ -2234,7 +2234,7 @@
     "descriptions": "Ikke-medlem: kr 29,90 14 stk. Pr pk Pr stk 1,07",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "APETINA SNACK",
@@ -2407,7 +2407,7 @@
     "descriptions": "1 pk 19,90. Fra 0,19/stk Topz",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "PIZZAMEL TIPO 00",
@@ -2567,7 +2567,7 @@
     "descriptions": "46,67/l Ass. utvalg, Palmolive. Førpris 39,90 Gjelder t.o.m. 17.10.2026",
     "sample_group": "grocery",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "SPRØBAKT TORSK",
@@ -2795,7 +2795,7 @@
     "descriptions": "1,25/stk Førpris 49,90",
     "sample_group": "outside",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "Madera baderomsmøbel 60 cm Valnøtt + Aurora servant 60",
@@ -3448,7 +3448,7 @@
     "descriptions": "",
     "sample_group": "outside",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "Peisovn",
@@ -3709,7 +3709,7 @@
     "descriptions": "2-pk, original. Ord.pris 39,90",
     "sample_group": "outside",
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "MyFloor Makro Oak Beige W&L 10mm",
