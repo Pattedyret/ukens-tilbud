@@ -1,4 +1,4 @@
-import { comparablePrice } from './lib/deals.mjs';
+import { comparablePrice, hasDocumentedAdvantage } from './lib/deals.mjs';
 import { dealView, dealSize, dealDescription } from './lib/ui-deal.mjs';
 import { matchingOffers } from './lib/ui-filter.mjs';
 import { nearbyStores, distanceText } from './lib/ui-geo.mjs';
@@ -107,6 +107,10 @@ const offerDiscountPct = o => o.discount_pct
 const maxDiscount = p =>
   Math.max(0, ...visibleOffers(p).map(offerDiscountPct));
 
+// Only offers the user can see count: a deal at an unselected chain or store
+// must not lift the product above ones that are discounted where they shop.
+const hasAdvantage = p => visibleOffers(p).some(hasDocumentedAdvantage);
+
 /* ---------------- filtering ---------------- */
 
 function applyFilters() {
@@ -147,7 +151,10 @@ function applyFilters() {
     'unit': (a, b) => (headline(a.p)?.unit_price?.value ?? Infinity) - (headline(b.p)?.unit_price?.value ?? Infinity),
     'chains': (a, b) => b.p.chain_count - a.p.chain_count || maxDiscount(b.p) - maxDiscount(a.p),
     'name': (a, b) => a.p.name.localeCompare(b.p.name, 'nb'),
+    // Without a search every score is 0, so documented deals lead and offers
+    // without a known advantage follow; a text match still outranks a deal.
     'relevance': (a, b) => b.score - a.score
+      || hasAdvantage(b.p) - hasAdvantage(a.p)
       || b.p.chain_count - a.p.chain_count
       || maxDiscount(b.p) - maxDiscount(a.p),
   }[state.sort];

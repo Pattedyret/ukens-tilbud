@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { parseDeal, comparablePrice } from '../lib/deals.mjs';
+import { parseDeal, comparablePrice, statedPrePrice, hasDocumentedAdvantage } from '../lib/deals.mjs';
 
 for (const [description, price, count, each] of [
   ['3 FOR 100', 100, 3, 33.33],
@@ -55,4 +55,50 @@ test('comparablePrice ranks a bundle per item, not by its total', () => {
   assert.equal(comparablePrice(single), 30);
   assert.ok(comparablePrice(bundle) < comparablePrice(single));
   assert.equal(comparablePrice({ price: null }), null);
+});
+
+// TKT-9199: a before-price the catalogue states in its own text is documented;
+// anything else is unknown, never "ordinary price".
+test('statedPrePrice reads the lowest before-price the catalogue text states', () => {
+  for (const [description, price, expected] of [
+    ['175-250 g, 11 varianter! Ord.pris fra 41,90 til 43,90', 25, 41.9],
+    ['3 varianter. 240/250 g Pr pk. Førpris 49,90/51,90', 34.9, 49.9],
+    ['200–250 g Enh.pris 147,60–184,50 pr. kg Førpris 46,90–49,90', 36.9, 46.9],
+    ['UKENS TILBUD 250G/10KAPSLER (159,60/KG/3,99/STK) FØRPRIS 49,90-76,90', 39.9, 49.9],
+    ['350 g. Pr stk Før 42,90. Ikke-medlem: se hyllepris', 29.9, 42.9],
+    ['Vaskekapsler, 38-pk. Ord.pris 139,- Vaskepulver, 4,42 kg.', 79, 139],
+    ['Effektiv og skånsom 200 ml, (Før 259,90)', 181.9, 259.9],
+    ['vare nr. 833 82 Normalpris 134,95', 99.95, 134.95],
+  ]) assert.equal(statedPrePrice({ description, price }), expected, description);
+  for (const description of ['500 g Førpris 99,80/kg', 'Før 159,60 pr. kg', 'Gjelder før 25.10.26', 'Pr kg fra 51,44', '']) {
+    assert.equal(statedPrePrice({ description, price: 10 }), null, description);
+  }
+  assert.equal(statedPrePrice({ description: '2 for 50 Før 35,90', price: 50, bundle: { count: 2, total: 50, each: 25 } }), null);
+});
+
+test('documented advantage needs a real markdown, multibuy, bundle or higher stated before-price', () => {
+  assert.equal(hasDocumentedAdvantage({ price: 20, pre_price: 40, discount_pct: 50 }), true);
+  assert.equal(hasDocumentedAdvantage({ price: 30, multibuy: { buy: 3, pay: 2, unit_price: 30, effective_price: 20 } }), true);
+  assert.equal(hasDocumentedAdvantage({ price: 50, bundle: { count: 2, total: 50, each: 25 } }), true);
+  assert.equal(hasDocumentedAdvantage({ price: 25, description: 'Ord.pris fra 41,90 til 43,90' }), true);
+  // Stated price equal to the offer: no advantage.
+  assert.equal(hasDocumentedAdvantage({ price: 19.9, description: 'FAST LAVPRIS! ORD. PRIS 19,90 PR STK' }), false);
+  // A truncated or below-price number cannot prove a markdown.
+  assert.equal(hasDocumentedAdvantage({ price: 189, description: 'Nå 189,-. Før 2' }), false);
+  // A range starting at or below the offer price does not prove every variant is cheaper.
+  assert.equal(hasDocumentedAdvantage({ price: 50, description: 'Førpris 49,90–76,90' }), false);
+  assert.equal(hasDocumentedAdvantage({ price: 89.95, description: 'Mønster: 90365 pr. stk. 89,95' }), false);
+  assert.equal(hasDocumentedAdvantage({ price: null, description: 'Før 20' }), false);
+});
+
+// Review findings (TKT-9199): the whole price expression is read and then
+// validated, so a backtracked prefix of a unit price, date or percent never counts.
+test('stated before-price rejects unit-price ranges, dates and percents, and reads thousands', () => {
+  assert.equal(hasDocumentedAdvantage({ price: 40, description: '100 g Førpris 49,90–79,90/kg' }), false);
+  assert.equal(hasDocumentedAdvantage({ price: 9, description: 'Gjelder før 25/10/26' }), false);
+  assert.equal(statedPrePrice({ price: 90.3, description: 'Ord.pris 129,- -30%' }), 129);
+  assert.equal(hasDocumentedAdvantage({ price: 90.3, description: 'Ord.pris 129,- -30%' }), true);
+  assert.equal(statedPrePrice({ price: 26999, description: 'Kontinentalseng 180x200, før 45.999,-' }), 45999);
+  assert.equal(statedPrePrice({ price: 2499, description: 'Førpris 3 499,-' }), 3499);
+  assert.equal(statedPrePrice({ price: 20, description: 'Førpris 49,90 2 for 50' }), 49.9);
 });

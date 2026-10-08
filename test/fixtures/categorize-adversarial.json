@@ -1220,7 +1220,7 @@
       "Dagligvarer"
     ],
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer"
+    "expected_department": "Helse & skjønnhet"
   },
   {
     "name": "BAGUETTE OST/SKINKE",
@@ -1430,7 +1430,7 @@
       "Lavpris & variert"
     ],
     "expected_category": "Personlig pleie",
-    "expected_department": "Dagligvarer",
+    "expected_department": "Helse & skjønnhet",
     "round": 2,
     "descriptions": "Velg mellom flere forskjellige typer, 50–400 ml. (Enhetspris 66,33–798,-/l). Ord. pris 29,90–49,90."
   },

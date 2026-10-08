@@ -49,7 +49,8 @@ test('seeded manual gold set stays within 2% category and department disagreemen
 
 test('manual grocery sample has at least 98% department precision', () => {
   const groceries = gold.filter(r => classifier.classifyProduct(r).department === 'Dagligvarer');
-  assert.ok(groceries.length >= 300, 'manual sample must contain at least 300 final grocery predictions');
+  // 250, not 300: TKT-9199 moved the sample's 45 personal-care rows out of Dagligvarer.
+  assert.ok(groceries.length >= 250, 'manual sample must contain at least 250 final grocery predictions');
   assert.ok(gold.length - groceries.length >= 150, 'manual sample must contain at least 150 final non-grocery predictions');
   const failures = groceries.filter(r => r.expected_department !== 'Dagligvarer');
   assert.ok(failures.length / groceries.length <= 0.02, failures.map(r => r.name).join(', '));
@@ -68,7 +69,8 @@ test('department guard rejects every grocery category in incapable and unknown s
       { category: 'Annet', department: 'Annet' });
   }
   for (const sector of ['Dagligvarer', 'Lavpris & variert']) {
-    for (const name of items) assert.equal(classifier.classifyProduct({name, chainSectors: ['Annet', sector]}).department, 'Dagligvarer');
+    for (const name of items) assert.equal(classifier.classifyProduct({name, chainSectors: ['Annet', sector]}).department,
+      name === 'Sjampo' ? 'Helse & skjønnhet' : 'Dagligvarer', name);
   }
   assert.equal(classifier.SECTORS['Kids Outlet'], 'Leker & barn');
 });
@@ -78,7 +80,8 @@ test('health and animal sectors only admit their specific grocery consumables', 
     ['Helse & skjønnhet', ['Sjampo', 'Bleier'], ['Kaffe', 'Hundemat', 'Toalettpapir']],
     ['Hage & dyr', ['Hundemat'], ['Kaffe', 'Sjampo', 'Bleier', 'Toalettpapir']],
   ]) {
-    for (const name of allowed) assert.equal(classifier.classifyProduct({name, chainSectors:[sector]}).department, 'Dagligvarer');
+    for (const name of allowed) assert.equal(classifier.classifyProduct({name, chainSectors:[sector]}).department,
+      name === 'Sjampo' ? 'Helse & skjønnhet' : 'Dagligvarer', name);
     for (const name of rejected) assert.equal(classifier.classifyProduct({name, chainSectors:[sector]}).department, 'Annet');
   }
 });
@@ -159,4 +162,51 @@ test('held-out precision threshold also holds without adversarial training overl
   const mistakes = predictedGrocery.filter(row => row.expected_department !== 'Dagligvarer');
   assert.ok(mistakes.length / predictedGrocery.length <= 0.03,
     `${mistakes.length}/${predictedGrocery.length}: ${mistakes.map(row => row.name).join(', ')}`);
+});
+
+// TKT-9199: the user's grocery department excludes personal care, and a
+// hobby chain's sewing patterns are not food however their names read.
+test('personal care from the reported screenshots lands in Helse & skjønnhet, not Dagligvarer', () => {
+  const sector = name => classifier.SECTORS[name];
+  for (const [name, chain, descriptions] of [
+    ['Sminkesvamp 6-pk', 'Gigaboks', '3,33/stk Førpris 39,90'],
+    ['Avène Cleanance rensegel', 'Apotek 1', 'Effektiv og skånsom, fjerner sminke og smuss 200 ml, (Før 259,90)'],
+    ['Avène Cleanance Comedomed Care ansiktskrem', 'Apotek 1', 'Reduserer kviser og urenheter 30 ml'],
+    ['CeraVe kviseplaster', 'Apotek 1', ''],
+    ['Babyolje', 'Apotek 1', ''],
+    ['Håndkrem', 'Apotek 1', ''],
+    ['Proffs stylingprodukter', 'Rusta', 'Velg mellom flere forskjellige typer, 50–400 ml.'],
+  ]) {
+    assert.deepEqual(classifier.classifyProduct({ name, descriptions, chainSectors: [sector(chain)] }),
+      { category: 'Personlig pleie', department: 'Helse & skjønnhet' }, `${name} (${chain})`);
+  }
+});
+
+test('Selfmade sewing patterns and fabrics never become groceries', () => {
+  const chainSectors = [classifier.SECTORS.Selfmade];
+  for (const [name, descriptions] of [
+    ['MUS & REINSDYR', 'Mønster: 90365 pr. stk. 89,95 GRATIS DIY4060 Selfmade.com'],
+    ['GRIS', 'Mønster: 90201 pr. stk. 69,95 Glittergrisen nr. 40 03 88'],
+    ['JULEMUS', 'SMÅ SØTE JULEMUS Nytt mønster I TO STØRRELSER NYHET Mønster:'],
+    ['LEKKERT FÔR', 'FLOTT FINISH INNSIDEN SKAL OGSÅ SKINNE PRISER FRA PER M'],
+    ['Skumpensel/ Svamp rund 20 + 30mm 4stk', 'vare nr. 297 14 pr. pakke'],
+  ]) {
+    const { department } = classifier.classifyProduct({ name, descriptions, chainSectors });
+    assert.notEqual(department, 'Dagligvarer', name);
+  }
+  // Counterexample: the same animal word at a grocery chain is still meat.
+  assert.deepEqual(classifier.classifyProduct({ name: 'Reinsdyrskav', chainSectors: ['Dagligvarer'] }),
+    { category: 'Kjøtt & fjørfe', department: 'Dagligvarer' });
+});
+
+test('battery-powered appliances are not groceries, batteries and household goods still are', () => {
+  const variety = [classifier.SECTORS.Jula];
+  assert.notEqual(classifier.classifyProduct({ name: 'Batteridrevet flekkfjerner 2,0 Ah 18 V', chainSectors: variety }).department, 'Dagligvarer');
+  assert.equal(classifier.classifyProduct({ name: 'Batteridrevet arbeidslampe 18 V 2000 lm', chainSectors: variety }).category, 'Belysning');
+  assert.equal(classifier.classifyProduct({ name: 'Batteridrevet dykksag 18 V Ø165 mm', chainSectors: variety }).category, 'Bygg & jernvare');
+  for (const name of ['Batteri AA Ultra Power', 'VOLTAGE BATTERIER', 'Batterier AA 1,5 V 2,0 Ah', 'Flekkfjerner', 'Toalettpapir Lambi']) {
+    assert.deepEqual(classifier.classifyProduct({ name, chainSectors: ['Dagligvarer'] }).department, 'Dagligvarer', name);
+  }
+  assert.deepEqual(classifier.classifyProduct({ name: 'LIBERO UP&GO STR 5', chainSectors: ['Dagligvarer'] }),
+    { category: 'Barn & baby', department: 'Dagligvarer' });
 });

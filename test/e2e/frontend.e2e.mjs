@@ -20,7 +20,7 @@ before(async () => {
   browser = await chromium.launch({ headless: true });
 });
 after(async () => { await browser?.close(); server?.kill(); });
-async function setup({ denied = false, old = false, mapFail = false, prefs = null, mobile = false } = {}) {
+async function setup({ denied = false, old = false, mapFail = false, prefs = null, mobile = false, mutate = null } = {}) {
   const context = await browser.newContext({ viewport: mobile ? { width: 390, height: 844 } : { width: 1280, height: 900 } });
   await context.grantPermissions(denied ? [] : ['geolocation'], { origin: base });
   await context.setGeolocation({ latitude: 59.9139, longitude: 10.7522 });
@@ -28,6 +28,7 @@ async function setup({ denied = false, old = false, mapFail = false, prefs = nul
   await page.route('**/data/offers.json', async route => {
     const data = JSON.parse(await readFile(new URL('./fixtures/offers.json', import.meta.url)));
     if (old) for (const p of data.products) { delete p.department; for (const o of p.offers) delete o.catalogues; }
+    mutate?.(data);
     await route.fulfill({ json: data });
   });
   await page.route('**/data/stores.json', route => route.fulfill({ path: new URL('./fixtures/stores.json', import.meta.url).pathname }));
@@ -219,5 +220,34 @@ test('butikk uten kataloger gir tomt resultat og valget består', async () => {
   await page.locator('[data-store="empty"]').uncheck();
   await page.locator('#storedlg [data-close]').click();
   assert.equal(await page.locator('.card').count(), 30);
+  await context.close();
+});
+
+// TKT-9199: documented deals first, unknown advantage later; only offers the
+// user can see count, and an explicit sort is left alone.
+test('standardrekkefølge viser dokumenterte tilbud først og respekterer kjedevalg og sortering', async () => {
+  const { page, context } = await setup({ mutate: data => {
+    const base = data.products.find(p => p.id === 'melk');
+    const offer = (chain, price, extra) => ({ ...base.offers.find(o => o.chain === chain), id: `kaffe-${chain}`, heading: 'Kaffe', price, ...extra });
+    data.products.push({ ...base, id: 'kaffe', name: 'Kaffe', offers: [
+      offer('kiwi', 30, { description: '250 g' }),
+      offer('obs', 25, { pre_price: 31.25, discount_pct: 20, description: '250 g' }),
+    ] });
+    // Before-price stated only in the catalogue text still documents a deal.
+    Object.assign(data.products.find(p => p.id === 'vare-0').offers[0], { description: 'Førpris 29,90' });
+  } });
+  const order = () => page.locator('#grid .card').evaluateAll(cards => cards.map(c => c.dataset.id));
+  assert.deepEqual((await order()).slice(0, 5), ['kaffe', 'pizza', 'ost', 'vare-0', 'melk']);
+  // At KIWI the coffee has no documented advantage, so it drops behind KIWI's deals.
+  await page.locator('[data-chain="kiwi"]').click();
+  await page.waitForFunction(() => document.querySelector('#grid .card')?.dataset.id === 'pizza');
+  const kiwi = await order();
+  assert.deepEqual(kiwi.slice(0, 2), ['pizza', 'vare-0']);
+  assert.ok(kiwi.indexOf('kaffe') > kiwi.indexOf('vare-0'));
+  assert.match(await page.locator('[data-id="pizza"] .card-price').innerText(), /3 for\s+100,–/);
+  await page.locator('#sort').selectOption('name');
+  const names = await page.locator('#grid .card .card-name').allInnerTexts();
+  assert.ok(names.length > 2);
+  assert.deepEqual(names, [...names].sort((a, b) => a.localeCompare(b, 'nb')));
   await context.close();
 });
